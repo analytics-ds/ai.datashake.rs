@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
 import Breadcrumb from '@/components/Breadcrumb.astro';
+import { url } from '@/utils/url';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -31,8 +32,8 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD'
 >
   <div class="container">
     <Breadcrumb items={[
-      { name: 'Blog', url: '/blog/' },
-      { name: category, url: `/categorie/${categorySlug}/` },
+      { name: 'Blog', url: url('/blog/') },
+      { name: category, url: url(`/categorie/${categorySlug}/`) },
     ]} />
 
     <header class="category-header">
