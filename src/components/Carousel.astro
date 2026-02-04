@@ -1,0 +1,72 @@
+---
+/**
+ * Carousel — CSS-only horizontal scroll carousel for featured articles.
+ * Zero JavaScript, fully accessible.
+ */
+export interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+---
+
+<section class="carousel section" aria-label={title ?? 'Articles à la une'}>
+  <div class="container">
+    {title && <h2 class="carousel__title">{title}</h2>}
+    <div class="carousel__track">
+      <slot />
+    </div>
+  </div>
+</section>
+
+<style>
+  .carousel__title {
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .carousel__track {
+    display: flex;
+    gap: var(--spacing-lg);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--spacing-md);
+
+    /* Hide scrollbar but keep functionality */
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-gray-200) transparent;
+  }
+
+  .carousel__track::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .carousel__track::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .carousel__track::-webkit-scrollbar-thumb {
+    background-color: var(--color-gray-200);
+    border-radius: 3px;
+  }
+
+  .carousel__track > :global(*) {
+    scroll-snap-align: start;
+    flex: 0 0 calc(33.333% - var(--spacing-lg) * 2 / 3);
+    min-width: 300px;
+  }
+
+  @media (max-width: 1024px) {
+    .carousel__track > :global(*) {
+      flex: 0 0 calc(50% - var(--spacing-lg) / 2);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .carousel__track > :global(*) {
+      flex: 0 0 85%;
+      min-width: auto;
+    }
+  }
+</style>

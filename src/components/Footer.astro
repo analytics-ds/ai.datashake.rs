@@ -1,0 +1,126 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="footer__logo">
+          <span class="gradient-text">AI</span> Datashake
+        </a>
+        <p class="footer__tagline">
+          Le blog francophone de référence sur le GEO — Generative Engine Optimization.
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Navigation secondaire">
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Navigation</h4>
+          <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/blog/">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Datashake</h4>
+          <ul>
+            <li><a href="https://www.datashake.fr" target="_blank" rel="noopener">datashake.fr</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; {currentYear} Datashake. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--color-gray-900);
+    color: var(--color-gray-400);
+    padding: var(--spacing-3xl) 0 var(--spacing-xl);
+    margin-top: var(--spacing-4xl);
+  }
+
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-3xl);
+    padding-bottom: var(--spacing-2xl);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .footer__brand {
+    max-width: 360px;
+  }
+
+  .footer__logo {
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    color: var(--color-white);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .footer__tagline {
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+    color: var(--color-gray-400);
+  }
+
+  .footer__nav {
+    display: flex;
+    gap: var(--spacing-3xl);
+  }
+
+  .footer__nav-title {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .footer__nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer__nav li {
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .footer__nav a {
+    color: var(--color-gray-400);
+    font-size: var(--font-size-sm);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .footer__nav a:hover {
+    color: var(--color-white);
+  }
+
+  .footer__bottom {
+    padding-top: var(--spacing-xl);
+    font-size: var(--font-size-xs);
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .footer__inner {
+      flex-direction: column;
+      gap: var(--spacing-2xl);
+    }
+
+    .footer__nav {
+      gap: var(--spacing-2xl);
+    }
+  }
+</style>

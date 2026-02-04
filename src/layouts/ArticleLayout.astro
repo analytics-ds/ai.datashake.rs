@@ -1,0 +1,275 @@
+---
+import SEOHead from '@/components/SEOHead.astro';
+import SchemaOrg from '@/components/SchemaOrg.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import { getAuthor } from '@/data/authors';
+import '@/styles/global.css';
+
+export interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  updatedDate?: Date;
+  author: string;
+  category: string;
+  tags: string[];
+  image?: string;
+  imageAlt?: string;
+  slug: string;
+}
+
+const {
+  title,
+  description,
+  date,
+  updatedDate,
+  author: authorId,
+  category,
+  tags,
+  image,
+  imageAlt,
+  slug,
+} = Astro.props;
+
+const author = getAuthor(authorId);
+const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+const breadcrumbItems = [
+  { name: 'Blog', url: '/blog/' },
+  { name: category, url: `/categorie/${categorySlug}/` },
+  { name: title, url: `/blog/${slug}/` },
+];
+
+const formattedDate = date.toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const formattedUpdatedDate = updatedDate?.toLocaleDateString('fr-FR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <SEOHead
+      title={title}
+      description={description}
+      ogType="article"
+      ogImage={image}
+      publishedDate={date}
+      modifiedDate={updatedDate}
+      author={author.name}
+    />
+    <SchemaOrg
+      type="article"
+      title={title}
+      description={description}
+      url={Astro.url.href}
+      image={image}
+      datePublished={date}
+      dateModified={updatedDate ?? date}
+      authorId={authorId}
+      category={category}
+      tags={tags}
+    />
+  </head>
+  <body>
+    <Header />
+    <main id="main-content">
+      <article class="article">
+        <div class="container">
+          <Breadcrumb items={breadcrumbItems} />
+
+          <header class="article__header">
+            <div class="article__meta">
+              <a href={`/categorie/${categorySlug}/`} class="tag">{category}</a>
+              <time datetime={date.toISOString()}>{formattedDate}</time>
+              {updatedDate && (
+                <span class="article__updated">
+                  (mis à jour le <time datetime={updatedDate.toISOString()}>{formattedUpdatedDate}</time>)
+                </span>
+              )}
+            </div>
+            <h1 class="article__title">{title}</h1>
+            <p class="article__description">{description}</p>
+          </header>
+
+          {image && (
+            <figure class="article__hero">
+              <img src={image} alt={imageAlt ?? title} loading="eager" />
+            </figure>
+          )}
+
+          <div class="prose">
+            <slot />
+          </div>
+
+          <footer class="article__footer">
+            <div class="article__author">
+              <div class="article__author-info">
+                <span class="article__author-label">Publié par</span>
+                <strong class="article__author-name">
+                  {author.url ? (
+                    <a href={author.url} target="_blank" rel="noopener">{author.name}</a>
+                  ) : (
+                    author.name
+                  )}
+                </strong>
+                <span class="article__author-role">{author.role}</span>
+              </div>
+            </div>
+
+            {tags.length > 0 && (
+              <div class="article__tags">
+                <span class="article__tags-label">Tags :</span>
+                <div class="article__tags-list">
+                  {tags.map((tag) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </footer>
+        </div>
+      </article>
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .article {
+    padding: var(--spacing-xl) 0 var(--spacing-4xl);
+  }
+
+  .article__header {
+    max-width: var(--max-width-content);
+    margin: 0 auto var(--spacing-2xl);
+    text-align: center;
+  }
+
+  .article__meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+  }
+
+  .article__updated {
+    font-style: italic;
+    color: var(--color-gray-400);
+  }
+
+  .article__title {
+    font-size: var(--font-size-4xl);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .article__description {
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-600);
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .article__hero {
+    max-width: var(--max-width-content);
+    margin: 0 auto var(--spacing-2xl);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .article__hero img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+
+  .article__footer {
+    max-width: var(--max-width-content);
+    margin: var(--spacing-3xl) auto 0;
+    padding-top: var(--spacing-2xl);
+    border-top: 1px solid var(--color-gray-200);
+  }
+
+  .article__author {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .article__author-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article__author-label {
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-gray-400);
+    margin-bottom: var(--spacing-xs);
+  }
+
+  .article__author-name {
+    font-size: var(--font-size-lg);
+  }
+
+  .article__author-name a {
+    color: var(--color-gray-900);
+    text-decoration: none;
+  }
+
+  .article__author-name a:hover {
+    color: var(--color-primary);
+  }
+
+  .article__author-role {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+  }
+
+  .article__tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+  }
+
+  .article__tags-label {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-500);
+    font-weight: 500;
+  }
+
+  .article__tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+  }
+
+  @media (max-width: 768px) {
+    .article__title {
+      font-size: var(--font-size-3xl);
+    }
+
+    .article__description {
+      font-size: var(--font-size-lg);
+    }
+  }
+</style>
