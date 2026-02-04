@@ -5,8 +5,8 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    date: z.string().or(z.date()).transform((val) => (val instanceof Date ? val : new Date(val))),
-    updatedDate: z.string().or(z.date()).transform((val) => (val instanceof Date ? val : new Date(val))).optional(),
+    date: z.any().transform((val) => String(val)),
+    updatedDate: z.any().transform((val) => String(val)).optional(),
     author: z.string().default('datashake'),
     category: z.string(),
     tags: z.array(z.string()).default([]),
