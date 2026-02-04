@@ -10,8 +10,4 @@ export default defineConfig({
       theme: 'github-dark',
     },
   },
-  i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr'],
-  },
 });

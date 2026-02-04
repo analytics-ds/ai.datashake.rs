@@ -10,8 +10,8 @@ import '@/styles/global.css';
 export interface Props {
   title: string;
   description: string;
-  date: Date;
-  updatedDate?: Date;
+  date: Date | string;
+  updatedDate?: Date | string;
   author: string;
   category: string;
   tags: string[];
@@ -35,6 +35,8 @@ const {
 
 const author = getAuthor(authorId);
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const safeDate = date instanceof Date ? date : new Date(date);
+const safeUpdatedDate = updatedDate ? (updatedDate instanceof Date ? updatedDate : new Date(updatedDate)) : undefined;
 
 const breadcrumbItems = [
   { name: 'Blog', url: '/blog/' },
@@ -42,13 +44,13 @@ const breadcrumbItems = [
   { name: title, url: `/blog/${slug}/` },
 ];
 
-const formattedDate = date.toLocaleDateString('fr-FR', {
+const formattedDate = safeDate.toLocaleDateString('fr-FR', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 
-const formattedUpdatedDate = updatedDate?.toLocaleDateString('fr-FR', {
+const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -63,8 +65,8 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('fr-FR', {
       description={description}
       ogType="article"
       ogImage={image}
-      publishedDate={date}
-      modifiedDate={updatedDate}
+      publishedDate={safeDate}
+      modifiedDate={safeUpdatedDate}
       author={author.name}
     />
     <SchemaOrg
@@ -73,8 +75,8 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('fr-FR', {
       description={description}
       url={Astro.url.href}
       image={image}
-      datePublished={date}
-      dateModified={updatedDate ?? date}
+      datePublished={safeDate}
+      dateModified={safeUpdatedDate ?? safeDate}
       authorId={authorId}
       category={category}
       tags={tags}
@@ -90,10 +92,10 @@ const formattedUpdatedDate = updatedDate?.toLocaleDateString('fr-FR', {
           <header class="article__header">
             <div class="article__meta">
               <a href={`/categorie/${categorySlug}/`} class="tag">{category}</a>
-              <time datetime={date.toISOString()}>{formattedDate}</time>
-              {updatedDate && (
+              <time datetime={safeDate.toISOString()}>{formattedDate}</time>
+              {safeUpdatedDate && (
                 <span class="article__updated">
-                  (mis à jour le <time datetime={updatedDate.toISOString()}>{formattedUpdatedDate}</time>)
+                  (mis à jour le <time datetime={safeUpdatedDate.toISOString()}>{formattedUpdatedDate}</time>)
                 </span>
               )}
             </div>
