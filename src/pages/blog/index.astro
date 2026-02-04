@@ -43,8 +43,6 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
           date={post.data.date}
           category={post.data.category}
           slug={post.slug}
-          image={post.data.image}
-          imageAlt={post.data.imageAlt}
           featured={index === 0}
         />
       ))}

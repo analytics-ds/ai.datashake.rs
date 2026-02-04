@@ -28,7 +28,7 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD'
 
 <BaseLayout
   title={`${category} — Articles`}
-  description={`Tous les articles de la catégorie ${category} sur AI Datashake. Guides, analyses et stratégies.`}
+  description={`Tous les articles de la catégorie ${category} sur AI datashake. Guides, analyses et stratégies.`}
 >
   <div class="container">
     <Breadcrumb items={[
@@ -51,8 +51,6 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD'
           date={post.data.date}
           category={post.data.category}
           slug={post.slug}
-          image={post.data.image}
-          imageAlt={post.data.imageAlt}
         />
       ))}
     </div>

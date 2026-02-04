@@ -40,12 +40,12 @@ C'est le schéma fondamental pour tout article de blog :
   "dateModified": "2025-01-20T00:00:00Z",
   "author": {
     "@type": "Organization",
-    "name": "Datashake",
+    "name": "datashake",
     "url": "https://www.datashake.fr"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Datashake"
+    "name": "datashake"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -61,7 +61,7 @@ L'identification de l'auteur est cruciale pour les critères E-E-A-T :
 ```json
 {
   "@type": "Organization",
-  "name": "Datashake",
+  "name": "datashake",
   "url": "https://www.datashake.fr",
   "description": "Agence spécialisée en data et IA",
   "sameAs": [

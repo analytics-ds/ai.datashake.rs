@@ -13,7 +13,7 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
 ---
 
 <BaseLayout
-  title="AI Datashake — Le blog GEO : Generative Engine Optimization"
+  title="AI datashake — Le blog GEO : Generative Engine Optimization"
   description="Découvrez le GEO (Generative Engine Optimization) : comment optimiser votre contenu pour les moteurs de recherche et l'IA générative. Stratégies, guides et analyses."
 >
   <!-- Hero -->
@@ -45,8 +45,6 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
         date={post.data.date}
         category={post.data.category}
         slug={post.slug}
-        image={post.data.image}
-        imageAlt={post.data.imageAlt}
       />
     ))}
   </Carousel>
