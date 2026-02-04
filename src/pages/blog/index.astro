@@ -1,0 +1,88 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const categories = [...new Set(allPosts.map((post) => post.data.category))];
+---
+
+<BaseLayout
+  title="Blog"
+  description="Tous les articles sur le GEO (Generative Engine Optimization), l'optimisation pour l'IA générative, les données structurées et le SEO nouvelle génération."
+>
+  <div class="container">
+    <Breadcrumb items={[{ name: 'Blog', url: '/blog/' }]} />
+
+    <header class="blog-header">
+      <h1>Blog</h1>
+      <p class="blog-header__description">
+        Retrouvez tous nos articles sur le GEO, le SEO et l'IA générative.
+      </p>
+    </header>
+
+    <!-- Category Filter -->
+    <nav class="category-filter" aria-label="Filtrer par catégorie">
+      <a href="/blog/" class="tag active">Tout</a>
+      {categories.map((cat) => {
+        const catSlug = cat.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        return <a href={`/categorie/${catSlug}/`} class="tag">{cat}</a>;
+      })}
+    </nav>
+
+    <!-- Articles Grid -->
+    <div class="articles-grid">
+      {allPosts.map((post, index) => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          category={post.data.category}
+          slug={post.slug}
+          image={post.data.image}
+          imageAlt={post.data.imageAlt}
+          featured={index === 0}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .blog-header {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .blog-header__description {
+    color: var(--color-gray-500);
+    font-size: var(--font-size-lg);
+  }
+
+  .category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .category-filter .active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--spacing-xl);
+    padding-bottom: var(--spacing-3xl);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

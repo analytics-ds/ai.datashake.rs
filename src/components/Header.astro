@@ -1,0 +1,182 @@
+---
+const navLinks = [
+  { label: 'Accueil', href: '/' },
+  { label: 'Blog', href: '/blog/' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="header">
+  <div class="header__inner container">
+    <a href="/" class="header__logo" aria-label="AI Datashake - Accueil">
+      <span class="header__logo-text">
+        <span class="gradient-text">AI</span> Datashake
+      </span>
+    </a>
+
+    <button
+      class="header__toggle"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false"
+      aria-controls="nav-menu"
+    >
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+      <span class="header__toggle-bar"></span>
+    </button>
+
+    <nav id="nav-menu" class="header__nav" aria-label="Navigation principale">
+      <ul class="header__nav-list">
+        {navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class:list={['header__nav-link', { active: currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href)) }]}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('.header__toggle');
+  const nav = document.querySelector('.header__nav');
+
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    nav?.classList.toggle('is-open');
+    toggle.setAttribute('aria-label', expanded ? 'Ouvrir le menu' : 'Fermer le menu');
+  });
+</script>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--color-gray-100);
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+  }
+
+  .header__logo {
+    text-decoration: none;
+  }
+
+  .header__logo-text {
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    color: var(--color-gray-900);
+    letter-spacing: -0.02em;
+  }
+
+  .header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: var(--spacing-xl);
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header__nav-link {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-gray-600);
+    text-decoration: none;
+    padding: var(--spacing-sm) 0;
+    position: relative;
+    transition: color var(--transition-fast);
+  }
+
+  .header__nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--gradient-primary);
+    transition: width var(--transition-base);
+  }
+
+  .header__nav-link:hover,
+  .header__nav-link.active {
+    color: var(--color-primary);
+  }
+
+  .header__nav-link.active::after,
+  .header__nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Mobile toggle */
+  .header__toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: var(--spacing-sm);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .header__toggle-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--color-gray-700);
+    border-radius: 1px;
+    transition: all var(--transition-base);
+  }
+
+  @media (max-width: 768px) {
+    .header__toggle {
+      display: flex;
+    }
+
+    .header__nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--color-white);
+      border-bottom: 1px solid var(--color-gray-100);
+      box-shadow: var(--shadow-lg);
+      padding: var(--spacing-lg);
+      transform: translateY(-10px);
+      opacity: 0;
+      visibility: hidden;
+      transition: all var(--transition-base);
+    }
+
+    .header__nav.is-open {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .header__nav-list {
+      flex-direction: column;
+      gap: var(--spacing-md);
+    }
+
+    .header__nav-link {
+      font-size: var(--font-size-base);
+      padding: var(--spacing-sm) 0;
+    }
+  }
+</style>

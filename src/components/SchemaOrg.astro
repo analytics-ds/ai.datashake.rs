@@ -1,0 +1,117 @@
+---
+import { getAuthor } from '@/data/authors';
+
+export interface Props {
+  type: 'website' | 'article' | 'breadcrumb';
+  // Article props
+  title?: string;
+  description?: string;
+  url?: string;
+  image?: string;
+  datePublished?: Date;
+  dateModified?: Date;
+  authorId?: string;
+  category?: string;
+  tags?: string[];
+  // Breadcrumb props
+  breadcrumbs?: Array<{ name: string; url: string }>;
+}
+
+const {
+  type,
+  title,
+  description,
+  url,
+  image,
+  datePublished,
+  dateModified,
+  authorId = 'datashake',
+  category,
+  tags = [],
+  breadcrumbs = [],
+} = Astro.props;
+
+const siteUrl = Astro.site?.href ?? 'https://ai.datashake.rs';
+const author = getAuthor(authorId);
+
+function buildWebsiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'AI Datashake',
+    description: "Blog sur le GEO (Generative Engine Optimization) et l'optimisation pour l'IA générative",
+    url: siteUrl,
+    publisher: buildOrganizationSchema(),
+    inLanguage: 'fr-FR',
+  };
+}
+
+function buildOrganizationSchema() {
+  return {
+    '@type': 'Organization',
+    name: 'Datashake',
+    url: 'https://www.datashake.fr',
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}favicon.svg`,
+    },
+    sameAs: author.sameAs ?? [],
+  };
+}
+
+function buildArticleSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: title,
+    description: description,
+    url: url,
+    image: image ? `${siteUrl}${image}` : undefined,
+    datePublished: datePublished?.toISOString(),
+    dateModified: (dateModified ?? datePublished)?.toISOString(),
+    author: {
+      '@type': author.url ? 'Organization' : 'Person',
+      name: author.name,
+      url: author.url,
+      description: author.bio,
+      sameAs: author.sameAs,
+    },
+    publisher: buildOrganizationSchema(),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': url,
+    },
+    articleSection: category,
+    keywords: tags.join(', '),
+    inLanguage: 'fr-FR',
+  };
+}
+
+function buildBreadcrumbSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url.startsWith('http') ? item.url : `${siteUrl}${item.url.replace(/^\//, '')}`,
+    })),
+  };
+}
+
+let schema: object;
+switch (type) {
+  case 'website':
+    schema = buildWebsiteSchema();
+    break;
+  case 'article':
+    schema = buildArticleSchema();
+    break;
+  case 'breadcrumb':
+    schema = buildBreadcrumbSchema();
+    break;
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

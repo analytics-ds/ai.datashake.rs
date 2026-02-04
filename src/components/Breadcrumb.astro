@@ -1,0 +1,78 @@
+---
+import SchemaOrg from './SchemaOrg.astro';
+
+export interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+export interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const allItems: BreadcrumbItem[] = [
+  { name: 'Accueil', url: '/' },
+  ...items,
+];
+---
+
+<SchemaOrg type="breadcrumb" breadcrumbs={allItems} />
+
+<nav aria-label="Fil d'Ariane" class="breadcrumb">
+  <ol>
+    {allItems.map((item, index) => (
+      <li>
+        {index < allItems.length - 1 ? (
+          <a href={item.url}>{item.name}</a>
+        ) : (
+          <span aria-current="page">{item.name}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  .breadcrumb {
+    padding: var(--spacing-md) 0;
+    font-size: var(--font-size-sm);
+  }
+
+  .breadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: var(--spacing-xs);
+  }
+
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    color: var(--color-gray-400);
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    content: '/';
+    color: var(--color-gray-300);
+  }
+
+  .breadcrumb a {
+    color: var(--color-gray-500);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--color-primary);
+  }
+
+  .breadcrumb span[aria-current] {
+    color: var(--color-gray-700);
+    font-weight: 500;
+  }
+</style>
