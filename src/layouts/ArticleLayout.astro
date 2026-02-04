@@ -5,6 +5,7 @@ import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import Breadcrumb from '@/components/Breadcrumb.astro';
 import { getAuthor } from '@/data/authors';
+import { url } from '@/utils/url';
 import '@/styles/global.css';
 
 export interface Props {
@@ -47,9 +48,9 @@ const safeDate = parseDate(date) ?? new Date();
 const safeUpdatedDate = parseDate(updatedDate);
 
 const breadcrumbItems = [
-  { name: 'Blog', url: '/blog/' },
-  { name: category, url: `/categorie/${categorySlug}/` },
-  { name: title, url: `/blog/${slug}/` },
+  { name: 'Blog', url: url('/blog/') },
+  { name: category, url: url(`/categorie/${categorySlug}/`) },
+  { name: title, url: url(`/blog/${slug}/`) },
 ];
 
 const formattedDate = safeDate.toLocaleDateString('fr-FR', {
@@ -99,7 +100,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
 
           <header class="article__header">
             <div class="article__meta">
-              <a href={`/categorie/${categorySlug}/`} class="tag">{category}</a>
+              <a href={url(`/categorie/${categorySlug}/`)} class="tag">{category}</a>
               <time datetime={safeDate.toISOString()}>{formattedDate}</time>
               {safeUpdatedDate && (
                 <span class="article__updated">

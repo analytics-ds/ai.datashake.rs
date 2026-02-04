@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Carousel from '@/components/Carousel.astro';
 import ArticleCard from '@/components/ArticleCard.astro';
+import { url } from '@/utils/url';
 import { getCollection } from 'astro:content';
 
 const allPosts = (await getCollection('blog', ({ data }) => !data.draft))
@@ -29,7 +30,7 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
           Découvrez comment adapter votre stratégie de contenu pour rester visible dans ce nouvel écosystème.
         </p>
         <div class="hero__actions">
-          <a href="/blog/" class="btn btn--primary">Explorer le blog</a>
+          <a href={url('/blog/')} class="btn btn--primary">Explorer le blog</a>
         </div>
       </div>
     </div>
@@ -63,7 +64,7 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
             const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
             const count = allPosts.filter((p) => p.data.category === category).length;
             return (
-              <a href={`/categorie/${categorySlug}/`} class="category-card">
+              <a href={url(`/categorie/${categorySlug}/`)} class="category-card">
                 <h3 class="category-card__title">{category}</h3>
                 <p class="category-card__count">
                   {count} article{count > 1 ? 's' : ''}

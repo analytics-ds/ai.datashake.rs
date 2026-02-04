@@ -1,4 +1,6 @@
 ---
+import { url } from '@/utils/url';
+
 export interface Props {
   title: string;
   description: string;
@@ -38,7 +40,7 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 ---
 
 <article class:list={['card', { 'card--featured': featured }]}>
-  <a href={`/blog/${slug}/`} class="card__link">
+  <a href={url(`/blog/${slug}/`)} class="card__link">
     {image ? (
       <div class="card__image">
         <img src={image} alt={imageAlt ?? title} loading="lazy" />
@@ -51,7 +53,7 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 
     <div class="card__content">
       <div class="card__meta">
-        <a href={`/categorie/${categorySlug}/`} class="tag" onclick="event.stopPropagation()">
+        <a href={url(`/categorie/${categorySlug}/`)} class="tag" onclick="event.stopPropagation()">
           {category}
         </a>
         <time datetime={safeDate.toISOString()}>{formattedDate}</time>

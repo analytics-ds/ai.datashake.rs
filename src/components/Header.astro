@@ -1,7 +1,9 @@
 ---
+import { url } from '@/utils/url';
+
 const navLinks = [
-  { label: 'Accueil', href: '/' },
-  { label: 'Blog', href: '/blog/' },
+  { label: 'Accueil', href: url('/') },
+  { label: 'Blog', href: url('/blog/') },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -9,7 +11,7 @@ const currentPath = Astro.url.pathname;
 
 <header class="header">
   <div class="header__inner container">
-    <a href="/" class="header__logo" aria-label="AI Datashake - Accueil">
+    <a href={url('/')} class="header__logo" aria-label="AI Datashake - Accueil">
       <span class="header__logo-text">
         <span class="gradient-text">AI</span> Datashake
       </span>
