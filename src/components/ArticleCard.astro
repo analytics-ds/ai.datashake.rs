@@ -7,8 +7,6 @@ export interface Props {
   date: Date | string;
   category: string;
   slug: string;
-  image?: string;
-  imageAlt?: string;
   featured?: boolean;
 }
 
@@ -18,8 +16,6 @@ const {
   date,
   category,
   slug,
-  image,
-  imageAlt,
   featured = false,
 } = Astro.props;
 
@@ -41,15 +37,10 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 
 <article class:list={['card', { 'card--featured': featured }]}>
   <a href={url(`/blog/${slug}/`)} class="card__link">
-    {image ? (
-      <div class="card__image">
-        <img src={image} alt={imageAlt ?? title} loading="lazy" />
-      </div>
-    ) : (
-      <div class="card__image card__image--placeholder">
-        <div class="card__image-gradient"></div>
-      </div>
-    )}
+    <div class="card__header">
+      <span class="card__category">{category}</span>
+      <div class="card__header-decoration"></div>
+    </div>
 
     <div class="card__content">
       <div class="card__meta">
@@ -93,32 +84,42 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
     color: inherit;
   }
 
-  .card__image {
-    aspect-ratio: 16/9;
+  .card__header {
+    position: relative;
+    padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+    background: var(--gradient-primary);
     overflow: hidden;
   }
 
-  .card__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform var(--transition-slow);
-  }
-
-  .card:hover .card__image img {
-    transform: scale(1.03);
-  }
-
-  .card__image--placeholder {
-    position: relative;
-    background: var(--color-gray-50);
-  }
-
-  .card__image-gradient {
+  .card__header-decoration {
     position: absolute;
-    inset: 0;
-    background: var(--gradient-primary);
-    opacity: 0.08;
+    top: -30%;
+    right: -10%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .card__header-decoration::after {
+    content: '';
+    position: absolute;
+    bottom: -60%;
+    left: -40%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .card__category {
+    position: relative;
+    z-index: 1;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: var(--color-white);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
   }
 
   .card__content {
@@ -178,12 +179,23 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 
   .card--featured .card__link {
     display: grid;
-    grid-template-columns: 1.2fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
   }
 
-  .card--featured .card__image {
-    aspect-ratio: auto;
-    min-height: 300px;
+  .card--featured .card__header {
+    display: flex;
+    align-items: flex-end;
+    padding: var(--spacing-2xl);
+    min-height: 240px;
+  }
+
+  .card--featured .card__category {
+    font-size: var(--font-size-lg);
+  }
+
+  .card--featured .card__header-decoration {
+    width: 180px;
+    height: 180px;
   }
 
   .card--featured .card__content {
@@ -208,9 +220,8 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
       grid-template-columns: 1fr;
     }
 
-    .card--featured .card__image {
-      aspect-ratio: 16/9;
-      min-height: auto;
+    .card--featured .card__header {
+      min-height: 120px;
     }
 
     .card--featured .card__content {
