@@ -8,8 +8,8 @@ export interface Props {
   description?: string;
   url?: string;
   image?: string;
-  datePublished?: Date;
-  dateModified?: Date;
+  datePublished?: Date | string;
+  dateModified?: Date | string;
   authorId?: string;
   category?: string;
   tags?: string[];
@@ -67,8 +67,8 @@ function buildArticleSchema() {
     description: description,
     url: url,
     image: image ? `${siteUrl}${image}` : undefined,
-    datePublished: datePublished?.toISOString(),
-    dateModified: (dateModified ?? datePublished)?.toISOString(),
+    datePublished: datePublished ? new Date(datePublished).toISOString() : undefined,
+    dateModified: (dateModified ?? datePublished) ? new Date(dateModified ?? datePublished).toISOString() : undefined,
     author: {
       '@type': author.url ? 'Organization' : 'Person',
       name: author.name,

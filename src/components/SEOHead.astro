@@ -5,8 +5,8 @@ export interface Props {
   canonicalURL?: string;
   ogImage?: string;
   ogType?: 'website' | 'article';
-  publishedDate?: Date;
-  modifiedDate?: Date;
+  publishedDate?: Date | string;
+  modifiedDate?: Date | string;
   author?: string;
   noindex?: boolean;
 }
@@ -57,10 +57,10 @@ const ogImageURL = ogImage
 <meta property="og:site_name" content={siteName} />
 
 {publishedDate && (
-  <meta property="article:published_time" content={publishedDate.toISOString()} />
+  <meta property="article:published_time" content={new Date(publishedDate).toISOString()} />
 )}
 {modifiedDate && (
-  <meta property="article:modified_time" content={modifiedDate.toISOString()} />
+  <meta property="article:modified_time" content={new Date(modifiedDate).toISOString()} />
 )}
 
 <!-- Favicon -->
