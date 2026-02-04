@@ -34,6 +34,17 @@ const {
 const siteUrl = Astro.site?.href ?? 'https://ai.datashake.rs';
 const author = getAuthor(authorId);
 
+function toISO(val: Date | string | undefined): string | undefined {
+  if (!val) return undefined;
+  try {
+    const d = val instanceof Date ? val : new Date(String(val));
+    if (isNaN(d.getTime())) return undefined;
+    return d.toISOString();
+  } catch {
+    return undefined;
+  }
+}
+
 function buildWebsiteSchema() {
   return {
     '@context': 'https://schema.org',
@@ -67,8 +78,8 @@ function buildArticleSchema() {
     description: description,
     url: url,
     image: image ? `${siteUrl}${image}` : undefined,
-    datePublished: datePublished ? new Date(datePublished).toISOString() : undefined,
-    dateModified: (dateModified ?? datePublished) ? new Date(dateModified ?? datePublished).toISOString() : undefined,
+    datePublished: toISO(datePublished),
+    dateModified: toISO(dateModified) ?? toISO(datePublished),
     author: {
       '@type': author.url ? 'Organization' : 'Person',
       name: author.name,

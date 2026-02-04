@@ -25,9 +25,22 @@ const {
 
 const siteName = 'AI Datashake';
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
-const ogImageURL = ogImage
-  ? new URL(ogImage, Astro.site).href
-  : new URL('/og-default.jpg', Astro.site).href;
+const siteUrl = Astro.site?.href ?? 'https://ai.datashake.rs';
+const ogImageURL = ogImage ? `${siteUrl}${ogImage.replace(/^\//, '')}` : `${siteUrl}og-default.jpg`;
+
+function toISO(val: Date | string | undefined): string | null {
+  if (!val) return null;
+  try {
+    const d = val instanceof Date ? val : new Date(val);
+    if (isNaN(d.getTime())) return null;
+    return d.toISOString();
+  } catch {
+    return null;
+  }
+}
+
+const publishedISO = toISO(publishedDate);
+const modifiedISO = toISO(modifiedDate);
 ---
 
 <meta charset="utf-8" />
@@ -45,7 +58,6 @@ const ogImageURL = ogImage
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Language -->
-<html lang="fr" />
 <meta property="og:locale" content="fr_FR" />
 
 <!-- Open Graph -->
@@ -56,11 +68,11 @@ const ogImageURL = ogImage
 <meta property="og:image" content={ogImageURL} />
 <meta property="og:site_name" content={siteName} />
 
-{publishedDate && (
-  <meta property="article:published_time" content={new Date(publishedDate).toISOString()} />
+{publishedISO && (
+  <meta property="article:published_time" content={publishedISO} />
 )}
-{modifiedDate && (
-  <meta property="article:modified_time" content={new Date(modifiedDate).toISOString()} />
+{modifiedISO && (
+  <meta property="article:modified_time" content={modifiedISO} />
 )}
 
 <!-- Favicon -->
