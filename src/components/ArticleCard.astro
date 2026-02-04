@@ -23,7 +23,13 @@ const {
 
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-const safeDate = date instanceof Date ? date : new Date(date);
+function parseDate(val: Date | string): Date {
+  if (val instanceof Date && !isNaN(val.getTime())) return val;
+  const d = new Date(String(val));
+  return isNaN(d.getTime()) ? new Date() : d;
+}
+
+const safeDate = parseDate(date);
 const formattedDate = safeDate.toLocaleDateString('fr-FR', {
   year: 'numeric',
   month: 'long',
