@@ -81,7 +81,7 @@ function buildArticleSchema() {
     datePublished: toISO(datePublished),
     dateModified: toISO(dateModified) ?? toISO(datePublished),
     author: {
-      '@type': author.url ? 'Organization' : 'Person',
+      '@type': author.type,
       name: author.name,
       url: author.url,
       description: author.bio,

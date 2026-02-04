@@ -6,6 +6,7 @@ export interface Author {
   url?: string;
   avatar?: string;
   sameAs?: string[];
+  type: 'Person' | 'Organization';
 }
 
 export const authors: Record<string, Author> = {
@@ -18,6 +19,18 @@ export const authors: Record<string, Author> = {
     sameAs: [
       'https://www.linkedin.com/company/datashake',
     ],
+    type: 'Organization',
+  },
+  'ruben-sebag': {
+    id: 'ruben-sebag',
+    name: 'Ruben Sebag',
+    role: 'Co-founder & Director of SEO/GEO @datashake',
+    bio: 'Expert en SEO / GEO.',
+    url: 'https://www.linkedin.com/in/ruben-sebag/',
+    sameAs: [
+      'https://www.linkedin.com/in/ruben-sebag/',
+    ],
+    type: 'Person',
   },
 };
 
