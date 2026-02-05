@@ -33,6 +33,10 @@ const {
 const author = getAuthor(authorId);
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
+function slugifyTag(tag: string): string {
+  return tag.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 function parseDate(val: Date | string | undefined): Date | undefined {
   if (!val) return undefined;
   if (val instanceof Date && !isNaN(val.getTime())) return val;
@@ -130,7 +134,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
                 <span class="article__tags-label">Tags :</span>
                 <div class="article__tags-list">
                   {tags.map((tag) => (
-                    <span class="tag">{tag}</span>
+                    <a href={url(`/tag/${slugifyTag(tag)}/`)} class="tag">{tag}</a>
                   ))}
                 </div>
               </div>
@@ -246,6 +250,16 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
+  }
+
+  .article__tags-list .tag {
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .article__tags-list .tag:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
   }
 
   @media (max-width: 768px) {

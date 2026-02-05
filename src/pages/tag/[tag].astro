@@ -1,0 +1,101 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import { url } from '@/utils/url';
+import { getCollection } from 'astro:content';
+
+function slugifyTag(tag: string): string {
+  return tag
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const allTags = [...new Set(posts.flatMap((post) => post.data.tags || []))];
+
+  return allTags.map((tag) => {
+    const slug = slugifyTag(tag);
+    const filteredPosts = posts
+      .filter((post) => post.data.tags?.includes(tag))
+      .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+    return {
+      params: { tag: slug },
+      props: { tag, posts: filteredPosts },
+    };
+  });
+}
+
+const { tag, posts } = Astro.props;
+const tagSlug = slugifyTag(tag);
+---
+
+<BaseLayout
+  title={`${tag} — Articles`}
+  description={`Tous les articles sur ${tag} sur AI datashake. Guides, analyses et stratégies.`}
+>
+  <div class="container">
+    <Breadcrumb items={[
+      { name: 'Blog', url: url('/blog/') },
+      { name: tag, url: url(`/tag/${tagSlug}/`) },
+    ]} />
+
+    <header class="tag-header">
+      <span class="tag-header__label">Tag</span>
+      <h1>{tag}</h1>
+      <p class="tag-header__count">
+        {posts.length} article{posts.length > 1 ? 's' : ''}
+      </p>
+    </header>
+
+    <div class="articles-grid">
+      {posts.map((post) => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          category={post.data.category}
+          slug={post.slug}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .tag-header {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .tag-header__label {
+    display: inline-block;
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+  }
+
+  .tag-header__count {
+    color: var(--color-gray-400);
+    font-size: var(--font-size-lg);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--spacing-xl);
+    padding-bottom: var(--spacing-3xl);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
