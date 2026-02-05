@@ -10,7 +10,7 @@ draft: false
 
 > **En bref :** L'**intelligence artificielle** (IA) désigne l'ensemble des technologies permettant aux machines de simuler des capacités cognitives humaines. En 2025, le marché mondial de l'IA représente plus de 180 milliards de dollars, avec une croissance annuelle de 37 %. Ce guide couvre les fondamentaux, les différentes branches, les applications concrètes et les enjeux éthiques de cette technologie.
 
-*Temps de lecture : 11 minutes*
+*Temps de lecture : 8 minutes*
 
 ## Sommaire
 
