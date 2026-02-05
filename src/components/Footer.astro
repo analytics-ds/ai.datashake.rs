@@ -8,8 +8,7 @@ const currentYear = new Date().getFullYear();
     <div class="footer__inner">
       <div class="footer__brand">
         <a href={url('/')} class="footer__logo">
-          <img src={url('/logo-datashake.svg')} alt="datashake" class="footer__logo-icon" width="24" height="29" />
-          <span><span class="gradient-text">AI</span> datashake</span>
+          <img src={url('/logo-datashake-full.svg')} alt="AI datashake" class="footer__logo-img" />
         </a>
         <p class="footer__tagline">
           Le blog francophone de référence sur le GEO — Generative Engine Optimization.
@@ -60,18 +59,17 @@ const currentYear = new Date().getFullYear();
   }
 
   .footer__logo {
-    font-size: var(--font-size-xl);
-    font-weight: 800;
-    color: var(--color-white);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: var(--spacing-sm);
     margin-bottom: var(--spacing-md);
   }
 
-  .footer__logo-icon {
+  .footer__logo-img {
     display: block;
+    height: 24px;
+    width: auto;
+    filter: brightness(0) invert(1);
   }
 
   .footer__tagline {

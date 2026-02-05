@@ -12,10 +12,7 @@ const currentPath = Astro.url.pathname;
 <header class="header">
   <div class="header__inner container">
     <a href={url('/')} class="header__logo" aria-label="AI datashake - Accueil">
-      <img src={url('/logo-datashake.svg')} alt="datashake" class="header__logo-icon" width="28" height="33" />
-      <span class="header__logo-text">
-        <span class="gradient-text">AI</span> datashake
-      </span>
+      <img src={url('/logo-datashake-full.svg')} alt="AI datashake" class="header__logo-img" />
     </a>
 
     <button
@@ -79,18 +76,12 @@ const currentPath = Astro.url.pathname;
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm);
   }
 
-  .header__logo-icon {
+  .header__logo-img {
     display: block;
-  }
-
-  .header__logo-text {
-    font-size: var(--font-size-xl);
-    font-weight: 800;
-    color: var(--color-gray-900);
-    letter-spacing: -0.02em;
+    height: 28px;
+    width: auto;
   }
 
   .header__nav-list {
