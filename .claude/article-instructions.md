@@ -172,7 +172,7 @@ Apres le quick summary et le temps de lecture, inserer un sommaire avec liens an
 
 - **Obligatoire** : inclure des liens vers d'autres articles du blog, en priorite ceux de la meme categorie ou avec des tags communs.
 - Les ancres de liens doivent etre **naturelles** et contenir les **mots-cles des articles cibles**.
-- Format : `[ancre avec mots-cles](/ai.datashake.rs/blog/{slug}/)`
+- Format : `[ancre avec mots-cles](/blog/{slug}/)`
 - Avant d'ecrire, lister les articles existants dans `src/content/blog/` pour identifier les liens possibles.
 
 ### Exemple
@@ -180,7 +180,7 @@ Apres le quick summary et le temps de lecture, inserer un sommaire avec liens an
 Si l'article parle de GEO et qu'il existe un article `qu-est-ce-que-le-geo.md`, ecrire :
 
 ```markdown
-Pour bien comprendre les fondamentaux, il est utile de consulter notre guide sur [ce qu'est le GEO](/ai.datashake.rs/blog/qu-est-ce-que-le-geo/).
+Pour bien comprendre les fondamentaux, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
 ```
 
 ---

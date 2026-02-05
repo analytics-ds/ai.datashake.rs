@@ -49,7 +49,7 @@ C'est le schéma fondamental pour tout article de blog :
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://ai.datashake.rs/blog/mon-article/"
+    "@id": "https://ai.datashake.fr/blog/mon-article/"
   }
 }
 ```
@@ -83,13 +83,13 @@ Le fil d'Ariane aide l'IA à comprendre la structure hiérarchique de votre site
       "@type": "ListItem",
       "position": 1,
       "name": "Accueil",
-      "item": "https://ai.datashake.rs/"
+      "item": "https://ai.datashake.fr/"
     },
     {
       "@type": "ListItem",
       "position": 2,
       "name": "Blog",
-      "item": "https://ai.datashake.rs/blog/"
+      "item": "https://ai.datashake.fr/blog/"
     }
   ]
 }

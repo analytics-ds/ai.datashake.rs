@@ -37,7 +37,7 @@ Depuis 2024, ChatGPT peut parcourir le web en temps réel pour compléter ses r�
 - **Accessible techniquement** (pas de blocage par robots.txt ou JavaScript lourd)
 - **Structuré de manière claire** pour faciliter l'extraction d'informations
 
-Pour bien saisir les fondamentaux de cette nouvelle approche, il est recommandé de consulter le guide complet sur [ce qu'est le GEO (Generative Engine Optimization)](/ai.datashake.rs/blog/qu-est-ce-que-le-geo/).
+Pour bien saisir les fondamentaux de cette nouvelle approche, il est recommandé de consulter le guide complet sur [ce qu'est le GEO (Generative Engine Optimization)](/blog/qu-est-ce-que-le-geo/).
 
 ## Optimiser la structure et le balisage de son contenu
 
@@ -55,7 +55,7 @@ Le balisage **JSON-LD** avec Schema.org permet aux algorithmes d'identifier pré
 | `Organization` / `Person` | Établit l'identité et l'autorité de l'auteur | Haute |
 | `BreadcrumbList` | Clarifie la hiérarchie du site | Moyenne |
 
-Pour une mise en œuvre détaillée, il est utile de consulter le guide sur les [données structurées et Schema.org](/ai.datashake.rs/blog/donnees-structurees-schema-org-guide/).
+Pour une mise en œuvre détaillée, il est utile de consulter le guide sur les [données structurées et Schema.org](/blog/donnees-structurees-schema-org-guide/).
 
 ### Hiérarchie des titres et accessibilité
 
@@ -91,7 +91,7 @@ Les IA génératives accordent une importance particulière aux **données véri
 
 ### Adopter un ton expert et impersonnel
 
-Le ton rédactionnel influence la perception de fiabilité par l'IA. Les contenus rédigés dans un **ton expert, factuel et impersonnel** sont davantage considérés comme des sources de référence. Il convient d'éviter les formulations promotionnelles et de privilégier les affirmations étayées par des preuves. Pour approfondir ce sujet, l'article sur [l'optimisation de contenu pour l'IA générative](/ai.datashake.rs/blog/optimiser-contenu-ia-generative/) détaille les bonnes pratiques rédactionnelles.
+Le ton rédactionnel influence la perception de fiabilité par l'IA. Les contenus rédigés dans un **ton expert, factuel et impersonnel** sont davantage considérés comme des sources de référence. Il convient d'éviter les formulations promotionnelles et de privilégier les affirmations étayées par des preuves. Pour approfondir ce sujet, l'article sur [l'optimisation de contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) détaille les bonnes pratiques rédactionnelles.
 
 ## Renforcer son autorité et sa crédibilité
 
@@ -99,7 +99,7 @@ La **technique pour apparaître sur ChatGPT** ne se limite pas au contenu d'une 
 
 ### E-E-A-T et signaux d'autorité
 
-Google et les IA partagent les mêmes critères d'évaluation de la qualité : **Expérience, Expertise, Autorité et Fiabilité** (E-E-A-T). Un site dont l'auteur est identifié, dont les articles sont sourcés et dont le domaine fait autorité sera privilégié par ChatGPT. L'article sur [l'E-E-A-T et le GEO](/ai.datashake.rs/blog/e-e-a-t-et-geo/) explique comment renforcer ces signaux.
+Google et les IA partagent les mêmes critères d'évaluation de la qualité : **Expérience, Expertise, Autorité et Fiabilité** (E-E-A-T). Un site dont l'auteur est identifié, dont les articles sont sourcés et dont le domaine fait autorité sera privilégié par ChatGPT. L'article sur [l'E-E-A-T et le GEO](/blog/e-e-a-t-et-geo/) explique comment renforcer ces signaux.
 
 ### Construire un profil de backlinks solide
 
@@ -135,7 +135,7 @@ La fréquence de publication et la **fraîcheur du contenu** sont des critères 
 
 ### Optimiser pour plusieurs moteurs IA
 
-ChatGPT n'est pas le seul moteur de réponse IA. Il convient d'optimiser simultanément pour **Perplexity AI**, **Google SGE** et **Claude**. Le [comparatif des moteurs IA Perplexity, ChatGPT et Google SGE](/ai.datashake.rs/blog/perplexity-chatgpt-google-sge-comparatif/) permet de comprendre les différences d'indexation entre ces plateformes.
+ChatGPT n'est pas le seul moteur de réponse IA. Il convient d'optimiser simultanément pour **Perplexity AI**, **Google SGE** et **Claude**. Le [comparatif des moteurs IA Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/) permet de comprendre les différences d'indexation entre ces plateformes.
 
 ## Mesurer et itérer sur sa présence dans ChatGPT
 
@@ -152,7 +152,7 @@ Il n'existe pas encore d'outil officiel pour mesurer la visibilité dans ChatGPT
 
 ### Itérer et améliorer
 
-Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir sa stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données chiffrées récentes, renforcer le balisage structuré et publier de nouveaux contenus sur les sujets émergents. Comprendre les fondamentaux de [l'intelligence artificielle](/ai.datashake.rs/blog/comprendre-l-intelligence-artificielle/) aide à anticiper les évolutions techniques des modèles.
+Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir sa stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données chiffrées récentes, renforcer le balisage structuré et publier de nouveaux contenus sur les sujets émergents. Comprendre les fondamentaux de [l'intelligence artificielle](/blog/comprendre-l-intelligence-artificielle/) aide à anticiper les évolutions techniques des modèles.
 
 ### Les erreurs à éviter
 
