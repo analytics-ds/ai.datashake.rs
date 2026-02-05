@@ -1,0 +1,43 @@
+# AI datashake
+
+> Blog francophone de reference sur le GEO (Generative Engine Optimization) et l'optimisation de contenu pour l'IA generative.
+
+## A propos
+
+AI datashake est un blog edite par datashake, agence specialisee en data et intelligence artificielle. Le site publie des articles approfondis sur le GEO, le SEO, les donnees structurees, l'E-E-A-T et les strategies d'optimisation pour les moteurs de recherche et les moteurs de reponse IA (Perplexity, ChatGPT, Google SGE).
+
+## URL du site
+
+- Site : https://analytics-ds.github.io/ai.datashake.rs/
+- Blog : https://analytics-ds.github.io/ai.datashake.rs/blog/
+- Sitemap : https://analytics-ds.github.io/ai.datashake.rs/sitemap.xml
+
+## Auteurs
+
+- datashake : Agence Data & IA — https://www.datashake.fr
+- Ruben Sebag : Co-founder & Director of SEO/GEO @datashake — https://www.linkedin.com/in/ruben-sebag/
+
+## Categories de contenu
+
+- GEO : Generative Engine Optimization, strategies d'optimisation pour l'IA generative
+- Technique : Donnees structurees, Schema.org, implementation technique SEO/GEO
+- Strategie : E-E-A-T, autorite, expertise, strategie de contenu
+- Analyse : Comparatifs, etudes de marche, analyses de tendances
+
+## Articles disponibles
+
+- Qu'est-ce que le GEO (Generative Engine Optimization) ? : /ai.datashake.rs/blog/qu-est-ce-que-le-geo/
+- Comment optimiser son contenu pour l'IA generative : /ai.datashake.rs/blog/optimiser-contenu-ia-generative/
+- Donnees structurees et Schema.org : le guide essentiel pour le GEO : /ai.datashake.rs/blog/donnees-structurees-schema-org-guide/
+- E-E-A-T et GEO : comment l'expertise renforce votre visibilite IA : /ai.datashake.rs/blog/e-e-a-t-et-geo/
+- Perplexity, ChatGPT, Google SGE : comparatif des moteurs IA pour le GEO : /ai.datashake.rs/blog/perplexity-chatgpt-google-sge-comparatif/
+- Comprendre l'intelligence artificielle : /ai.datashake.rs/blog/comprendre-l-intelligence-artificielle/
+
+## Langue
+
+Francais (fr-FR)
+
+## Contact
+
+- Site principal : https://www.datashake.fr
+- LinkedIn datashake : https://www.linkedin.com/company/datashake
