@@ -14,14 +14,14 @@ draft: false
 
 ## Sommaire
 
-- [Définition et principes fondamentaux de l'intelligence artificielle](#definition-et-principes-fondamentaux)
-- [Les différentes branches de l'intelligence artificielle](#les-differentes-branches)
-- [Comment fonctionne l'intelligence artificielle](#comment-fonctionne-ia)
-- [Applications concrètes de l'intelligence artificielle](#applications-concretes)
-- [Intelligence artificielle et moteurs de recherche](#ia-et-moteurs-de-recherche)
-- [Enjeux éthiques et limites de l'intelligence artificielle](#enjeux-ethiques-et-limites)
+- [Définition et principes fondamentaux de l'intelligence artificielle](#définition-et-principes-fondamentaux-de-lintelligence-artificielle)
+- [Les différentes branches de l'intelligence artificielle](#les-différentes-branches-de-lintelligence-artificielle)
+- [Comment fonctionne l'intelligence artificielle](#comment-fonctionne-lintelligence-artificielle)
+- [Applications concrètes de l'intelligence artificielle](#applications-concrètes-de-lintelligence-artificielle)
+- [Intelligence artificielle et moteurs de recherche](#intelligence-artificielle-et-moteurs-de-recherche)
+- [Enjeux éthiques et limites de l'intelligence artificielle](#enjeux-éthiques-et-limites-de-lintelligence-artificielle)
 
-## Définition et principes fondamentaux de l'intelligence artificielle {#definition-et-principes-fondamentaux}
+## Définition et principes fondamentaux de l'intelligence artificielle
 
 **Comprendre l'intelligence artificielle** commence par en saisir la définition. L'**IA** regroupe les techniques informatiques qui permettent à des machines d'exécuter des tâches nécessitant normalement l'intelligence humaine : reconnaître des images, comprendre le langage naturel, prendre des décisions ou encore générer du contenu.
 
@@ -45,7 +45,7 @@ Il convient de distinguer deux concepts fondamentaux :
 
 Toutes les applications actuelles relèvent de l'**IA faible**. Aucun système existant ne possède de conscience ou de compréhension véritable.
 
-## Les différentes branches de l'intelligence artificielle {#les-differentes-branches}
+## Les différentes branches de l'intelligence artificielle
 
 Pour bien **comprendre l'intelligence artificielle**, il est essentiel de connaître ses sous-domaines. Chacun adresse un type de problème spécifique.
 
@@ -67,7 +67,7 @@ Le **deep learning** constitue un sous-ensemble du machine learning. Il utilise 
 
 Le **NLP** (Natural Language Processing) permet aux machines de comprendre, interpréter et générer du langage humain. C'est cette branche qui alimente les chatbots, les assistants vocaux et les moteurs de réponse IA. Pour approfondir l'impact du NLP sur la recherche, il est utile de consulter le [comparatif des moteurs IA comme Perplexity, ChatGPT et Google SGE](/ai.datashake.rs/blog/perplexity-chatgpt-google-sge-comparatif/).
 
-## Comment fonctionne l'intelligence artificielle {#comment-fonctionne-ia}
+## Comment fonctionne l'intelligence artificielle
 
 Le fonctionnement de l'**intelligence artificielle** repose sur un cycle itératif de données, d'entraînement et de prédiction. Comprendre ce cycle permet de démystifier la technologie.
 
@@ -96,7 +96,7 @@ Un **réseau de neurones** s'inspire du fonctionnement du cerveau humain. Chaque
 | Couches cachées | Extraction de caractéristiques | Cortex cérébral |
 | Couche de sortie | Prédiction finale | Décision / action |
 
-## Applications concrètes de l'intelligence artificielle {#applications-concretes}
+## Applications concrètes de l'intelligence artificielle
 
 L'**intelligence artificielle** transforme de nombreux secteurs d'activité. Ses applications ne cessent de s'étendre à mesure que la technologie mûrit.
 
@@ -116,7 +116,7 @@ Les institutions financières utilisent l'IA pour la détection de fraude en tem
 
 L'IA optimise les chaînes de production, prédit les pannes de machines (maintenance prédictive) et améliore la gestion des stocks. Les véhicules autonomes, bien qu'encore en phase de développement avancé, représentent l'une des applications les plus ambitieuses de l'**intelligence artificielle**.
 
-## Intelligence artificielle et moteurs de recherche {#ia-et-moteurs-de-recherche}
+## Intelligence artificielle et moteurs de recherche
 
 L'impact de l'IA sur les moteurs de recherche constitue un tournant majeur pour la visibilité en ligne. Il est fondamental de **comprendre l'intelligence artificielle** dans ce contexte pour adapter sa stratégie digitale.
 
@@ -136,7 +136,7 @@ L'IA modifie les attentes en matière de contenu. Les moteurs génératifs privi
 - **Bien structurées** : titres hiérarchisés, listes, tableaux
 - **Issues de sources fiables** : auteur identifié, site référent, citations sourcées
 
-## Enjeux éthiques et limites de l'intelligence artificielle {#enjeux-ethiques-et-limites}
+## Enjeux éthiques et limites de l'intelligence artificielle
 
 **Comprendre l'intelligence artificielle** implique aussi d'en connaître les limites et les risques. La technologie soulève des questions fondamentales sur la société.
 

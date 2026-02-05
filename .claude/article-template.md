@@ -21,13 +21,13 @@ draft: false
 
 ## Sommaire
 
-- [Titre H2 1](#titre-h2-1)
-- [Titre H2 2](#titre-h2-2)
-- [Titre H2 3](#titre-h2-3)
-- [Titre H2 4](#titre-h2-4)
-- [Titre H2 5](#titre-h2-5)
+- [Titre H2 1](#titre-h2-1-en-minuscules-avec-tirets)
+- [Titre H2 2](#titre-h2-2-en-minuscules-avec-tirets)
+- [Titre H2 3](#titre-h2-3-en-minuscules-avec-tirets)
+- [Titre H2 4](#titre-h2-4-en-minuscules-avec-tirets)
+- [Titre H2 5](#titre-h2-5-en-minuscules-avec-tirets)
 
-## Titre H2 1 {#titre-h2-1}
+## Titre H2 1
 
 Paragraphe d'introduction de la section. Integrer le **mot-cle principal** naturellement. Fournir du contexte et des **donnees chiffrees** pertinentes.
 
@@ -43,7 +43,7 @@ Contenu detaille. Utiliser des phrases impersonnelles. Mettre les **termes impor
 
 Contenu complementaire de la section.
 
-## Titre H2 2 {#titre-h2-2}
+## Titre H2 2
 
 Paragraphe d'introduction. Penser a inserer un lien interne naturel vers un [article connexe du blog](/ai.datashake.rs/blog/slug-article/).
 
@@ -57,7 +57,7 @@ Contenu. Integrer un tableau si pertinent :
 | Critere 2 | Valeur | Valeur | Valeur |
 | Critere 3 | Valeur | Valeur | Valeur |
 
-## Titre H2 3 {#titre-h2-3}
+## Titre H2 3
 
 Paragraphe avec **mots-cles secondaires** integres naturellement.
 
@@ -74,7 +74,7 @@ Analyse ou commentaire de la citation.
 - Point cle 2 avec donnee chiffree
 - Point cle 3
 
-## Titre H2 4 {#titre-h2-4}
+## Titre H2 4
 
 Contenu de la section.
 
@@ -86,7 +86,7 @@ Developper le sujet.
 
 Contenu complementaire avec lien interne vers un [autre article pertinent](/ai.datashake.rs/blog/slug-article/).
 
-## Titre H2 5 {#titre-h2-5}
+## Titre H2 5
 
 Section de synthese ou dernier axe du sujet.
 
@@ -110,12 +110,12 @@ Paragraphe de cloture de la section.
 ## Notes
 
 - Le H1 est genere automatiquement par Astro via le champ `title` du frontmatter. Ne jamais ecrire de `#` dans le corps.
-- Les ancres `{#ancre}` permettent au sommaire de fonctionner.
+- **Ancres du sommaire** : Astro genere automatiquement les ID des titres a partir du texte. Ne PAS utiliser la syntaxe `{#custom-id}` (non supportee). Les ancres sont le texte du titre en minuscules, espaces remplaces par des tirets, ponctuation supprimee, accents conserves. Exemple : `## Définition de l'IA` → `#définition-de-lia`.
 - Adapter le nombre de H2/H3 selon le sujet (minimum 5 H2, 1 H3 par H2).
 - La FAQ est optionnelle. Si ajoutee, utiliser le format :
 
 ```markdown
-## Questions frequentes {#faq}
+## Questions frequentes
 
 ### Question 1 ?
 
