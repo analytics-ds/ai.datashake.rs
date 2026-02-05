@@ -96,10 +96,12 @@ Apres le quick summary et le temps de lecture, inserer un sommaire avec liens an
 ```markdown
 ## Sommaire
 
-- [Titre du H2 1](#ancre-1)
-- [Titre du H2 2](#ancre-2)
+- [Titre du H2 1](#titre-du-h2-1-en-minuscules-tirets)
+- [Titre du H2 2](#titre-du-h2-2-en-minuscules-tirets)
 - ...
 ```
+
+**IMPORTANT** : Astro genere automatiquement les ID des titres. Ne PAS utiliser la syntaxe `{#custom-id}` dans les titres (non supportee par Astro). Les ancres du sommaire doivent correspondre au texte du titre en minuscules, espaces remplaces par des tirets, ponctuation supprimee, apostrophes supprimees, accents conserves. Exemple : `## Définition de l'IA` → ancre `#définition-de-lia`.
 
 ### Hierarchie des titres
 

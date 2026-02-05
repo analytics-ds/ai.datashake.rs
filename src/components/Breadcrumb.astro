@@ -1,5 +1,6 @@
 ---
 import SchemaOrg from './SchemaOrg.astro';
+import { url as buildUrl } from '@/utils/url';
 
 export interface BreadcrumbItem {
   name: string;
@@ -13,7 +14,7 @@ export interface Props {
 const { items } = Astro.props;
 
 const allItems: BreadcrumbItem[] = [
-  { name: 'Accueil', url: '/' },
+  { name: 'Accueil', url: buildUrl('/') },
   ...items,
 ];
 ---

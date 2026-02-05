@@ -44,9 +44,7 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 
     <div class="card__content">
       <div class="card__meta">
-        <a href={url(`/categorie/${categorySlug}/`)} class="tag" onclick="event.stopPropagation()">
-          {category}
-        </a>
+        <span class="tag">{category}</span>
         <time datetime={safeDate.toISOString()}>{formattedDate}</time>
       </div>
 
@@ -177,16 +175,11 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
     grid-column: 1 / -1;
   }
 
-  .card--featured .card__link {
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-  }
-
   .card--featured .card__header {
+    padding: var(--spacing-3xl) var(--spacing-2xl);
+    min-height: 160px;
     display: flex;
     align-items: flex-end;
-    padding: var(--spacing-2xl);
-    min-height: 240px;
   }
 
   .card--featured .card__category {
@@ -194,15 +187,19 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
   }
 
   .card--featured .card__header-decoration {
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    top: -40%;
+    right: -5%;
+  }
+
+  .card--featured .card__header-decoration::after {
+    width: 120px;
+    height: 120px;
   }
 
   .card--featured .card__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: var(--spacing-2xl);
+    padding: var(--spacing-xl) var(--spacing-2xl) var(--spacing-2xl);
   }
 
   .card--featured .card__title {
@@ -216,12 +213,9 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
   }
 
   @media (max-width: 768px) {
-    .card--featured .card__link {
-      grid-template-columns: 1fr;
-    }
-
     .card--featured .card__header {
       min-height: 120px;
+      padding: var(--spacing-2xl) var(--spacing-lg);
     }
 
     .card--featured .card__content {
