@@ -65,7 +65,7 @@ Le **deep learning** constitue un sous-ensemble du machine learning. Il utilise 
 
 ### Traitement du langage naturel (NLP)
 
-Le **NLP** (Natural Language Processing) permet aux machines de comprendre, interpréter et générer du langage humain. C'est cette branche qui alimente les chatbots, les assistants vocaux et les moteurs de réponse IA. Pour approfondir l'impact du NLP sur la recherche, il est utile de consulter le [comparatif des moteurs IA comme Perplexity, ChatGPT et Google SGE](/ai.datashake.rs/blog/perplexity-chatgpt-google-sge-comparatif/).
+Le **NLP** (Natural Language Processing) permet aux machines de comprendre, interpréter et générer du langage humain. C'est cette branche qui alimente les chatbots, les assistants vocaux et les moteurs de réponse IA. Pour approfondir l'impact du NLP sur la recherche, il est utile de consulter le [comparatif des moteurs IA comme Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/).
 
 ## Comment fonctionne l'intelligence artificielle
 
@@ -106,7 +106,7 @@ En médecine, l'IA permet de détecter des cancers sur des images médicales ave
 
 ### Marketing digital et SEO
 
-L'**IA générative** révolutionne le marketing de contenu. Les moteurs de recherche intègrent désormais des réponses générées par IA dans leurs résultats. Ce phénomène, connu sous le nom de **Generative Engine Optimization** (GEO), transforme la manière dont il faut [optimiser son contenu pour l'IA générative](/ai.datashake.rs/blog/optimiser-contenu-ia-generative/). Pour bien saisir ce nouveau paradigme, il est recommandé de comprendre [ce qu'est le GEO](/ai.datashake.rs/blog/qu-est-ce-que-le-geo/) et son impact sur la visibilité en ligne.
+L'**IA générative** révolutionne le marketing de contenu. Les moteurs de recherche intègrent désormais des réponses générées par IA dans leurs résultats. Ce phénomène, connu sous le nom de **Generative Engine Optimization** (GEO), transforme la manière dont il faut [optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/). Pour bien saisir ce nouveau paradigme, il est recommandé de comprendre [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/) et son impact sur la visibilité en ligne.
 
 ### Finance et assurance
 
@@ -126,7 +126,7 @@ Les moteurs de recherche traditionnels évoluent vers des **moteurs de réponse*
 
 ### L'importance des données structurées
 
-Pour que l'IA comprenne et cite correctement un contenu, les [données structurées et Schema.org](/ai.datashake.rs/blog/donnees-structurees-schema-org-guide/) jouent un rôle déterminant. Le balisage JSON-LD aide les algorithmes à identifier les entités, les relations et les informations factuelles d'une page. L'[E-E-A-T (Expérience, Expertise, Autorité, Fiabilité)](/ai.datashake.rs/blog/e-e-a-t-et-geo/) reste un critère central pour les systèmes d'IA qui évaluent la qualité des sources.
+Pour que l'IA comprenne et cite correctement un contenu, les [données structurées et Schema.org](/blog/donnees-structurees-schema-org-guide/) jouent un rôle déterminant. Le balisage JSON-LD aide les algorithmes à identifier les entités, les relations et les informations factuelles d'une page. L'[E-E-A-T (Expérience, Expertise, Autorité, Fiabilité)](/blog/e-e-a-t-et-geo/) reste un critère central pour les systèmes d'IA qui évaluent la qualité des sources.
 
 ### Adapter sa stratégie de contenu
 

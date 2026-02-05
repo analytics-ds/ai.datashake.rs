@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
 export const GET: APIRoute = async ({ site }) => {
-  const siteUrl = site?.href ?? 'https://ai.datashake.rs/';
+  const siteUrl = site?.href ?? 'https://ai.datashake.fr/';
   const posts = await getCollection('blog', ({ data }) => !data.draft);
   const categories = [...new Set(posts.map((p) => p.data.category))];
 

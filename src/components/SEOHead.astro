@@ -25,7 +25,7 @@ const {
 
 const siteName = 'AI datashake';
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
-const siteUrl = Astro.site?.href ?? 'https://ai.datashake.rs';
+const siteUrl = Astro.site?.href ?? 'https://ai.datashake.fr';
 const ogImageURL = ogImage ? `${siteUrl}${ogImage.replace(/^\//, '')}` : `${siteUrl}og-default.jpg`;
 
 function toISO(val: Date | string | undefined): string | null {

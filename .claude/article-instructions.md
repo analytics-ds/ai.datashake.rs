@@ -73,13 +73,30 @@ Afficher en haut de l'article, juste apres le quick summary. Calculer : nombre d
 
 ### Quick Summary (bloc GEO)
 
-Juste apres le H1 (qui est genere automatiquement par le layout), placer un bloc resume :
+Juste apres le H1 (qui est genere automatiquement par le layout), placer un bloc resume sous forme de **liste a puces ou tableau** dans un blockquote. Cela facilite l'extraction par les IA generatives.
+
+Option 1 — Liste a puces :
 
 ```markdown
-> **En bref :** [Resume de l'article en 2-3 phrases donnant les informations cles. Chiffres inclus si possible.]
+> **En bref :**
+> - Point cle 1 avec donnee chiffree
+> - Point cle 2
+> - Point cle 3
 ```
 
-Ce bloc est essentiel pour le GEO : les IA citent souvent le premier paragraphe/resume.
+Option 2 — Tableau :
+
+```markdown
+> **En bref :**
+>
+> | Element | Detail |
+> |---------|--------|
+> | Cle 1 | Valeur |
+> | Cle 2 | Valeur |
+> | Cle 3 | Valeur |
+```
+
+Ce bloc est essentiel pour le GEO : les IA citent souvent le premier paragraphe/resume. Le format liste ou tableau est prefere car il est plus facilement extractible par les modeles de langage.
 
 ### Temps de lecture
 
@@ -155,7 +172,7 @@ Apres le quick summary et le temps de lecture, inserer un sommaire avec liens an
 
 - **Obligatoire** : inclure des liens vers d'autres articles du blog, en priorite ceux de la meme categorie ou avec des tags communs.
 - Les ancres de liens doivent etre **naturelles** et contenir les **mots-cles des articles cibles**.
-- Format : `[ancre avec mots-cles](/ai.datashake.rs/blog/{slug}/)`
+- Format : `[ancre avec mots-cles](/blog/{slug}/)`
 - Avant d'ecrire, lister les articles existants dans `src/content/blog/` pour identifier les liens possibles.
 
 ### Exemple
@@ -163,7 +180,7 @@ Apres le quick summary et le temps de lecture, inserer un sommaire avec liens an
 Si l'article parle de GEO et qu'il existe un article `qu-est-ce-que-le-geo.md`, ecrire :
 
 ```markdown
-Pour bien comprendre les fondamentaux, il est utile de consulter notre guide sur [ce qu'est le GEO](/ai.datashake.rs/blog/qu-est-ce-que-le-geo/).
+Pour bien comprendre les fondamentaux, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
 ```
 
 ---

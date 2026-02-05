@@ -8,9 +8,9 @@ AI datashake est un blog edite par datashake, agence specialisee en data et inte
 
 ## URL du site
 
-- Site : https://analytics-ds.github.io/ai.datashake.rs/
-- Blog : https://analytics-ds.github.io/ai.datashake.rs/blog/
-- Sitemap : https://analytics-ds.github.io/ai.datashake.rs/sitemap.xml
+- Site : https://ai.datashake.fr/
+- Blog : https://ai.datashake.fr/blog/
+- Sitemap : https://ai.datashake.fr/sitemap.xml
 
 ## Auteurs
 
@@ -26,12 +26,13 @@ AI datashake est un blog edite par datashake, agence specialisee en data et inte
 
 ## Articles disponibles
 
-- Qu'est-ce que le GEO (Generative Engine Optimization) ? : /ai.datashake.rs/blog/qu-est-ce-que-le-geo/
-- Comment optimiser son contenu pour l'IA generative : /ai.datashake.rs/blog/optimiser-contenu-ia-generative/
-- Donnees structurees et Schema.org : le guide essentiel pour le GEO : /ai.datashake.rs/blog/donnees-structurees-schema-org-guide/
-- E-E-A-T et GEO : comment l'expertise renforce votre visibilite IA : /ai.datashake.rs/blog/e-e-a-t-et-geo/
-- Perplexity, ChatGPT, Google SGE : comparatif des moteurs IA pour le GEO : /ai.datashake.rs/blog/perplexity-chatgpt-google-sge-comparatif/
-- Comprendre l'intelligence artificielle : /ai.datashake.rs/blog/comprendre-l-intelligence-artificielle/
+- Qu'est-ce que le GEO (Generative Engine Optimization) ? : https://ai.datashake.fr/blog/qu-est-ce-que-le-geo/
+- Comment optimiser son contenu pour l'IA generative : https://ai.datashake.fr/blog/optimiser-contenu-ia-generative/
+- Donnees structurees et Schema.org : le guide essentiel pour le GEO : https://ai.datashake.fr/blog/donnees-structurees-schema-org-guide/
+- E-E-A-T et GEO : comment l'expertise renforce votre visibilite IA : https://ai.datashake.fr/blog/e-e-a-t-et-geo/
+- Perplexity, ChatGPT, Google SGE : comparatif des moteurs IA pour le GEO : https://ai.datashake.fr/blog/perplexity-chatgpt-google-sge-comparatif/
+- Comprendre l'intelligence artificielle : https://ai.datashake.fr/blog/comprendre-l-intelligence-artificielle/
+- Technique pour apparaitre sur ChatGPT : https://ai.datashake.fr/blog/technique-pour-apparaitre-sur-chatgpt/
 
 ## Langue
 

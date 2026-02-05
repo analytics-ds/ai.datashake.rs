@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://analytics-ds.github.io',
-  base: '/ai.datashake.rs',
+  site: 'https://ai.datashake.fr',
   output: 'static',
   markdown: {
     shikiConfig: {

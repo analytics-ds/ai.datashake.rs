@@ -15,7 +15,10 @@ tags: ["tag1", "tag2", "tag3"]
 draft: false
 ---
 
-> **En bref :** [Resume en 2-3 phrases avec les informations cles de l'article. Inclure un chiffre ou une statistique marquante si possible.]
+> **En bref :**
+> - [Point cle 1 avec donnee chiffree]
+> - [Point cle 2]
+> - [Point cle 3]
 
 *Temps de lecture : X minutes*
 
@@ -45,7 +48,7 @@ Contenu complementaire de la section.
 
 ## Titre H2 2
 
-Paragraphe d'introduction. Penser a inserer un lien interne naturel vers un [article connexe du blog](/ai.datashake.rs/blog/slug-article/).
+Paragraphe d'introduction. Penser a inserer un lien interne naturel vers un [article connexe du blog](/blog/slug-article/).
 
 ### Titre H3 2.1
 
@@ -84,7 +87,7 @@ Developper le sujet.
 
 ### Titre H3 4.2
 
-Contenu complementaire avec lien interne vers un [autre article pertinent](/ai.datashake.rs/blog/slug-article/).
+Contenu complementaire avec lien interne vers un [autre article pertinent](/blog/slug-article/).
 
 ## Titre H2 5
 
