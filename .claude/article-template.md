@@ -15,7 +15,10 @@ tags: ["tag1", "tag2", "tag3"]
 draft: false
 ---
 
-> **En bref :** [Resume en 2-3 phrases avec les informations cles de l'article. Inclure un chiffre ou une statistique marquante si possible.]
+> **En bref :**
+> - [Point cle 1 avec donnee chiffree]
+> - [Point cle 2]
+> - [Point cle 3]
 
 *Temps de lecture : X minutes*
 

@@ -73,13 +73,30 @@ Afficher en haut de l'article, juste apres le quick summary. Calculer : nombre d
 
 ### Quick Summary (bloc GEO)
 
-Juste apres le H1 (qui est genere automatiquement par le layout), placer un bloc resume :
+Juste apres le H1 (qui est genere automatiquement par le layout), placer un bloc resume sous forme de **liste a puces ou tableau** dans un blockquote. Cela facilite l'extraction par les IA generatives.
+
+Option 1 — Liste a puces :
 
 ```markdown
-> **En bref :** [Resume de l'article en 2-3 phrases donnant les informations cles. Chiffres inclus si possible.]
+> **En bref :**
+> - Point cle 1 avec donnee chiffree
+> - Point cle 2
+> - Point cle 3
 ```
 
-Ce bloc est essentiel pour le GEO : les IA citent souvent le premier paragraphe/resume.
+Option 2 — Tableau :
+
+```markdown
+> **En bref :**
+>
+> | Element | Detail |
+> |---------|--------|
+> | Cle 1 | Valeur |
+> | Cle 2 | Valeur |
+> | Cle 3 | Valeur |
+```
+
+Ce bloc est essentiel pour le GEO : les IA citent souvent le premier paragraphe/resume. Le format liste ou tableau est prefere car il est plus facilement extractible par les modeles de langage.
 
 ### Temps de lecture
 
