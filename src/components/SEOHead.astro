@@ -24,7 +24,7 @@ const {
 } = Astro.props;
 
 const siteName = 'AI datashake';
-const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const fullTitle = title;
 const siteUrl = Astro.site?.href ?? 'https://ai.datashake.fr';
 const ogImageURL = ogImage ? `${siteUrl}${ogImage.replace(/^\//, '')}` : `${siteUrl}og-default.jpg`;
 
