@@ -1,4 +1,6 @@
 ---
+import { getLang, getAlternatePath } from '@/utils/i18n';
+
 export interface Props {
   title: string;
   description: string;
@@ -23,10 +25,18 @@ const {
   noindex = false,
 } = Astro.props;
 
+const lang = getLang(Astro.url);
 const siteName = 'AI datashake';
 const fullTitle = title;
-const siteUrl = Astro.site?.href ?? 'https://ai.datashake.fr';
-const ogImageURL = ogImage ? `${siteUrl}${ogImage.replace(/^\//, '')}` : `${siteUrl}og-default.jpg`;
+const siteUrl = Astro.site?.href?.replace(/\/$/, '') ?? 'https://ai.datashake.fr';
+const ogImageURL = ogImage ? `${siteUrl}/${ogImage.replace(/^\//, '')}` : `${siteUrl}/og-default.jpg`;
+const ogLocale = lang === 'en' ? 'en_US' : 'fr_FR';
+const ogLocaleAlt = lang === 'en' ? 'fr_FR' : 'en_US';
+
+const currentPath = Astro.url.pathname;
+const alternatePath = getAlternatePath(currentPath);
+const hrefFr = lang === 'fr' ? `${siteUrl}${currentPath}` : `${siteUrl}${alternatePath}`;
+const hrefEn = lang === 'en' ? `${siteUrl}${currentPath}` : `${siteUrl}${alternatePath}`;
 
 function toISO(val: Date | string | undefined): string | null {
   if (!val) return null;
@@ -57,8 +67,14 @@ const modifiedISO = toISO(modifiedDate);
 <!-- Canonical -->
 <link rel="canonical" href={canonicalURL} />
 
+<!-- Hreflang -->
+<link rel="alternate" hreflang="fr" href={hrefFr} />
+<link rel="alternate" hreflang="en" href={hrefEn} />
+<link rel="alternate" hreflang="x-default" href={hrefFr} />
+
 <!-- Language -->
-<meta property="og:locale" content="fr_FR" />
+<meta property="og:locale" content={ogLocale} />
+<meta property="og:locale:alternate" content={ogLocaleAlt} />
 
 <!-- Open Graph -->
 <meta property="og:type" content={ogType} />

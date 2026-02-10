@@ -5,7 +5,7 @@ import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import Breadcrumb from '@/components/Breadcrumb.astro';
 import { getAuthor } from '@/data/authors';
-import { url } from '@/utils/url';
+import { getLang, localizedUrl, t, getDateLocale } from '@/utils/i18n';
 import '@/styles/global.css';
 
 export interface Props {
@@ -30,8 +30,10 @@ const {
   slug,
 } = Astro.props;
 
+const lang = getLang(Astro.url);
 const author = getAuthor(authorId);
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+const categoryPrefix = t(lang, 'categoryPrefix');
 
 function parseDate(val: Date | string | undefined): Date | undefined {
   if (!val) return undefined;
@@ -44,18 +46,19 @@ const safeDate = parseDate(date) ?? new Date();
 const safeUpdatedDate = parseDate(updatedDate);
 
 const breadcrumbItems = [
-  { name: 'Blog', url: url('/blog/') },
-  { name: category, url: url(`/categorie/${categorySlug}/`) },
-  { name: title, url: url(`/blog/${slug}/`) },
+  { name: 'Blog', url: localizedUrl('/blog/', lang) },
+  { name: category, url: localizedUrl(`/${categoryPrefix}/${categorySlug}/`, lang) },
+  { name: title, url: localizedUrl(`/blog/${slug}/`, lang) },
 ];
 
-const formattedDate = safeDate.toLocaleDateString('fr-FR', {
+const dateLocale = getDateLocale(lang);
+const formattedDate = safeDate.toLocaleDateString(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 
-const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
+const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -63,7 +66,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
 ---
 
 <!doctype html>
-<html lang="fr">
+<html lang={lang}>
   <head>
     <SEOHead
       title={title}
@@ -94,11 +97,11 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
 
           <header class="article__header">
             <div class="article__meta">
-              <a href={url(`/categorie/${categorySlug}/`)} class="tag">{category}</a>
+              <a href={localizedUrl(`/${categoryPrefix}/${categorySlug}/`, lang)} class="tag">{category}</a>
               <time datetime={safeDate.toISOString()}>{formattedDate}</time>
               {safeUpdatedDate && (
                 <span class="article__updated">
-                  (mis à jour le <time datetime={safeUpdatedDate.toISOString()}>{formattedUpdatedDate}</time>)
+                  ({t(lang, 'updatedOn')} <time datetime={safeUpdatedDate.toISOString()}>{formattedUpdatedDate}</time>)
                 </span>
               )}
             </div>
@@ -113,7 +116,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
           <footer class="article__footer">
             <div class="article__author">
               <div class="article__author-info">
-                <span class="article__author-label">Publié par</span>
+                <span class="article__author-label">{t(lang, 'publishedBy')}</span>
                 <strong class="article__author-name">
                   {author.url ? (
                     <a href={author.url} target="_blank" rel="noopener">{author.name}</a>
@@ -127,7 +130,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString('fr-FR', {
 
             {tags.length > 0 && (
               <div class="article__tags">
-                <span class="article__tags-label">Tags :</span>
+                <span class="article__tags-label">{t(lang, 'tags')}</span>
                 <div class="article__tags-list">
                   {tags.map((tag) => (
                     <span class="tag">{tag}</span>

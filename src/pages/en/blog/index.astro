@@ -1,0 +1,88 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import { localizedUrl, t } from '@/utils/i18n';
+import { getCollection } from 'astro:content';
+
+const lang = 'en';
+const allPosts = (await getCollection('blog-en', ({ data }) => !data.draft))
+  .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+const categories = [...new Set(allPosts.map((post) => post.data.category))];
+---
+
+<BaseLayout
+  title={t(lang, 'blogTitle')}
+  description={t(lang, 'blogMetaDescription')}
+>
+  <div class="container">
+    <Breadcrumb items={[{ name: 'Blog', url: localizedUrl('/blog/', lang) }]} />
+
+    <header class="blog-header">
+      <h1>{t(lang, 'blogTitle')}</h1>
+      <p class="blog-header__description">
+        {t(lang, 'blogDescription')}
+      </p>
+    </header>
+
+    <!-- Category Filter -->
+    <nav class="category-filter" aria-label={t(lang, 'filterByCategory')}>
+      <a href={localizedUrl('/blog/', lang)} class="tag active">{t(lang, 'all')}</a>
+      {categories.map((cat) => {
+        const catSlug = cat.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        return <a href={localizedUrl(`/category/${catSlug}/`, lang)} class="tag">{cat}</a>;
+      })}
+    </nav>
+
+    <!-- Articles Grid -->
+    <div class="articles-grid">
+      {allPosts.map((post, index) => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          category={post.data.category}
+          slug={post.slug}
+          featured={index === 0}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .blog-header {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .blog-header__description {
+    color: var(--color-gray-500);
+    font-size: var(--font-size-lg);
+  }
+
+  .category-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  .category-filter .active {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--spacing-xl);
+    padding-bottom: var(--spacing-3xl);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

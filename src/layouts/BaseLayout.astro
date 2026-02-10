@@ -3,6 +3,7 @@ import SEOHead from '@/components/SEOHead.astro';
 import SchemaOrg from '@/components/SchemaOrg.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import { getLang } from '@/utils/i18n';
 import '@/styles/global.css';
 
 export interface Props {
@@ -17,10 +18,11 @@ export interface Props {
 }
 
 const props = Astro.props;
+const lang = getLang(Astro.url);
 ---
 
 <!doctype html>
-<html lang="fr">
+<html lang={lang}>
   <head>
     <SEOHead {...props} />
     <SchemaOrg type="website" />

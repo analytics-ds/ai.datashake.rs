@@ -1,0 +1,84 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import ArticleCard from '@/components/ArticleCard.astro';
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import { localizedUrl, tCategoryMeta } from '@/utils/i18n';
+import { getCollection } from 'astro:content';
+
+const lang = 'en';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog-en', ({ data }) => !data.draft);
+  const categories = [...new Set(posts.map((post) => post.data.category))];
+
+  return categories.map((category) => {
+    const slug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    const filteredPosts = posts
+      .filter((post) => post.data.category === category)
+      .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+    return {
+      params: { category: slug },
+      props: { category, posts: filteredPosts },
+    };
+  });
+}
+
+const { category, posts } = Astro.props;
+const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+---
+
+<BaseLayout
+  title={`${category} — Articles`}
+  description={tCategoryMeta(lang, category)}
+>
+  <div class="container">
+    <Breadcrumb items={[
+      { name: 'Blog', url: localizedUrl('/blog/', lang) },
+      { name: category, url: localizedUrl(`/category/${categorySlug}/`, lang) },
+    ]} />
+
+    <header class="category-header">
+      <h1>{category}</h1>
+      <p class="category-header__count">
+        {posts.length} article{posts.length > 1 ? 's' : ''}
+      </p>
+    </header>
+
+    <div class="articles-grid">
+      {posts.map((post) => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          date={post.data.date}
+          category={post.data.category}
+          slug={post.slug}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .category-header {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .category-header__count {
+    color: var(--color-gray-400);
+    font-size: var(--font-size-lg);
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: var(--spacing-xl);
+    padding-bottom: var(--spacing-3xl);
+  }
+
+  @media (max-width: 768px) {
+    .articles-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

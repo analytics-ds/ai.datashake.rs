@@ -1,23 +1,25 @@
 ---
-import { url } from '@/utils/url';
+import { getLang, getAlternatePath, t, localizedUrl } from '@/utils/i18n';
+
+const lang = getLang(Astro.url);
+const currentPath = Astro.url.pathname;
+const alternatePath = getAlternatePath(currentPath);
 
 const navLinks = [
-  { label: 'Accueil', href: url('/') },
-  { label: 'Blog', href: url('/blog/') },
+  { label: t(lang, 'home'), href: localizedUrl('/', lang) },
+  { label: t(lang, 'blog'), href: localizedUrl('/blog/', lang) },
 ];
-
-const currentPath = Astro.url.pathname;
 ---
 
 <header class="header">
   <div class="header__inner container">
-    <a href={url('/')} class="header__logo" aria-label="AI datashake - Accueil">
-      <img src={url('/logo-datashake-full.svg')} alt="AI datashake" class="header__logo-img" />
+    <a href={localizedUrl('/', lang)} class="header__logo" aria-label="AI datashake - {t(lang, 'home')}">
+      <img src="/logo-datashake-full.svg" alt="AI datashake" class="header__logo-img" />
     </a>
 
     <button
       class="header__toggle"
-      aria-label="Ouvrir le menu"
+      aria-label="Menu"
       aria-expanded="false"
       aria-controls="nav-menu"
     >
@@ -26,18 +28,29 @@ const currentPath = Astro.url.pathname;
       <span class="header__toggle-bar"></span>
     </button>
 
-    <nav id="nav-menu" class="header__nav" aria-label="Navigation principale">
+    <nav id="nav-menu" class="header__nav" aria-label="Navigation">
       <ul class="header__nav-list">
         {navLinks.map((link) => (
           <li>
             <a
               href={link.href}
-              class:list={['header__nav-link', { active: currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href)) }]}
+              class:list={['header__nav-link', { active: currentPath === link.href || (link.href !== '/' && link.href !== '/en/' && currentPath.startsWith(link.href)) }]}
             >
               {link.label}
             </a>
           </li>
         ))}
+        <li class="header__lang">
+          <a
+            href={lang === 'fr' ? currentPath : alternatePath}
+            class:list={['header__lang-link', { active: lang === 'fr' }]}
+          >FR</a>
+          <span class="header__lang-sep">|</span>
+          <a
+            href={lang === 'en' ? currentPath : alternatePath}
+            class:list={['header__lang-link', { active: lang === 'en' }]}
+          >EN</a>
+        </li>
       </ul>
     </nav>
   </div>
@@ -51,7 +64,6 @@ const currentPath = Astro.url.pathname;
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
     nav?.classList.toggle('is-open');
-    toggle.setAttribute('aria-label', expanded ? 'Ouvrir le menu' : 'Fermer le menu');
   });
 </script>
 
@@ -124,6 +136,37 @@ const currentPath = Astro.url.pathname;
     width: 100%;
   }
 
+  /* Language selector */
+  .header__lang {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: var(--spacing-md);
+    padding-left: var(--spacing-lg);
+    border-left: 1px solid var(--color-gray-200);
+  }
+
+  .header__lang-link {
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-gray-400);
+    transition: color var(--transition-fast);
+  }
+
+  .header__lang-link.active {
+    color: var(--color-primary);
+  }
+
+  .header__lang-link:hover {
+    color: var(--color-primary);
+  }
+
+  .header__lang-sep {
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-300);
+  }
+
   /* Mobile toggle */
   .header__toggle {
     display: none;
@@ -178,6 +221,14 @@ const currentPath = Astro.url.pathname;
     .header__nav-link {
       font-size: var(--font-size-base);
       padding: var(--spacing-sm) 0;
+    }
+
+    .header__lang {
+      margin-left: 0;
+      padding-left: 0;
+      border-left: none;
+      padding-top: var(--spacing-sm);
+      border-top: 1px solid var(--color-gray-200);
     }
   }
 </style>
