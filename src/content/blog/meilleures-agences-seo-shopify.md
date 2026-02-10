@@ -10,6 +10,8 @@ draft: false
 
 > **En bref :**
 >
+> Le classement 2026 des meilleures agences SEO Shopify : 
+>
 > | # | Agence | Localisation | Point fort |
 > |---|---|---|---|
 > | 1 | **Datashake** | Paris | Data-driven, expertise GEO + SEO, 300+ clients |
