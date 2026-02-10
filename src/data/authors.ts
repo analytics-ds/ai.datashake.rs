@@ -24,7 +24,7 @@ export const authors: Record<string, Author> = {
   'ruben-sebag': {
     id: 'ruben-sebag',
     name: 'Ruben Sebag',
-    role: 'Co-founder & Director of SEO/GEO @datashake',
+    role: 'Co-founder of the SEO/GEO entity @datashake',
     bio: 'Expert en SEO / GEO.',
     url: 'https://www.linkedin.com/in/ruben-sebag/',
     sameAs: [
