@@ -1,5 +1,9 @@
 ---
-import { url } from '@/utils/url';
+import { getLang, getAlternatePath, t, localizedUrl } from '@/utils/i18n';
+
+const lang = getLang(Astro.url);
+const currentPath = Astro.url.pathname;
+const alternatePath = getAlternatePath(currentPath);
 const currentYear = new Date().getFullYear();
 ---
 
@@ -7,20 +11,20 @@ const currentYear = new Date().getFullYear();
   <div class="container">
     <div class="footer__inner">
       <div class="footer__brand">
-        <a href={url('/')} class="footer__logo">
-          <img src={url('/logo-datashake-full.svg')} alt="AI datashake" class="footer__logo-img" />
+        <a href={localizedUrl('/', lang)} class="footer__logo">
+          <img src="/logo-datashake-full.svg" alt="AI datashake" class="footer__logo-img" />
         </a>
         <p class="footer__tagline">
-          Le blog francophone de référence sur le GEO — Generative Engine Optimization.
+          {t(lang, 'footerTagline')}
         </p>
       </div>
 
-      <nav class="footer__nav" aria-label="Navigation secondaire">
+      <nav class="footer__nav" aria-label="Navigation">
         <div class="footer__nav-group">
-          <h4 class="footer__nav-title">Navigation</h4>
+          <h4 class="footer__nav-title">{t(lang, 'navigation')}</h4>
           <ul>
-            <li><a href={url('/')}>Accueil</a></li>
-            <li><a href={url('/blog/')}>Blog</a></li>
+            <li><a href={localizedUrl('/', lang)}>{t(lang, 'home')}</a></li>
+            <li><a href={localizedUrl('/blog/', lang)}>{t(lang, 'blog')}</a></li>
           </ul>
         </div>
         <div class="footer__nav-group">
@@ -29,11 +33,21 @@ const currentYear = new Date().getFullYear();
             <li><a href="https://www.datashake.fr" target="_blank" rel="noopener">datashake.fr</a></li>
           </ul>
         </div>
+        <div class="footer__nav-group">
+          <h4 class="footer__nav-title">Language</h4>
+          <ul>
+            <li>
+              <a href={lang === 'fr' ? currentPath : alternatePath} class:list={{ 'footer__lang-active': lang === 'fr' }}>FR</a>
+              {' / '}
+              <a href={lang === 'en' ? currentPath : alternatePath} class:list={{ 'footer__lang-active': lang === 'en' }}>EN</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
 
     <div class="footer__bottom">
-      <p>&copy; {currentYear} datashake. Tous droits réservés.</p>
+      <p>&copy; {currentYear} datashake. {t(lang, 'allRightsReserved')}</p>
     </div>
   </div>
 </footer>
@@ -111,6 +125,11 @@ const currentYear = new Date().getFullYear();
 
   .footer__nav a:hover {
     color: var(--color-white);
+  }
+
+  .footer__lang-active {
+    color: var(--color-white) !important;
+    font-weight: 600;
   }
 
   .footer__bottom {

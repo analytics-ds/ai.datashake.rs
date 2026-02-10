@@ -1,5 +1,5 @@
 ---
-import { url } from '@/utils/url';
+import { getLang, localizedUrl, t, getDateLocale } from '@/utils/i18n';
 
 export interface Props {
   title: string;
@@ -19,6 +19,7 @@ const {
   featured = false,
 } = Astro.props;
 
+const lang = getLang(Astro.url);
 const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
 function parseDate(val: Date | string): Date {
@@ -28,7 +29,7 @@ function parseDate(val: Date | string): Date {
 }
 
 const safeDate = parseDate(date);
-const formattedDate = safeDate.toLocaleDateString('fr-FR', {
+const formattedDate = safeDate.toLocaleDateString(getDateLocale(lang), {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
@@ -36,7 +37,7 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
 ---
 
 <article class:list={['card', { 'card--featured': featured }]}>
-  <a href={url(`/blog/${slug}/`)} class="card__link">
+  <a href={localizedUrl(`/blog/${slug}/`, lang)} class="card__link">
     <div class="card__header">
       <span class="card__category">{category}</span>
       <div class="card__header-decoration"></div>
@@ -52,7 +53,7 @@ const formattedDate = safeDate.toLocaleDateString('fr-FR', {
       <p class="card__description">{description}</p>
 
       <span class="card__read-more">
-        Lire l'article
+        {t(lang, 'readArticle')}
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
           <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>

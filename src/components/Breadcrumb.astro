@@ -1,6 +1,6 @@
 ---
 import SchemaOrg from './SchemaOrg.astro';
-import { url as buildUrl } from '@/utils/url';
+import { getLang, localizedUrl, t } from '@/utils/i18n';
 
 export interface BreadcrumbItem {
   name: string;
@@ -12,16 +12,17 @@ export interface Props {
 }
 
 const { items } = Astro.props;
+const lang = getLang(Astro.url);
 
 const allItems: BreadcrumbItem[] = [
-  { name: 'Accueil', url: buildUrl('/') },
+  { name: lang === 'en' ? 'Home' : 'Accueil', url: localizedUrl('/', lang) },
   ...items,
 ];
 ---
 
 <SchemaOrg type="breadcrumb" breadcrumbs={allItems} />
 
-<nav aria-label="Fil d'Ariane" class="breadcrumb">
+<nav aria-label={lang === 'en' ? 'Breadcrumb' : "Fil d'Ariane"} class="breadcrumb">
   <ol>
     {allItems.map((item, index) => (
       <li>

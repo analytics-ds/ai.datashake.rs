@@ -1,5 +1,6 @@
 ---
 import { getAuthor } from '@/data/authors';
+import { getLang } from '@/utils/i18n';
 
 export interface Props {
   type: 'website' | 'article' | 'breadcrumb';
@@ -31,8 +32,10 @@ const {
   breadcrumbs = [],
 } = Astro.props;
 
+const lang = getLang(Astro.url);
 const siteUrl = Astro.site?.href ?? 'https://ai.datashake.fr';
 const author = getAuthor(authorId);
+const inLanguage = lang === 'en' ? 'en-US' : 'fr-FR';
 
 function toISO(val: Date | string | undefined): string | undefined {
   if (!val) return undefined;
@@ -50,10 +53,12 @@ function buildWebsiteSchema() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'AI datashake',
-    description: "Blog sur le GEO (Generative Engine Optimization) et l'optimisation pour l'IA générative",
+    description: lang === 'en'
+      ? 'Blog on GEO (Generative Engine Optimization) and optimization for generative AI'
+      : "Blog sur le GEO (Generative Engine Optimization) et l'optimisation pour l'IA générative",
     url: siteUrl,
     publisher: buildOrganizationSchema(),
-    inLanguage: 'fr-FR',
+    inLanguage,
   };
 }
 
@@ -94,7 +99,7 @@ function buildArticleSchema() {
     },
     articleSection: category,
     keywords: tags.join(', '),
-    inLanguage: 'fr-FR',
+    inLanguage,
   };
 }
 
