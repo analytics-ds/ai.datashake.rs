@@ -65,7 +65,7 @@ According to a McKinsey study, **65% of companies** regularly use generative AI 
 
 ### Natural Language Processing (NLP)
 
-**NLP** (Natural Language Processing) enables machines to understand, interpret and generate human language. This is the branch that powers chatbots, voice assistants and AI-powered answer engines. To explore the impact of NLP on search further, it is useful to consult the [comparison of AI engines such as Perplexity, ChatGPT and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparatif/).
+**NLP** (Natural Language Processing) enables machines to understand, interpret and generate human language. This is the branch that powers chatbots, voice assistants and AI-powered answer engines. To explore the impact of NLP on search further, it is useful to consult the [comparison of AI engines such as Perplexity, ChatGPT and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/).
 
 ## How artificial intelligence works
 
@@ -106,7 +106,7 @@ In medicine, AI can detect cancers in medical images with accuracy comparable to
 
 ### Digital marketing and SEO
 
-**Generative AI** is revolutionizing content marketing. Search engines now integrate AI-generated responses into their results. This phenomenon, known as **Generative Engine Optimization** (GEO), is transforming the way you need to [optimize your content for generative AI](/en/blog/optimiser-contenu-ia-generative/). To fully grasp this new paradigm, it is recommended to understand [what GEO is](/en/blog/qu-est-ce-que-le-geo/) and its impact on online visibility.
+**Generative AI** is revolutionizing content marketing. Search engines now integrate AI-generated responses into their results. This phenomenon, known as **Generative Engine Optimization** (GEO), is transforming the way you need to [optimize your content for generative AI](/en/blog/optimize-content-for-generative-ai/). To fully grasp this new paradigm, it is recommended to understand [what GEO is](/en/blog/what-is-geo/) and its impact on online visibility.
 
 ### Finance and insurance
 
@@ -126,7 +126,7 @@ Traditional search engines are evolving into **answer engines** powered by AI. G
 
 ### The importance of structured data
 
-For AI to understand and correctly cite content, [structured data and Schema.org](/en/blog/donnees-structurees-schema-org-guide/) play a determining role. JSON-LD markup helps algorithms identify entities, relationships and factual information on a page. [E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)](/en/blog/e-e-a-t-et-geo/) remains a central criterion for AI systems that evaluate source quality.
+For AI to understand and correctly cite content, [structured data and Schema.org](/en/blog/structured-data-schema-org-guide/) play a determining role. JSON-LD markup helps algorithms identify entities, relationships and factual information on a page. [E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)](/en/blog/e-e-a-t-and-geo/) remains a central criterion for AI systems that evaluate source quality.
 
 ### Adapting your content strategy
 
