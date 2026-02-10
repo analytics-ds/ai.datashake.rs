@@ -32,7 +32,7 @@ draft: false
 
 **E-E-A-T** stands for **Experience, Expertise, Authoritativeness, Trustworthiness**. This evaluation framework, defined by Google in its *Search Quality Rater Guidelines*, serves as the reference for assessing the quality of content and the credibility of its source.
 
-Originally designed for **traditional SEO**, E-E-A-T takes on a new dimension with the rise of **GEO** (Generative Engine Optimization). To understand the fundamentals of GEO, it is useful to consult our comprehensive guide on [what GEO is](/en/blog/qu-est-ce-que-le-geo/).
+Originally designed for **traditional SEO**, E-E-A-T takes on a new dimension with the rise of **GEO** (Generative Engine Optimization). To understand the fundamentals of GEO, it is useful to consult our comprehensive guide on [what GEO is](/en/blog/what-is-geo/).
 
 ### From SEO to GEO: A Paradigm Shift
 
@@ -93,7 +93,7 @@ Trustworthiness is considered the **central pillar** of E-E-A-T, the one that en
 
 The importance of E-E-A-T in **GEO** is confirmed by recent data. In 2025, **more than 50% of Google searches** display an AI Overview, and **1.5 billion monthly users** interact with these enriched results. Meanwhile, AI-referred sessions surged by **527%** between January and May 2025.
 
-This transformation creates a new reality: **60% of searches** now end without a click (zero-click), and the click-through rate in position 1 with an AI Overview is only **2.6%**. To explore the impact of these changes across different AI platforms, it is worth consulting the [comparison between Perplexity, ChatGPT, and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparatif/).
+This transformation creates a new reality: **60% of searches** now end without a click (zero-click), and the click-through rate in position 1 with an AI Overview is only **2.6%**. To explore the impact of these changes across different AI platforms, it is worth consulting the [comparison between Perplexity, ChatGPT, and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/).
 
 ### The E-E-A-T Filter of Language Models
 
@@ -111,7 +111,7 @@ A critical point to understand: each AI platform has its own source selection cr
 | ChatGPT | Wikipedia, parametric knowledge | Expertise and brand awareness |
 | Perplexity | Reddit content, real-time sources | User experience and freshness |
 
-For specific techniques on appearing in ChatGPT, you can refer to our guide on [techniques to appear on ChatGPT](/en/blog/technique-pour-apparaitre-sur-chatgpt/).
+For specific techniques on appearing in ChatGPT, you can refer to our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/).
 
 ## Concrete Strategies to Strengthen Your E-E-A-T for GEO
 
@@ -135,7 +135,7 @@ Generative AI favors sources that publish **regularly** within their area of exp
 
 ### Optimizing Content for AI Extraction
 
-Content structured to facilitate extraction by LLMs achieves better results. Techniques for [optimizing content for generative AI](/en/blog/optimiser-contenu-ia-generative/) include the use of lists, tables, and clear summaries.
+Content structured to facilitate extraction by LLMs achieves better results. Techniques for [optimizing content for generative AI](/en/blog/optimize-content-for-generative-ai/) include the use of lists, tables, and clear summaries.
 
 According to available data, tactical changes such as adding **precise statistics** and **structured answers** can impact visibility in as little as **30 to 45 days**.
 
@@ -153,7 +153,7 @@ The most impactful markup types for E-E-A-T are:
 - **`FAQPage`** for structured frequently asked questions
 - **`BreadcrumbList`** for contextual navigation
 
-For a detailed guide on technical implementation, it is recommended to consult our [comprehensive guide on Schema.org structured data](/en/blog/donnees-structurees-schema-org-guide/).
+For a detailed guide on technical implementation, it is recommended to consult our [comprehensive guide on Schema.org structured data](/en/blog/structured-data-schema-org-guide/).
 
 ### Implementing E-E-A-T Signals in Schema.org
 
@@ -190,4 +190,4 @@ To assess the strength of your **E-E-A-T** with GEO in mind, you should ask your
 - Is **Schema.org structured data** correctly implemented?
 - Is **topical coverage** sufficiently deep and consistent?
 
-In 2025, only **23% of marketers** invest in prompt tracking and GEO measurement. This represents a **considerable opportunity** for those who structure their E-E-A-T approach now. To understand the fundamentals of [artificial intelligence](/en/blog/comprendre-l-intelligence-artificielle/) and its impact on search, it is essential to continuously follow industry developments.
+In 2025, only **23% of marketers** invest in prompt tracking and GEO measurement. This represents a **considerable opportunity** for those who structure their E-E-A-T approach now. To understand the fundamentals of [artificial intelligence](/en/blog/understanding-artificial-intelligence/) and its impact on search, it is essential to continuously follow industry developments.

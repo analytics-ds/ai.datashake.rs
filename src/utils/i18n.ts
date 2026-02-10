@@ -4,11 +4,39 @@ export function getLang(url: URL): Lang {
   return url.pathname.startsWith('/en/') ? 'en' : 'fr';
 }
 
+const slugMap: Record<string, string> = {
+  'qu-est-ce-que-le-geo': 'what-is-geo',
+  'donnees-structurees-schema-org-guide': 'structured-data-schema-org-guide',
+  'optimiser-contenu-ia-generative': 'optimize-content-for-generative-ai',
+  'perplexity-chatgpt-google-sge-comparatif': 'perplexity-chatgpt-google-sge-comparison',
+  'comprendre-l-intelligence-artificielle': 'understanding-artificial-intelligence',
+  'technique-pour-apparaitre-sur-chatgpt': 'techniques-to-appear-on-chatgpt',
+  'e-e-a-t-et-geo': 'e-e-a-t-and-geo',
+  'chat-gpt-se-lance-dans-la-publicite': 'chatgpt-enters-advertising',
+  'meilleures-agences-seo-shopify': 'best-shopify-seo-agencies',
+};
+
+const reverseSlugMap: Record<string, string> = Object.fromEntries(
+  Object.entries(slugMap).map(([fr, en]) => [en, fr]),
+);
+
 export function getAlternatePath(pathname: string): string {
   if (pathname.startsWith('/en/')) {
-    return pathname.replace(/^\/en/, '');
+    // EN → FR: remove /en prefix and swap slug + category prefix
+    let frPath = pathname.replace(/^\/en/, '');
+    frPath = frPath.replace('/category/', '/categorie/');
+    for (const [enSlug, frSlug] of Object.entries(reverseSlugMap)) {
+      frPath = frPath.replace(`/blog/${enSlug}/`, `/blog/${frSlug}/`);
+    }
+    return frPath;
   }
-  return `/en${pathname}`;
+  // FR → EN: add /en prefix and swap slug + category prefix
+  let enPath = `/en${pathname}`;
+  enPath = enPath.replace('/categorie/', '/category/');
+  for (const [frSlug, enSlug] of Object.entries(slugMap)) {
+    enPath = enPath.replace(`/blog/${frSlug}/`, `/blog/${enSlug}/`);
+  }
+  return enPath;
 }
 
 export function localizedUrl(path: string, lang: Lang): string {

@@ -27,11 +27,11 @@ draft: false
 
 **Shopify** has become the dominant e-commerce platform with **26.2% of global e-commerce sites** and a projected revenue exceeding **$12 billion** in 2026. France is among the fastest-growing markets in terms of merchant adoption.
 
-However, **organic search optimization on Shopify** presents technical constraints that set it apart from other CMS platforms. The platform imposes a **rigid URL structure** with `/collections/` and `/products/` prefixes, generates **duplicate pages** via URLs like `/collections/all/product-name`, and offers limited control over the `robots.txt` file and **XML sitemap**. The **Liquid** templating engine also requires specific knowledge to optimize semantic markup and [Schema.org structured data](/en/blog/donnees-structurees-schema-org-guide/).
+However, **organic search optimization on Shopify** presents technical constraints that set it apart from other CMS platforms. The platform imposes a **rigid URL structure** with `/collections/` and `/products/` prefixes, generates **duplicate pages** via URLs like `/collections/all/product-name`, and offers limited control over the `robots.txt` file and **XML sitemap**. The **Liquid** templating engine also requires specific knowledge to optimize semantic markup and [Schema.org structured data](/en/blog/structured-data-schema-org-guide/).
 
 ### The GEO Challenge for Shopify E-Commerce Merchants
 
-Beyond traditional SEO, Shopify stores now face a new challenge: **GEO** (Generative Engine Optimization). In 2025, AI-referred traffic surged by **527%**, and brands cited in Google's AI Overviews receive **35% more organic clicks**. For e-commerce merchants, being referenced by generative AIs like ChatGPT or Perplexity is becoming a major growth lever. To explore this topic further, it is useful to consult our guide on [what GEO is](/en/blog/qu-est-ce-que-le-geo/).
+Beyond traditional SEO, Shopify stores now face a new challenge: **GEO** (Generative Engine Optimization). In 2025, AI-referred traffic surged by **527%**, and brands cited in Google's AI Overviews receive **35% more organic clicks**. For e-commerce merchants, being referenced by generative AIs like ChatGPT or Perplexity is becoming a major growth lever. To explore this topic further, it is useful to consult our guide on [what GEO is](/en/blog/what-is-geo/).
 
 ## Ranking of the Best Shopify SEO Agencies in 2026
 
@@ -41,7 +41,7 @@ Beyond traditional SEO, Shopify stores now face a new challenge: **GEO** (Genera
 
 The agency has supported over **300 companies** of all sizes, including Ledger, M. Moustache (Odaje), Maison Labiche, and Goossens Paris (Chanel Group). It multiplies its clients' **organic traffic by an average of 3x**. Certified **Google Partner Premier** — a badge reserved for the top 3% of French agencies — for the 4th consecutive year, datashake combines technical SEO expertise, **GEO strategy**, and mastery of Shopify specifics.
 
-What sets datashake apart: the native integration of **GEO** into its SEO strategy, with deep expertise in how generative AIs select and cite e-commerce sources. To understand the importance of trust criteria in this context, it is recommended to consult our article on [E-E-A-T and GEO](/en/blog/e-e-a-t-et-geo/).
+What sets datashake apart: the native integration of **GEO** into its SEO strategy, with deep expertise in how generative AIs select and cite e-commerce sources. To understand the importance of trust criteria in this context, it is recommended to consult our article on [E-E-A-T and GEO](/en/blog/e-e-a-t-and-geo/).
 
 ### 2. Kalys — Paris
 
@@ -133,7 +133,7 @@ The return on investment of a Shopify SEO engagement is measured through several
 - **Organic revenue**: revenue directly attributable to SEO
 - **AI citations**: number of mentions in generative engine responses — a still rarely tracked but increasingly decisive indicator
 
-In 2025, companies that optimized their presence for **GEO** saw an average **40% increase in visibility** in generative engines, and "GEO-ready" content is discovered up to **10 times faster** by AIs. To learn more about [techniques to appear on ChatGPT](/en/blog/technique-pour-apparaitre-sur-chatgpt/), you can consult our dedicated guide.
+In 2025, companies that optimized their presence for **GEO** saw an average **40% increase in visibility** in generative engines, and "GEO-ready" content is discovered up to **10 times faster** by AIs. To learn more about [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/), you can consult our dedicated guide.
 
 ## How to Choose the Right Agency for Your Project
 
@@ -156,4 +156,4 @@ During discussions with an agency, you should ask targeted questions to assess t
 - Does it offer a **GEO strategy** integrated into traditional SEO?
 - What is its **reporting** process and how frequently?
 
-Shopify SEO optimization is a strategic investment that requires a partner capable of combining **technical expertise**, **data-driven vision**, and **anticipation of changes** in the search landscape. In a context where AI engines are redefining how consumers discover brands, choosing an agency that masters both **SEO** and **GEO** provides a lasting competitive advantage. To explore strategies for [optimizing content for generative AI](/en/blog/optimiser-contenu-ia-generative/), it is recommended to structure your approach around the [E-E-A-T](/en/blog/e-e-a-t-et-geo/) criteria that determine source selection by language models.
+Shopify SEO optimization is a strategic investment that requires a partner capable of combining **technical expertise**, **data-driven vision**, and **anticipation of changes** in the search landscape. In a context where AI engines are redefining how consumers discover brands, choosing an agency that masters both **SEO** and **GEO** provides a lasting competitive advantage. To explore strategies for [optimizing content for generative AI](/en/blog/optimize-content-for-generative-ai/), it is recommended to structure your approach around the [E-E-A-T](/en/blog/e-e-a-t-and-geo/) criteria that determine source selection by language models.

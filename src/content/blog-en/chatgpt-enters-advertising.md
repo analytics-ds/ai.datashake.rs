@@ -43,7 +43,7 @@ The introduction of advertising therefore responds to a financial imperative:
 
 ### The Precedent of Conversational Search
 
-This development is part of a broader trend. Microsoft already integrated ads into **Bing Chat** as early as 2023. Google is experimenting with sponsored formats in its **AI Overviews**. Perplexity AI has also announced an advertising program. It is therefore logical that OpenAI would follow this trajectory, especially since [AI search engines like Perplexity, ChatGPT, and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparatif/) are all converging toward a hybrid model mixing organic responses and sponsored content.
+This development is part of a broader trend. Microsoft already integrated ads into **Bing Chat** as early as 2023. Google is experimenting with sponsored formats in its **AI Overviews**. Perplexity AI has also announced an advertising program. It is therefore logical that OpenAI would follow this trajectory, especially since [AI search engines like Perplexity, ChatGPT, and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/) are all converging toward a hybrid model mixing organic responses and sponsored content.
 
 ## How Advertising Works in ChatGPT
 
@@ -111,11 +111,11 @@ According to a Gartner study, **organic search traffic** could decline by **25% 
 
 Faced with this development, it is imperative to adopt a **GEO (Generative Engine Optimization)** approach. Optimization is no longer limited to ranking in traditional SERPs: you must now ensure that your content is **cited and recommended** by generative AIs.
 
-To explore the fundamentals, it is recommended to consult the comprehensive guide on [what GEO is](/en/blog/qu-est-ce-que-le-geo/) and the methods to [optimize your content for generative AI](/en/blog/optimiser-contenu-ia-generative/).
+To explore the fundamentals, it is recommended to consult the comprehensive guide on [what GEO is](/en/blog/what-is-geo/) and the methods to [optimize your content for generative AI](/en/blog/optimize-content-for-generative-ai/).
 
 ### Strengthened E-E-A-T Signals
 
-In an environment where advertising coexists with organic responses, **authority and credibility signals** become even more decisive. Generative AIs rely on [E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)](/en/blog/e-e-a-t-et-geo/) criteria to distinguish reliable sources from promotional content. Strengthening these signals is therefore an absolute priority.
+In an environment where advertising coexists with organic responses, **authority and credibility signals** become even more decisive. Generative AIs rely on [E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)](/en/blog/e-e-a-t-and-geo/) criteria to distinguish reliable sources from promotional content. Strengthening these signals is therefore an absolute priority.
 
 ## GEO and AI Advertising: A New Deal for Brands
 
@@ -128,7 +128,7 @@ As with SEO/SEA on Google, it becomes possible to combine:
 - **Organic GEO visibility**: optimizing your content to be naturally cited by ChatGPT
 - **Paid visibility**: purchasing sponsored placements within responses
 
-This complementarity mirrors the proven search marketing model, where organic results and paid ads coexist. Brands that master the [techniques to appear on ChatGPT](/en/blog/technique-pour-apparaitre-sur-chatgpt/) organically will have a competitive advantage, as the credibility of an organic mention remains superior to that of an ad.
+This complementarity mirrors the proven search marketing model, where organic results and paid ads coexist. Brands that master the [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) organically will have a competitive advantage, as the credibility of an organic mention remains superior to that of an ad.
 
 ### The Most Impacted Sectors
 
@@ -142,7 +142,7 @@ Some sectors will be more affected than others by the arrival of **ads on ChatGP
 
 ### The Importance of Structured Data
 
-To maximize visibility, whether organic or paid, it is important to leverage **Schema.org structured data**. These tags enable AIs to better understand and extract information. A detailed guide on implementing [Schema.org structured data](/en/blog/donnees-structurees-schema-org-guide/) is available on this blog.
+To maximize visibility, whether organic or paid, it is important to leverage **Schema.org structured data**. These tags enable AIs to better understand and extract information. A detailed guide on implementing [Schema.org structured data](/en/blog/structured-data-schema-org-guide/) is available on this blog.
 
 ## The Challenges and Limitations of ChatGPT's Ad Model
 
@@ -186,7 +186,7 @@ No. OpenAI has confirmed that **ChatGPT Plus** ($20/month), **Team**, and **Ente
 
 ### What is the impact on existing SEO strategies?
 
-The impact is indirect but significant. Advertising in ChatGPT accelerates the need to adopt a **GEO** strategy complementary to SEO. It is not about replacing traditional organic search optimization, but about enriching it with specific optimization for AI response engines. To [understand the basics of artificial intelligence](/en/blog/comprendre-l-intelligence-artificielle/) and its implications for marketing, a dedicated article is available on this blog.
+The impact is indirect but significant. Advertising in ChatGPT accelerates the need to adopt a **GEO** strategy complementary to SEO. It is not about replacing traditional organic search optimization, but about enriching it with specific optimization for AI response engines. To [understand the basics of artificial intelligence](/en/blog/understanding-artificial-intelligence/) and its implications for marketing, a dedicated article is available on this blog.
 
 ### How to appear in ChatGPT's sponsored responses?
 

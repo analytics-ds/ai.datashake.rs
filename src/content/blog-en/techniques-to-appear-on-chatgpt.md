@@ -37,7 +37,7 @@ Since 2024, ChatGPT can browse the web in real time to supplement its responses.
 - **Technically accessible** (no blocking by robots.txt or heavy JavaScript)
 - **Clearly structured** to facilitate information extraction
 
-To fully grasp the fundamentals of this new approach, it is recommended to consult the comprehensive guide on [what GEO (Generative Engine Optimization) is](/en/blog/qu-est-ce-que-le-geo/).
+To fully grasp the fundamentals of this new approach, it is recommended to consult the comprehensive guide on [what GEO (Generative Engine Optimization) is](/en/blog/what-is-geo/).
 
 ## Optimizing your content structure and markup
 
@@ -55,7 +55,7 @@ The most direct **technique to appear on ChatGPT** is to structure your content 
 | `Organization` / `Person` | Establishes the identity and authority of the author | High |
 | `BreadcrumbList` | Clarifies the site hierarchy | Medium |
 
-For a detailed implementation, it is useful to consult the guide on [structured data and Schema.org](/en/blog/donnees-structurees-schema-org-guide/).
+For a detailed implementation, it is useful to consult the guide on [structured data and Schema.org](/en/blog/structured-data-schema-org-guide/).
 
 ### Heading hierarchy and accessibility
 
@@ -91,7 +91,7 @@ Generative AIs place particular importance on **verifiable data**. According to 
 
 ### Adopting an expert and impersonal tone
 
-The writing tone influences AI's perception of reliability. Content written in an **expert, factual and impersonal tone** is more likely to be considered a reference source. Promotional wording should be avoided in favor of claims supported by evidence. To explore this topic further, the article on [content optimization for generative AI](/en/blog/optimiser-contenu-ia-generative/) details best writing practices.
+The writing tone influences AI's perception of reliability. Content written in an **expert, factual and impersonal tone** is more likely to be considered a reference source. Promotional wording should be avoided in favor of claims supported by evidence. To explore this topic further, the article on [content optimization for generative AI](/en/blog/optimize-content-for-generative-ai/) details best writing practices.
 
 ## Strengthening your authority and credibility
 
@@ -99,7 +99,7 @@ The **technique to appear on ChatGPT** is not limited to the content of a single
 
 ### E-E-A-T and authority signals
 
-Google and AI systems share the same quality evaluation criteria: **Experience, Expertise, Authoritativeness and Trustworthiness** (E-E-A-T). A site whose author is identified, whose articles are sourced and whose domain carries authority will be favored by ChatGPT. The article on [E-E-A-T and GEO](/en/blog/e-e-a-t-et-geo/) explains how to strengthen these signals.
+Google and AI systems share the same quality evaluation criteria: **Experience, Expertise, Authoritativeness and Trustworthiness** (E-E-A-T). A site whose author is identified, whose articles are sourced and whose domain carries authority will be favored by ChatGPT. The article on [E-E-A-T and GEO](/en/blog/e-e-a-t-and-geo/) explains how to strengthen these signals.
 
 ### Building a solid backlink profile
 
@@ -135,7 +135,7 @@ Publishing frequency and **content freshness** are selection criteria. A blog th
 
 ### Optimizing for multiple AI engines
 
-ChatGPT is not the only AI answer engine. You should optimize simultaneously for **Perplexity AI**, **Google SGE** and **Claude**. The [comparison of AI engines Perplexity, ChatGPT and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparatif/) helps understand the indexing differences between these platforms.
+ChatGPT is not the only AI answer engine. You should optimize simultaneously for **Perplexity AI**, **Google SGE** and **Claude**. The [comparison of AI engines Perplexity, ChatGPT and Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/) helps understand the indexing differences between these platforms.
 
 ## Measuring and iterating on your presence in ChatGPT
 
@@ -152,7 +152,7 @@ There is no official tool yet to measure visibility in ChatGPT, but several appr
 
 ### Iterate and improve
 
-AI algorithms evolve rapidly. It is recommended to review your strategy **every quarter**: update the best-performing articles, add recent numerical data, strengthen structured markup and publish new content on emerging topics. Understanding the fundamentals of [artificial intelligence](/en/blog/comprendre-l-intelligence-artificielle/) helps anticipate the technical evolution of models.
+AI algorithms evolve rapidly. It is recommended to review your strategy **every quarter**: update the best-performing articles, add recent numerical data, strengthen structured markup and publish new content on emerging topics. Understanding the fundamentals of [artificial intelligence](/en/blog/understanding-artificial-intelligence/) helps anticipate the technical evolution of models.
 
 ### Mistakes to avoid
 
