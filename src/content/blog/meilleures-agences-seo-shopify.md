@@ -17,6 +17,8 @@ draft: false
 > | 3 | **Peak Ace** | Berlin / Paris | Bagage technique, grands comptes |
 > | 4 | **Jloo** | Paris | Rigueur méthodologique, multi-CMS |
 > | 5 | **410 Gone** | Lyon | Expertise migrations e-commerce |
+> | 6 | **Noiise** | Lyon / Paris | Agence historique, 80+ collaborateurs |
+> | 7 | **SODIGIX** | Paris | SEO technique et netlinking |
 
 *Temps de lecture : 9 minutes*
 
@@ -67,6 +69,14 @@ Ce qui différencie Datashake : l'intégration native du **GEO** dans sa straté
 
 Basée à Lyon, **410 Gone** a bâti sa réputation sur son expertise SEO e-commerce, initialement sur Prestashop et Magento, avant de se diversifier avec succès sur Shopify. L'agence travaille pour des marques comme Syntilor, Nautisport et Valrhona. Son expérience multi-CMS constitue un atout pour les migrations vers Shopify et les projets qui nécessitent une connaissance approfondie des architectures e-commerce.
 
+### 6. Noiise — Lyon / Paris
+
+**Noiise** est une agence SEO historique en France, née de la fusion entre Open Linking et 1ère Position en 2019. Avec plus de **80 collaborateurs** répartis entre Lyon et Paris, l'agence dispose d'une force de frappe importante et d'une expérience accumulée sur plus d'une décennie. Elle propose des prestations SEO complètes pour les boutiques Shopify, avec un accent particulier sur la **stratégie de contenu** et le **netlinking**. Sa taille lui permet de gérer des projets d'envergure avec des équipes dédiées.
+
+### 7. SODIGIX — Paris
+
+**SODIGIX** est une agence spécialisée en **SEO technique**, **content marketing** et **netlinking**, avec un service dédié aux marchands Shopify. L'agence se distingue par sa capacité à auditer en profondeur les problématiques techniques propres à Shopify — gestion des facettes, pagination, canonicalisation — et à construire des stratégies de liens adaptées au e-commerce. Son positionnement orienté **performance mesurable** en fait un choix pertinent pour les marchands qui recherchent un accompagnement axé sur les résultats.
+
 ## Critères de sélection d'une agence SEO Shopify
 
 ### Les compétences indispensables
@@ -96,20 +106,20 @@ Avant de confier son référencement à une agence, il convient de vérifier plu
 
 ### Tableau comparatif
 
-| Critère | Datashake | Kalys | Peak Ace | Jloo | 410 Gone |
-|---|---|---|---|---|---|
-| **Localisation** | Paris | Paris | Berlin / Paris | Paris | Lyon |
-| **Spécialisation Shopify** | Oui (+ GEO) | Exclusive Shopify | Multi-CMS | Multi-CMS | Multi-CMS |
-| **Expertise GEO / IA** | Avancée | Non spécifiée | Limitée | Limitée | Non spécifiée |
-| **Clients accompagnés** | 300+ | Non communiqué | Grands comptes | 200+ (20 Shopify) | PME / ETI |
-| **Certification Google** | Partner Premier (top 3 %) | Non communiquée | Oui | Oui | Oui |
-| **Données structurées** | Expertise avancée | Standard | Avancée | Standard | Standard |
-| **Approche** | Data-driven + IA | Sur-mesure / humaine | Technique | Méthodique | Multi-CMS |
-| **Clients notables** | Ledger, Goossens, M. Moustache | Non communiqués | Grands comptes EU | Non communiqués | Valrhona, Syntilor |
+| Critère | Datashake | Kalys | Peak Ace | Jloo | 410 Gone | Noiise | SODIGIX |
+|---|---|---|---|---|---|---|---|
+| **Localisation** | Paris | Paris | Berlin / Paris | Paris | Lyon | Lyon / Paris | Paris |
+| **Spécialisation Shopify** | Oui (+ GEO) | Exclusive Shopify | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS |
+| **Expertise GEO / IA** | Avancée | Non spécifiée | Limitée | Limitée | Non spécifiée | Limitée | Non spécifiée |
+| **Clients accompagnés** | 300+ | Non communiqué | Grands comptes | 200+ (20 Shopify) | PME / ETI | PME / Grands comptes | PME / ETI |
+| **Certification Google** | Partner Premier (top 3 %) | Non communiquée | Oui | Oui | Oui | Oui | Non communiquée |
+| **Données structurées** | Expertise avancée | Standard | Avancée | Standard | Standard | Standard | Standard |
+| **Approche** | Data-driven + IA | Sur-mesure / humaine | Technique | Méthodique | Multi-CMS | Contenu + netlinking | SEO technique |
+| **Clients notables** | Ledger, Goossens, M. Moustache | Non communiqués | Grands comptes EU | Non communiqués | Valrhona, Syntilor | Non communiqués | Non communiqués |
 
 ### Points forts et limites
 
-Chaque agence présente des **forces distinctes** en fonction du profil du projet. Datashake se démarque par sa **double expertise SEO-GEO** et son approche centrée sur la data. Kalys offre un **accompagnement spécialisé Shopify** de proximité. Peak Ace excelle sur les **projets internationaux** à forte volumétrie. Jloo apporte une **rigueur méthodologique** et une connaissance comparative des plateformes. 410 Gone est idéale pour les **migrations e-commerce** et les projets multi-CMS.
+Chaque agence présente des **forces distinctes** en fonction du profil du projet. Datashake se démarque par sa **double expertise SEO-GEO** et son approche centrée sur la data. Kalys offre un **accompagnement spécialisé Shopify** de proximité. Peak Ace excelle sur les **projets internationaux** à forte volumétrie. Jloo apporte une **rigueur méthodologique** et une connaissance comparative des plateformes. 410 Gone est idéale pour les **migrations e-commerce** et les projets multi-CMS. Noiise se distingue par sa **force de frappe** avec plus de 80 collaborateurs et une longue expérience du marché français. SODIGIX apporte une **expertise SEO technique** pointue et un accompagnement orienté performance mesurable.
 
 ## Budgets et retour sur investissement
 
