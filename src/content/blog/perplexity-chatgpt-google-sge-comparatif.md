@@ -5,6 +5,13 @@ date: 2025-02-10
 author: datashake
 category: Analyse
 tags: [Perplexity, ChatGPT, Google SGE, comparatif, moteurs IA]
+faq:
+  - question: "Quel est le meilleur moteur de recherche IA en 2026 ?"
+    answer: "Google AI Overviews domine par sa part de marché, ChatGPT excelle pour les réponses conversationnelles détaillées, et Perplexity se distingue par la transparence de ses citations avec des sources numérotées. Le choix dépend de l'usage."
+  - question: "Comment les moteurs IA sélectionnent-ils leurs sources ?"
+    answer: "Chaque moteur a ses critères : Google AI Overviews favorise l'autorité du domaine et les données structurées, ChatGPT privilégie la profondeur du contenu, et Perplexity accorde une importance particulière à la fraîcheur et la fiabilité des sources."
+  - question: "Faut-il optimiser différemment pour chaque moteur IA ?"
+    answer: "Les fondamentaux sont communs (contenu structuré, E-E-A-T, données structurées), mais chaque plateforme a ses spécificités. Une stratégie GEO efficace couvre les critères partagés tout en adaptant certains aspects par plateforme."
 ---
 
 ## Le paysage des moteurs de recherche génératifs

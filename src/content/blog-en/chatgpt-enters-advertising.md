@@ -6,6 +6,13 @@ author: "ruben-sebag"
 category: "Analysis"
 tags: ["ChatGPT", "AI advertising", "OpenAI", "ads", "digital marketing", "GEO", "SEO", "artificial intelligence", "search ads"]
 draft: false
+faq:
+  - question: "Does ChatGPT have advertising?"
+    answer: "Yes, OpenAI has launched advertising in ChatGPT in the United States. Ads appear contextually within ChatGPT responses, similar to sponsored links in traditional search engines."
+  - question: "What is the impact of ChatGPT advertising on SEO?"
+    answer: "ChatGPT advertising creates a new paid acquisition channel that competes with organic SEO. Brands must now integrate GEO (Generative Engine Optimization) into their strategy to maintain free visibility in AI responses."
+  - question: "Can you advertise on ChatGPT in Europe?"
+    answer: "ChatGPT's advertising program was launched in the United States and is gradually being expanded to other markets. Deployment in Europe is expected, but no official date has been announced."
 ---
 
 > **In brief:**

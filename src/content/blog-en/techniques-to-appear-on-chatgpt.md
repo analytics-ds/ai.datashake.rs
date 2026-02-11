@@ -6,6 +6,13 @@ author: "ruben-sebag"
 category: "GEO"
 tags: ["ChatGPT", "GEO", "generative AI", "SEO", "AI visibility", "OpenAI", "content strategy", "structured data"]
 draft: false
+faq:
+  - question: "How to appear on ChatGPT?"
+    answer: "To appear on ChatGPT, optimize your content for GEO: structure content with clear headings, deploy Schema.org structured data, strengthen E-E-A-T signals, and submit your sitemap to Bing Webmaster Tools."
+  - question: "Does ChatGPT use structured data?"
+    answer: "Yes, ChatGPT uses structured data for its product results and to understand page content. Schema.org markup improves the chances of being cited as a source in responses."
+  - question: "How long does it take to appear in ChatGPT?"
+    answer: "Timelines vary from a few weeks to several months depending on domain authority, content quality and Bing indexation. A complete GEO strategy takes 3 to 6 months for significant results."
 ---
 
 > **In brief:** Appearing in **ChatGPT** responses requires a specific approach called **GEO** (Generative Engine Optimization). Unlike traditional SEO, the goal is no longer to rank on a results page, but to be **cited as a reliable source** by the AI. In 2025, ChatGPT has over **200 million active users per week** and is becoming a major acquisition channel. This article details every **technique to appear on ChatGPT** in a sustainable way.

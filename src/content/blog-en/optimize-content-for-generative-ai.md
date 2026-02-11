@@ -6,6 +6,13 @@ author: datashake
 category: GEO
 tags: [content, generative AI, writing, strategy, GEO]
 draft: false
+faq:
+  - question: "How to optimize content for generative AI?"
+    answer: "Structure content with clear headings, provide concise answers at the beginning of sections, include verifiable quantified data, use lists and tables, and deploy Schema.org structured data."
+  - question: "What content length is recommended for GEO?"
+    answer: "In-depth articles of 1,500 words or more are favored by generative AIs. A 300-word article that skims over a topic will not be retained as a source."
+  - question: "Is structured data necessary to appear in AI responses?"
+    answer: "Yes, Schema.org structured data facilitates information extraction by AIs. Pages with structured markup are 2.5 times more likely to be cited in generative responses."
 ---
 
 ## Generative AI Is a Game Changer

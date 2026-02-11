@@ -6,6 +6,13 @@ author: "ruben-sebag"
 category: "GEO"
 tags: ["geo", "e-e-a-t", "expertise", "autorité", "fiabilité", "ia générative", "seo", "google", "chatgpt", "données structurées"]
 draft: false
+faq:
+  - question: "Qu'est-ce que l'E-E-A-T en SEO ?"
+    answer: "E-E-A-T signifie Experience, Expertise, Authoritativeness, Trustworthiness (Expérience, Expertise, Autorité, Fiabilité). Ce sont les critères que Google utilise pour évaluer la qualité et la crédibilité du contenu et de ses auteurs."
+  - question: "Quel est le lien entre E-E-A-T et GEO ?"
+    answer: "Les moteurs IA génératifs utilisent les signaux E-E-A-T pour sélectionner les sources qu'ils citent dans leurs réponses. Un contenu avec des signaux E-E-A-T forts a significativement plus de chances d'être retenu comme source par Google AI Overviews, ChatGPT et Perplexity."
+  - question: "Comment renforcer ses signaux E-E-A-T ?"
+    answer: "Créez des pages auteurs détaillées avec balisage Person Schema.org, publiez du contenu expert sourcé et factuel, obtenez des backlinks éditoriaux, maintenez le contenu à jour, et renforcez votre Organization Schema avec sameAs vers des profils vérifiés."
 ---
 
 > **En bref :**

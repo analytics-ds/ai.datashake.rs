@@ -1,9 +1,9 @@
 ---
-import { getAuthor } from '@/data/authors';
+import { getAuthor, authors } from '@/data/authors';
 import { getLang } from '@/utils/i18n';
 
 export interface Props {
-  type: 'website' | 'article' | 'breadcrumb';
+  type: 'website' | 'article' | 'breadcrumb' | 'faq';
   // Article props
   title?: string;
   description?: string;
@@ -16,6 +16,8 @@ export interface Props {
   tags?: string[];
   // Breadcrumb props
   breadcrumbs?: Array<{ name: string; url: string }>;
+  // FAQ props
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 const {
@@ -30,6 +32,7 @@ const {
   category,
   tags = [],
   breadcrumbs = [],
+  faq = [],
 } = Astro.props;
 
 const lang = getLang(Astro.url);
@@ -63,7 +66,8 @@ function buildWebsiteSchema() {
 }
 
 function buildOrganizationSchema() {
-  return {
+  const orgAuthor = authors['datashake'];
+  const org: Record<string, unknown> = {
     '@type': 'Organization',
     name: 'datashake',
     url: 'https://www.datashake.fr',
@@ -71,8 +75,45 @@ function buildOrganizationSchema() {
       '@type': 'ImageObject',
       url: `${siteUrl}favicon.svg`,
     },
-    sameAs: author.sameAs ?? [],
+    sameAs: orgAuthor.sameAs ?? [],
   };
+  if (orgAuthor.foundingDate) org.foundingDate = orgAuthor.foundingDate;
+  if (orgAuthor.address) {
+    org.address = {
+      '@type': 'PostalAddress',
+      ...orgAuthor.address,
+    };
+  }
+  if (orgAuthor.numberOfEmployees) {
+    org.numberOfEmployees = {
+      '@type': 'QuantitativeValue',
+      value: orgAuthor.numberOfEmployees,
+    };
+  }
+  if (orgAuthor.knowsAbout) org.knowsAbout = orgAuthor.knowsAbout;
+  return org;
+}
+
+function buildAuthorSchema() {
+  const authorObj: Record<string, unknown> = {
+    '@type': author.type,
+    name: author.name,
+    url: author.url,
+    description: author.bio,
+    sameAs: author.sameAs,
+  };
+  if (author.type === 'Person') {
+    if (author.jobTitle) authorObj.jobTitle = author.jobTitle;
+    if (author.knowsAbout) authorObj.knowsAbout = author.knowsAbout;
+    if (author.worksFor) {
+      authorObj.worksFor = {
+        '@type': 'Organization',
+        name: author.worksFor.name,
+        url: author.worksFor.url,
+      };
+    }
+  }
+  return authorObj;
 }
 
 function buildArticleSchema() {
@@ -85,13 +126,7 @@ function buildArticleSchema() {
     image: image ? `${siteUrl}${image}` : undefined,
     datePublished: toISO(datePublished),
     dateModified: toISO(dateModified) ?? toISO(datePublished),
-    author: {
-      '@type': author.type,
-      name: author.name,
-      url: author.url,
-      description: author.bio,
-      sameAs: author.sameAs,
-    },
+    author: buildAuthorSchema(),
     publisher: buildOrganizationSchema(),
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -100,6 +135,21 @@ function buildArticleSchema() {
     articleSection: category,
     keywords: tags.join(', '),
     inLanguage,
+  };
+}
+
+function buildFAQPageSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
   };
 }
 
@@ -126,6 +176,9 @@ switch (type) {
     break;
   case 'breadcrumb':
     schema = buildBreadcrumbSchema();
+    break;
+  case 'faq':
+    schema = buildFAQPageSchema();
     break;
 }
 ---

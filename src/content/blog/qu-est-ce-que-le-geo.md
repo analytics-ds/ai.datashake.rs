@@ -5,6 +5,13 @@ date: 2025-01-15
 author: datashake
 category: GEO
 tags: [GEO, IA générative, SEO, stratégie digitale]
+faq:
+  - question: "Qu'est-ce que le GEO (Generative Engine Optimization) ?"
+    answer: "Le GEO est la discipline d'optimisation du contenu pour les moteurs de recherche alimentés par l'IA générative comme Google AI Overviews, ChatGPT et Perplexity. Il vise à maximiser les chances d'être cité comme source dans les réponses générées par l'IA."
+  - question: "Quelle est la différence entre le SEO et le GEO ?"
+    answer: "Le SEO optimise pour les facteurs de classement traditionnels (positions, backlinks, mots-clés). Le GEO cible les critères de citation IA : qualité de la structure informationnelle, crédibilité des sources, précision factuelle et balisage sémantique."
+  - question: "Pourquoi le GEO est-il important en 2026 ?"
+    answer: "En 2026, plus de 60 % des recherches Google déclenchent un AI Overview. Le trafic référé par les IA génératives a bondi de 527 % en un an. Les marques non optimisées pour l'IA risquent une perte de visibilité de 20 à 40 %."
 ---
 
 ## Introduction au GEO

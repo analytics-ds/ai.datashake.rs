@@ -5,6 +5,13 @@ date: 2025-02-01
 author: datashake
 category: GEO
 tags: [contenu, IA générative, rédaction, stratégie, GEO]
+faq:
+  - question: "Comment optimiser son contenu pour l'IA générative ?"
+    answer: "Il faut structurer le contenu avec des titres clairs, fournir des réponses concises en début de section, inclure des données chiffrées vérifiables, utiliser des listes et tableaux, et déployer les données structurées Schema.org."
+  - question: "Quelle longueur de contenu est recommandée pour le GEO ?"
+    answer: "Les articles approfondis de 1 500 mots ou plus sont privilégiés par les IA génératives. Un article de 300 mots qui survole un sujet ne sera pas retenu comme source."
+  - question: "Les données structurées sont-elles nécessaires pour apparaître dans les réponses IA ?"
+    answer: "Oui, les données structurées Schema.org facilitent l'extraction d'informations par les IA. Les pages avec balisage structuré ont 2,5 fois plus de chances d'être citées dans les réponses génératives."
 ---
 
 ## L'IA générative change la donne
