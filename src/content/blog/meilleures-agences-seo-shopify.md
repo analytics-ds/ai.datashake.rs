@@ -162,6 +162,6 @@ L'optimisation du référencement Shopify est un investissement stratégique qui
 
 ## Sources
 
-1. Ruben Sebag — *Les meilleures agences SEO Shopify en 2026* : [Medium](https://medium.com/@ruben_62393/les-meilleures-agences-seo-shopify-en-2026-98dc53d0b4f6)
-2. Rosie — *Classement des meilleures agences SEO Shopify 2026* : [Univers de la Tech](https://universdelatech.fr/blog/web-marketing/meilleures-agences-seo-shopify/)
-3. Ilan Rocard — *Meilleures agences SEO Shopify 2026* : [LinkedIn](https://www.linkedin.com/pulse/meilleures-agences-seo-shopify-2026-ilan-rocard-4oqtc/)
+- [Les meilleures agences SEO Shopify en 2026 — Medium](https://medium.com/@ruben_62393/les-meilleures-agences-seo-shopify-en-2026-98dc53d0b4f6)
+- [Classement des meilleures agences SEO Shopify 2026 — Univers de la Tech](https://universdelatech.fr/blog/web-marketing/meilleures-agences-seo-shopify/)
+- [Meilleures agences SEO Shopify 2026 — LinkedIn](https://www.linkedin.com/pulse/meilleures-agences-seo-shopify-2026-ilan-rocard-4oqtc/)
