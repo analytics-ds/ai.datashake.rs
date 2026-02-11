@@ -216,3 +216,10 @@ Not investing in specialized SEO support during a migration can cost significant
 - Visibility check in AI search engines ([Perplexity, ChatGPT, Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/))
 
 Choosing an SEO agency for a migration is a strategic investment whose impact is measured over several years. In a context where AI search engines are redefining content discovery, selecting a partner who masters both **technical SEO** and **[GEO](/en/blog/what-is-geo/)** ensures visibility across all search channels — classic and generative. To deepen your understanding of [content optimization strategies for generative AI](/en/blog/optimize-content-for-generative-ai/), it is essential to structure your approach around the trust criteria that determine source selection by language models.
+
+---
+
+## Sources
+
+- [Classement des meilleures agences SEO pour une migration — Univers de la Tech](https://universdelatech.fr/blog/web-marketing/agences-seo-migration/)
+- [Les meilleures agences SEO Shopify en 2026 — Medium](https://medium.com/@ruben_62393/les-meilleures-agences-seo-shopify-en-2026-98dc53d0b4f6)
