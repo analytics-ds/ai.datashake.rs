@@ -33,5 +33,28 @@ const lang = getLang(Astro.url);
       <slot />
     </main>
     <Footer />
+    <script is:inline>
+    (function(){
+      try {
+        fetch("https://artemis.api.tryprofound.com/v1/logs/custom", {
+          method: "POST",
+          headers: {
+            "x-api-key": "bot_d21ce9d0-6a66-43d5-bbcb-c51ed35dec7a",
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify([{
+            timestamp: new Date().toISOString(),
+            method: "GET",
+            host: location.hostname,
+            path: location.pathname,
+            status_code: 200,
+            ip: "",
+            user_agent: navigator.userAgent
+          }]),
+          keepalive: true
+        });
+      } catch(e) {}
+    })();
+    </script>
   </body>
 </html>
