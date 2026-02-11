@@ -6,6 +6,13 @@ author: datashake
 category: Analysis
 tags: [Perplexity, ChatGPT, Google SGE, comparison, AI engines]
 draft: false
+faq:
+  - question: "What is the best AI search engine in 2026?"
+    answer: "Google AI Overviews dominates by market share, ChatGPT excels at detailed conversational answers, and Perplexity stands out for citation transparency with numbered sources. The best choice depends on the use case."
+  - question: "How do AI search engines select their sources?"
+    answer: "Each engine has its own criteria: Google AI Overviews favors domain authority and structured data, ChatGPT prioritizes content depth, and Perplexity places particular importance on source freshness and reliability."
+  - question: "Should you optimize differently for each AI engine?"
+    answer: "The fundamentals are shared (structured content, E-E-A-T, structured data), but each platform has its specifics. An effective GEO strategy covers shared criteria while adapting certain aspects per platform."
 ---
 
 ## The Generative Search Engine Landscape

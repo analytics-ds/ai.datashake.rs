@@ -6,6 +6,13 @@ author: "ruben-sebag"
 category: "Analyse"
 tags: ["ChatGPT", "publicité IA", "OpenAI", "ads", "marketing digital", "GEO", "SEO", "intelligence artificielle", "search ads"]
 draft: false
+faq:
+  - question: "ChatGPT propose-t-il de la publicité ?"
+    answer: "Oui, OpenAI a lancé la publicité dans ChatGPT aux États-Unis. Les annonces apparaissent de manière contextuelle dans les réponses de ChatGPT, similairement aux liens sponsorisés dans les moteurs de recherche traditionnels."
+  - question: "Quel est l'impact de la publicité ChatGPT sur le SEO ?"
+    answer: "La publicité dans ChatGPT crée un nouveau canal d'acquisition payant qui concurrence le SEO organique. Les marques doivent désormais intégrer le GEO (Generative Engine Optimization) dans leur stratégie pour maintenir leur visibilité gratuite dans les réponses IA."
+  - question: "Peut-on faire de la publicité sur ChatGPT en France ?"
+    answer: "Le programme publicitaire de ChatGPT a été lancé aux États-Unis et est progressivement étendu à d'autres marchés. Le déploiement en France est attendu, mais aucune date officielle n'a été communiquée."
 ---
 
 > **En bref :**

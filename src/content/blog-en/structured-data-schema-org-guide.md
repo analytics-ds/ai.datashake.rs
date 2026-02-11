@@ -6,6 +6,13 @@ author: datashake
 category: Technical
 tags: [Schema.org, structured data, JSON-LD, technical, GEO]
 draft: false
+faq:
+  - question: "What is Schema.org structured data?"
+    answer: "Schema.org structured data is standardized markup added to HTML code that helps search engines and AIs understand page content: content type, author, date, product, FAQ, etc."
+  - question: "Why is structured data important for GEO?"
+    answer: "Structured data allows generative AIs to extract and understand information reliably. Pages with Schema.org markup are 2.5 times more likely to appear in AI-generated responses."
+  - question: "What format should be used for structured data?"
+    answer: "The recommended format is JSON-LD, placed in the page's head tag. It is the format recommended by Google and best supported by modern AI systems."
 ---
 
 ## Why Structured Data Is Crucial for GEO

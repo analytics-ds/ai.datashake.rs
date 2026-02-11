@@ -6,6 +6,13 @@ author: "ruben-sebag"
 category: "GEO"
 tags: ["geo", "e-e-a-t", "expertise", "authority", "trustworthiness", "generative AI", "seo", "google", "chatgpt", "structured data"]
 draft: false
+faq:
+  - question: "What is E-E-A-T in SEO?"
+    answer: "E-E-A-T stands for Experience, Expertise, Authoritativeness, Trustworthiness. These are the criteria Google uses to evaluate the quality and credibility of content and its authors."
+  - question: "What is the link between E-E-A-T and GEO?"
+    answer: "Generative AI search engines use E-E-A-T signals to select the sources they cite in their responses. Content with strong E-E-A-T signals is significantly more likely to be retained as a source by Google AI Overviews, ChatGPT and Perplexity."
+  - question: "How to strengthen E-E-A-T signals?"
+    answer: "Create detailed author pages with Person Schema.org markup, publish expert sourced and factual content, obtain editorial backlinks, keep content up to date, and strengthen your Organization Schema with sameAs links to verified profiles."
 ---
 
 > **In brief:**

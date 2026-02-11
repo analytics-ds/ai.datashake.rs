@@ -17,6 +17,7 @@ export interface Props {
   category: string;
   tags: string[];
   slug: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 const {
@@ -28,6 +29,7 @@ const {
   category,
   tags,
   slug,
+  faq,
 } = Astro.props;
 
 const lang = getLang(Astro.url);
@@ -87,6 +89,9 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
       category={category}
       tags={tags}
     />
+    {faq && faq.length > 0 && (
+      <SchemaOrg type="faq" faq={faq} />
+    )}
   </head>
   <body>
     <Header />

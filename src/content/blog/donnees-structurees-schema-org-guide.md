@@ -5,6 +5,13 @@ date: 2025-01-20
 author: datashake
 category: Technique
 tags: [Schema.org, données structurées, JSON-LD, technique, GEO]
+faq:
+  - question: "Qu'est-ce que les données structurées Schema.org ?"
+    answer: "Les données structurées Schema.org sont un balisage standardisé ajouté au code HTML qui aide les moteurs de recherche et les IA à comprendre le contenu d'une page : type de contenu, auteur, date, produit, FAQ, etc."
+  - question: "Pourquoi les données structurées sont-elles importantes pour le GEO ?"
+    answer: "Les données structurées permettent aux IA génératives d'extraire et de comprendre les informations de manière fiable. Les pages avec balisage Schema.org ont 2,5 fois plus de chances d'apparaître dans les réponses IA."
+  - question: "Quel format utiliser pour les données structurées ?"
+    answer: "Le format recommandé est le JSON-LD, placé dans la balise head de la page. C'est le format préconisé par Google et le mieux supporté par les systèmes d'IA modernes."
 ---
 
 ## Pourquoi les données structurées sont cruciales pour le GEO

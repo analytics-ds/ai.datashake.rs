@@ -11,6 +11,10 @@ const blogSchema = z.object({
   image: z.string().optional(),
   imageAlt: z.string().optional(),
   draft: z.boolean().default(false),
+  faq: z.array(z.object({
+    question: z.string(),
+    answer: z.string(),
+  })).optional(),
 });
 
 const blog = defineCollection({ type: 'content', schema: blogSchema });

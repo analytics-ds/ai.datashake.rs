@@ -6,6 +6,13 @@ author: "datashake"
 category: "Technique"
 tags: ["intelligence artificielle", "IA", "machine learning", "deep learning", "IA générative", "technologie"]
 draft: false
+faq:
+  - question: "Qu'est-ce que l'intelligence artificielle ?"
+    answer: "L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables de réaliser des tâches qui nécessitent normalement l'intelligence humaine : compréhension du langage, reconnaissance d'images, prise de décision et apprentissage."
+  - question: "Quelle est la différence entre machine learning et deep learning ?"
+    answer: "Le machine learning est une branche de l'IA où les machines apprennent à partir de données. Le deep learning est une sous-catégorie du machine learning qui utilise des réseaux de neurones artificiels profonds pour traiter des données complexes comme les images, le texte et la parole."
+  - question: "Qu'est-ce que l'IA générative ?"
+    answer: "L'IA générative est un type d'intelligence artificielle capable de créer du contenu nouveau (texte, images, code, musique) à partir de modèles entraînés sur de grandes quantités de données. ChatGPT, DALL-E et Midjourney en sont des exemples."
 ---
 
 > **En bref :** L'**intelligence artificielle** (IA) désigne l'ensemble des technologies permettant aux machines de simuler des capacités cognitives humaines. En 2025, le marché mondial de l'IA représente plus de 180 milliards de dollars, avec une croissance annuelle de 37 %. Ce guide couvre les fondamentaux, les différentes branches, les applications concrètes et les enjeux éthiques de cette technologie.

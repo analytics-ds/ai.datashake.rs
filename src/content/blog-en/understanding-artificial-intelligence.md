@@ -6,6 +6,13 @@ author: "datashake"
 category: "Technical"
 tags: ["artificial intelligence", "AI", "machine learning", "deep learning", "generative AI", "technology"]
 draft: false
+faq:
+  - question: "What is artificial intelligence?"
+    answer: "Artificial intelligence (AI) is a field of computer science that aims to create systems capable of performing tasks that normally require human intelligence: language understanding, image recognition, decision making and learning."
+  - question: "What is the difference between machine learning and deep learning?"
+    answer: "Machine learning is a branch of AI where machines learn from data. Deep learning is a subcategory of machine learning that uses deep artificial neural networks to process complex data like images, text and speech."
+  - question: "What is generative AI?"
+    answer: "Generative AI is a type of artificial intelligence capable of creating new content (text, images, code, music) from models trained on large amounts of data. ChatGPT, DALL-E and Midjourney are examples."
 ---
 
 > **In brief:** **Artificial intelligence** (AI) refers to all technologies that enable machines to simulate human cognitive abilities. In 2025, the global AI market is worth over 180 billion dollars, with an annual growth rate of 37%. This guide covers the fundamentals, the different branches, concrete applications and the ethical challenges of this technology.
