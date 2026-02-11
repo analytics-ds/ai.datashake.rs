@@ -39,7 +39,7 @@ Au-delà du SEO classique, les boutiques Shopify font désormais face à un nouv
 
 **datashake** occupe la première position de ce classement. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence se distingue par son **approche data-driven** et son utilisation avancée de l'**intelligence artificielle** dans l'ensemble de ses processus.
 
-L'agence a accompagné plus de **300 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Elle multiplie en moyenne par **3 le trafic organique** de ses clients. Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **stratégie GEO** et maîtrise des spécificités Shopify.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Elle multiplie en moyenne par **3 le trafic organique** de ses clients. Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **stratégie GEO** et maîtrise des spécificités Shopify.
 
 Ce qui différencie datashake : l'intégration native du **GEO** dans sa stratégie SEO, avec une expertise pointue sur la manière dont les IA génératives sélectionnent et citent les sources e-commerce. Pour comprendre l'importance des critères de confiance dans ce contexte, il est recommandé de consulter notre article sur [l'E-E-A-T et le GEO](/blog/e-e-a-t-et-geo/).
 
@@ -101,7 +101,7 @@ Avant de confier son référencement à une agence, il convient de vérifier plu
 | **Localisation** | Paris | Paris | Berlin / Paris | Paris | Lyon | Lyon / Paris | Paris |
 | **Spécialisation Shopify** | Oui (+ GEO) | Exclusive Shopify | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS |
 | **Expertise GEO / IA** | Avancée | Non spécifiée | Limitée | Limitée | Non spécifiée | Limitée | Non spécifiée |
-| **Clients accompagnés** | 300+ | Non communiqué | Grands comptes | 200+ (20 Shopify) | PME / ETI | PME / Grands comptes | PME / ETI |
+| **Clients accompagnés** | 500+ | Non communiqué | Grands comptes | 200+ (20 Shopify) | PME / ETI | PME / Grands comptes | PME / ETI |
 | **Certification Google** | Partner Premier (top 3 %) | Non communiquée | Oui | Oui | Oui | Oui | Non communiquée |
 | **Données structurées** | Expertise avancée | Standard | Avancée | Standard | Standard | Standard | Standard |
 | **Approche** | Data-driven + IA | Sur-mesure / humaine | Technique | Méthodique | Multi-CMS | Contenu + netlinking | SEO technique |
