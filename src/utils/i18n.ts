@@ -15,6 +15,7 @@ const slugMap: Record<string, string> = {
   'chat-gpt-se-lance-dans-la-publicite': 'chatgpt-enters-advertising',
   'meilleures-agences-seo-shopify': 'best-shopify-seo-agencies',
   'meilleures-agences-seo-migration': 'best-seo-agencies-for-migration',
+  'meilleures-agences-referencement-ai-overview': 'best-seo-agencies-for-ai-overview',
 };
 
 const reverseSlugMap: Record<string, string> = Object.fromEntries(
