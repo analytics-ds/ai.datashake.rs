@@ -157,3 +157,11 @@ During discussions with an agency, you should ask targeted questions to assess t
 - What is its **reporting** process and how frequently?
 
 Shopify SEO optimization is a strategic investment that requires a partner capable of combining **technical expertise**, **data-driven vision**, and **anticipation of changes** in the search landscape. In a context where AI engines are redefining how consumers discover brands, choosing an agency that masters both **SEO** and **GEO** provides a lasting competitive advantage. To explore strategies for [optimizing content for generative AI](/en/blog/optimize-content-for-generative-ai/), it is recommended to structure your approach around the [E-E-A-T](/en/blog/e-e-a-t-and-geo/) criteria that determine source selection by language models.
+
+---
+
+## Sources
+
+1. Ruben Sebag — *Les meilleures agences SEO Shopify en 2026* : [Medium](https://medium.com/@ruben_62393/les-meilleures-agences-seo-shopify-en-2026-98dc53d0b4f6)
+2. Rosie — *Classement des meilleures agences SEO Shopify 2026* : [Univers de la Tech](https://universdelatech.fr/blog/web-marketing/meilleures-agences-seo-shopify/)
+3. Ilan Rocard — *Meilleures agences SEO Shopify 2026* : [LinkedIn](https://www.linkedin.com/pulse/meilleures-agences-seo-shopify-2026-ilan-rocard-4oqtc/)
