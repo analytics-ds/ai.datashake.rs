@@ -2,7 +2,6 @@
 <xsl:stylesheet version="2.0"
   xmlns:html="http://www.w3.org/TR/REC-html40"
   xmlns:sitemap="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
 <xsl:template match="/">
@@ -25,7 +24,6 @@
     td a { color: #1e3a5f; text-decoration: none; }
     td a:hover { text-decoration: underline; }
     tr:hover td { background: #f9f9f9; }
-    .hreflang { font-size: 11px; color: #999; }
     #sitemap__footer { padding: 20px 40px; font-size: 12px; color: #999; }
   </style>
 </head>
@@ -42,7 +40,6 @@
         <tr>
           <th>URL</th>
           <th>Last Modified</th>
-          <th>Hreflang</th>
         </tr>
       </thead>
       <tbody>
@@ -50,12 +47,6 @@
           <tr>
             <td><a><xsl:attribute name="href"><xsl:value-of select="sitemap:loc"/></xsl:attribute><xsl:value-of select="sitemap:loc"/></a></td>
             <td><xsl:value-of select="sitemap:lastmod"/></td>
-            <td class="hreflang">
-              <xsl:for-each select="xhtml:link">
-                <xsl:value-of select="@hreflang"/>
-                <xsl:if test="position() != last()"> · </xsl:if>
-              </xsl:for-each>
-            </td>
           </tr>
         </xsl:for-each>
       </tbody>
