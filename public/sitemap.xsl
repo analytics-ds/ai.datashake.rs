@@ -31,7 +31,7 @@
 <div id="sitemap">
   <div id="sitemap__header">
     <h1>XML Sitemap</h1>
-    <p><a href="/sitemap_index.xml">&#8592; Sitemap Index</a></p>
+    <p><a href="/sitemap.xml">&#8592; Sitemap Index</a></p>
   </div>
   <div id="sitemap__content">
     <p class="count">Number of URLs: <xsl:value-of select="count(sitemap:urlset/sitemap:url)"/></p>
