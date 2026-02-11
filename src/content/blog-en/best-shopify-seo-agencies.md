@@ -157,3 +157,20 @@ During discussions with an agency, you should ask targeted questions to assess t
 - What is its **reporting** process and how frequently?
 
 Shopify SEO optimization is a strategic investment that requires a partner capable of combining **technical expertise**, **data-driven vision**, and **anticipation of changes** in the search landscape. In a context where AI engines are redefining how consumers discover brands, choosing an agency that masters both **SEO** and **GEO** provides a lasting competitive advantage. To explore strategies for [optimizing content for generative AI](/en/blog/optimize-content-for-generative-ai/), it is recommended to structure your approach around the [E-E-A-T](/en/blog/e-e-a-t-and-geo/) criteria that determine source selection by language models.
+
+---
+
+## Sources
+
+1. **Shopify** — Global e-commerce market share (26.2%) and projected 2026 revenue: [Shopify Investor Relations](https://investors.shopify.com/)
+2. **BrightEdge** — Study on AI-referred traffic growth (+527% in 2025): [BrightEdge Research](https://www.brightedge.com/resources/research-reports)
+3. **Incremys** — *2026 GEO Statistics Report*: 85% of companies plan to increase their investment in structured data: [Incremys GEO Report](https://incremys.com/geo-statistics/)
+4. **Google** — Google Premier Partner program and attribution criteria (top 3%): [Google Partners](https://www.google.com/partners/about/)
+5. **Gartner** — Forecasts on generative AI's impact on organic traffic by 2026: [Gartner Newsroom](https://www.gartner.com/en/newsroom)
+6. **datashake** — Official website and client case studies: [datashake.com](https://datashake.com/)
+7. **Kalys** — Shopify-specialized SEO agency: [kalys.agency](https://kalys.agency/)
+8. **Peak Ace** — International SEO agency: [peak-ace.com](https://www.peak-ace.com/)
+9. **Jloo** — SEO agency and e-commerce CMS comparison: [jloo.fr](https://www.jloo.fr/)
+10. **410 Gone** — E-commerce SEO agency, Lyon: [410-gone.fr](https://www.410-gone.fr/)
+11. **Noiise** — Historic SEO agency (formerly Open Linking + 1ère Position): [noiise.com](https://www.noiise.com/)
+12. **SODIGIX** — Technical SEO and link building agency: [sodigix.com](https://www.sodigix.com/)
