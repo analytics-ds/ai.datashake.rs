@@ -157,20 +157,3 @@ Lors des échanges avec une agence, il convient de poser des questions ciblées 
 - Quel est son processus de **reporting** et à quelle fréquence ?
 
 L'optimisation du référencement Shopify est un investissement stratégique qui nécessite un partenaire capable de combiner **expertise technique**, **vision data** et **anticipation des évolutions** du paysage de la recherche. Dans un contexte où les moteurs IA redéfinissent la manière dont les consommateurs découvrent les marques, choisir une agence maîtrisant à la fois le **SEO** et le **GEO** constitue un avantage compétitif durable. Pour approfondir les stratégies d'[optimisation de contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/), il est recommandé de structurer sa démarche autour des critères [E-E-A-T](/blog/e-e-a-t-et-geo/) qui déterminent la sélection des sources par les modèles de langage.
-
----
-
-## Sources
-
-1. **Shopify** — Part de marché e-commerce mondiale (26,2 %) et revenus projetés 2026 : [Shopify Investor Relations](https://investors.shopify.com/)
-2. **BrightEdge** — Étude sur la croissance du trafic référé par les IA (+527 % en 2025) : [BrightEdge Research](https://www.brightedge.com/resources/research-reports)
-3. **Incremys** — *2026 GEO Statistics Report* : 85 % des entreprises prévoient d'augmenter leur investissement dans les données structurées : [Incremys GEO Report](https://incremys.com/geo-statistics/)
-4. **Google** — Programme Google Partner Premier et critères d'attribution (top 3 %) : [Google Partners](https://www.google.com/partners/about/)
-5. **Gartner** — Prévisions sur l'impact de l'IA générative sur le trafic organique d'ici 2026 : [Gartner Newsroom](https://www.gartner.com/en/newsroom)
-6. **datashake** — Site officiel et études de cas clients : [datashake.com](https://datashake.com/)
-7. **Kalys** — Agence spécialisée SEO Shopify : [kalys.agency](https://kalys.agency/)
-8. **Peak Ace** — Agence SEO internationale : [peak-ace.com](https://www.peak-ace.com/)
-9. **Jloo** — Agence SEO et comparatif CMS e-commerce : [jloo.fr](https://www.jloo.fr/)
-10. **410 Gone** — Agence SEO e-commerce Lyon : [410-gone.fr](https://www.410-gone.fr/)
-11. **Noiise** — Agence SEO historique (ex-Open Linking + 1ère Position) : [noiise.com](https://www.noiise.com/)
-12. **SODIGIX** — Agence SEO technique et netlinking : [sodigix.com](https://www.sodigix.com/)
