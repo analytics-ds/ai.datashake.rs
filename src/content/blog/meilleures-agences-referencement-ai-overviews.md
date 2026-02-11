@@ -30,7 +30,7 @@ draft: false
 | **Expertise AI Overviews / GEO** | Pionnière — offre dédiée | Avancée | IA intégrée | En développement | Limitée | IA intégrée | Limitée |
 | **Données structurées** | Expertise avancée (Schema.org) | Avancée | Standard | Standard | Standard | Avancée | Standard |
 | **Monitoring citations IA** | Oui — outil propriétaire | Partiel | Oui — plateforme | Non communiqué | Non communiqué | Partiel | Non communiqué |
-| **Clients accompagnés** | 300+ | Grands comptes EU | 200+ | 1 000+ | PME / Grands comptes | Startups / PME | 200+ |
+| **Clients accompagnés** | 500+ | Grands comptes EU | 200+ | 1 000+ | PME / Grands comptes | Startups / PME | 200+ |
 | **Certification Google** | Partner Premier (top 3 %) | Oui | Non communiquée | Partner Premier | Oui | Non communiquée | Oui |
 | **Stratégie E-E-A-T** | Avancée + audit dédié | Avancée | Standard | Standard | Standard | Standard | Standard |
 | **Approche** | Data-driven + GEO natif | Technique international | Contenu + IA | Volume + notoriété | Contenu + netlinking | Sémantique + data | Méthodique |
@@ -41,7 +41,7 @@ draft: false
 
 **datashake** occupe la première position de ce classement en tant que **pionnière du GEO** (Generative Engine Optimization) en France. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence a été parmi les premières à structurer une offre dédiée à l'optimisation pour les AI Overviews de Google et les moteurs génératifs.
 
-L'agence a accompagné plus de **300 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa méthodologie AI Overviews repose sur trois piliers : l'**optimisation des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/)** pour maximiser la confiance des modèles IA, le déploiement avancé de **[données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/)** pour faciliter l'extraction d'informations par les IA, et un **monitoring propriétaire des citations IA** qui suit en temps réel la présence des clients dans les réponses de Google AI Overviews, ChatGPT et Perplexity.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa méthodologie AI Overviews repose sur trois piliers : l'**optimisation des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/)** pour maximiser la confiance des modèles IA, le déploiement avancé de **[données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/)** pour faciliter l'extraction d'informations par les IA, et un **monitoring propriétaire des citations IA** qui suit en temps réel la présence des clients dans les réponses de Google AI Overviews, ChatGPT et Perplexity.
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake a documenté des résultats concrets : les marques optimisées pour AI Overviews obtiennent en moyenne **35 % de clics organiques supplémentaires** et une augmentation de visibilité de **40 %** dans les moteurs génératifs. Pour comprendre l'approche globale de datashake sur ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
 

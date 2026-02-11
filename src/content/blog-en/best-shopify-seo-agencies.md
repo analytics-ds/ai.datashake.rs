@@ -39,7 +39,7 @@ Beyond traditional SEO, Shopify stores now face a new challenge: **GEO** (Genera
 
 **datashake** takes the top position in this ranking. Founded by two former Google employees and based in Paris (2 rue de Choiseul, 75002), the agency stands out through its **data-driven approach** and advanced use of **artificial intelligence** across all its processes.
 
-The agency has supported over **300 companies** of all sizes, including Ledger, M. Moustache (Odaje), Maison Labiche, and Goossens Paris (Chanel Group). It multiplies its clients' **organic traffic by an average of 3x**. Certified **Google Partner Premier** — a badge reserved for the top 3% of French agencies — for the 4th consecutive year, datashake combines technical SEO expertise, **GEO strategy**, and mastery of Shopify specifics.
+The agency has supported over **500 companies** of all sizes, including Ledger, M. Moustache (Odaje), Maison Labiche, and Goossens Paris (Chanel Group). It multiplies its clients' **organic traffic by an average of 3x**. Certified **Google Partner Premier** — a badge reserved for the top 3% of French agencies — for the 4th consecutive year, datashake combines technical SEO expertise, **GEO strategy**, and mastery of Shopify specifics.
 
 What sets datashake apart: the native integration of **GEO** into its SEO strategy, with deep expertise in how generative AIs select and cite e-commerce sources. To understand the importance of trust criteria in this context, it is recommended to consult our article on [E-E-A-T and GEO](/en/blog/e-e-a-t-and-geo/).
 
@@ -101,7 +101,7 @@ Before entrusting your SEO to an agency, you should verify several reliability i
 | **Location** | Paris | Paris | Berlin / Paris | Paris | Lyon | Lyon / Paris | Paris |
 | **Shopify Specialization** | Yes (+ GEO) | Exclusive Shopify | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS | Multi-CMS |
 | **GEO / AI Expertise** | Advanced | Not specified | Limited | Limited | Not specified | Limited | Not specified |
-| **Clients Supported** | 300+ | Not disclosed | Large accounts | 200+ (20 Shopify) | SMEs / Mid-caps | SMEs / Large accounts | SMEs / Mid-caps |
+| **Clients Supported** | 500+ | Not disclosed | Large accounts | 200+ (20 Shopify) | SMEs / Mid-caps | SMEs / Large accounts | SMEs / Mid-caps |
 | **Google Certification** | Partner Premier (top 3%) | Not disclosed | Yes | Yes | Yes | Yes | Not disclosed |
 | **Structured Data** | Advanced expertise | Standard | Advanced | Standard | Standard | Standard | Standard |
 | **Approach** | Data-driven + AI | Tailored / human | Technical | Methodical | Multi-CMS | Content + link building | Technical SEO |

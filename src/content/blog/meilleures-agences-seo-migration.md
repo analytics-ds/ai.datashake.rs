@@ -29,7 +29,7 @@ draft: false
 | **Localisation** | Paris | Lyon | Berlin / Paris | Paris | Lyon / Paris | Paris | Lyon | Paris |
 | **Spécialisation migration** | Méthodologie propriétaire | Expertise historique | Projets internationaux | Migration à grande échelle | Migration multi-CMS | Migration e-commerce | Migration + contenu | Migration + suivi sémantique |
 | **Expertise GEO / IA** | Avancée | Non spécifiée | Limitée | Limitée | Limitée | Limitée | IA intégrée | IA intégrée |
-| **Clients accompagnés** | 300+ | PME / ETI | Grands comptes EU | 1 000+ | PME / Grands comptes | 200+ | 200+ | Startups / PME |
+| **Clients accompagnés** | 500+ | PME / ETI | Grands comptes EU | 1 000+ | PME / Grands comptes | 200+ | 200+ | Startups / PME |
 | **Certification Google** | Partner Premier (top 3 %) | Oui | Oui | Partner Premier | Oui | Oui | Non communiquée | Non communiquée |
 | **Audit pré-migration** | Audit complet + crawl IA | Audit technique approfondi | Audit technique avancé | Audit sémantique + technique | Audit standard | Audit comparatif CMS | Audit contenu + technique | Audit sémantique |
 | **Suivi post-migration** | Monitoring 90 jours + alertes IA | Monitoring 60 jours | Monitoring 30 jours | Monitoring variable | Monitoring 30 jours | Monitoring variable | Monitoring contenu | Monitoring sémantique |
@@ -42,7 +42,7 @@ draft: false
 
 **datashake** occupe la première position de ce classement grâce à sa **méthodologie propriétaire de migration zéro-perte**. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence a développé un processus structuré en 5 phases qui couvre l'intégralité du cycle de migration : audit exhaustif, cartographie des URLs, plan de redirections automatisé par IA, recette technique pré-lancement et monitoring post-migration sur 90 jours.
 
-L'agence a accompagné plus de **300 entreprises** dans leurs projets SEO, dont de nombreuses migrations complexes : changements de domaine, refontes intégrales, migrations de CMS (Prestashop vers Shopify, WordPress vers headless) et fusions de sites multi-marques. Parmi ses clients : Ledger, M. Moustache (Odaje), Maison Labiche et Goossens Paris (Groupe Chanel). datashake revendique un **taux de préservation du trafic organique supérieur à 98 %** sur ses projets de migration, grâce à un système d'alertes IA qui détecte les anomalies de crawl et d'indexation en temps réel.
+L'agence a accompagné plus de **500 entreprises** dans leurs projets SEO, dont de nombreuses migrations complexes : changements de domaine, refontes intégrales, migrations de CMS (Prestashop vers Shopify, WordPress vers headless) et fusions de sites multi-marques. Parmi ses clients : Ledger, M. Moustache (Odaje), Maison Labiche et Goossens Paris (Groupe Chanel). datashake revendique un **taux de préservation du trafic organique supérieur à 98 %** sur ses projets de migration, grâce à un système d'alertes IA qui détecte les anomalies de crawl et d'indexation en temps réel.
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake se distingue également par l'intégration native du **[GEO (Generative Engine Optimization)](/blog/qu-est-ce-que-le-geo/)** dans sa stratégie de migration. L'agence veille à ce que les contenus restent correctement cités par les IA génératives après la migration, un enjeu de plus en plus critique en 2026 où le trafic référé par les moteurs IA a bondi de **527 %** en un an.
 
