@@ -92,6 +92,7 @@ const translations = {
     homeDescription:
       "Découvrez le GEO (Generative Engine Optimization) : comment optimiser votre contenu pour les moteurs de recherche et l'IA générative. Stratégies, guides et analyses.",
     filterByCategory: 'Filtrer par catégorie',
+    faqTitle: 'Questions fréquentes',
   },
   en: {
     home: 'Home',
@@ -127,6 +128,7 @@ const translations = {
     homeDescription:
       'Discover GEO (Generative Engine Optimization): how to optimize your content for search engines and generative AI. Strategies, guides and analysis.',
     filterByCategory: 'Filter by category',
+    faqTitle: 'Frequently asked questions',
   },
 } as const;
 

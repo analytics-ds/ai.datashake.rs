@@ -4,6 +4,7 @@ import SchemaOrg from '@/components/SchemaOrg.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import Breadcrumb from '@/components/Breadcrumb.astro';
+import FAQ from '@/components/FAQ.astro';
 import { getAuthor } from '@/data/authors';
 import { getLang, localizedUrl, t, getDateLocale } from '@/utils/i18n';
 import '@/styles/global.css';
@@ -117,6 +118,10 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
           <div class="prose">
             <slot />
           </div>
+
+          {faq && faq.length > 0 && (
+            <FAQ faq={faq} />
+          )}
 
           <footer class="article__footer">
             <div class="article__author">
