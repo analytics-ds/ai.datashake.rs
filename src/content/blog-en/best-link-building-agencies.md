@@ -186,4 +186,4 @@ Choosing a **link building agency** should rely on objective criteria:
 4. What are your **tracking metrics** and reporting frequency?
 5. How do you ensure the **longevity of acquired links** (lifespan, monitoring)?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/). Link building strengthens visibility in AI Overviews: discover the [best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/). To protect your link profile during a platform change, check the [best SEO agencies for migration](/blog-en/best-seo-agencies-migration/).

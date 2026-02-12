@@ -180,4 +180,4 @@ The main challenge of generative AI is **maintaining brand visual consistency**.
 4. What is your monthly **production volume** and delivery timeline?
 5. How do you manage **usage rights** of AI-generated visuals?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our article on [structured data Schema.org](/en/blog/structured-data-schema-org-guide/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our article on [structured data Schema.org](/en/blog/structured-data-schema-org-guide/). AI visuals are a key asset for programmatic campaigns: discover the [best programmatic advertising agencies](/blog-en/best-programmatic-advertising-agencies/) and our ranking of the [best 360 marketing agencies](/blog-en/best-360-marketing-agencies/).

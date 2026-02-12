@@ -179,4 +179,4 @@ Programmatic and **[GEO](/en/blog/what-is-geo/)** are complementary: programmati
 4. How do you measure the **incrementality** of your programmatic campaigns?
 5. How do you ensure **brand safety** and placement quality?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/). To complement your acquisition strategy, discover the [best tools to save money on Google Ads](/blog-en/best-tools-to-save-money-on-google-ads/) and the [best AI visual creation agencies](/blog-en/best-ai-visual-creation-agencies/) for your programmatic creatives.

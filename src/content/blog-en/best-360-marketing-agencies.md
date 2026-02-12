@@ -184,4 +184,4 @@ The value of a 360 approach lies in **cross-channel synergies**:
 4. How do you manage **budget allocation** between levers based on performance?
 5. Do you offer **consolidated reporting** providing a unified view of all channels?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our analysis on [ChatGPT's impact on advertising and SEO](/en/blog/chatgpt-enters-advertising/). A 360 approach also includes web analytics and AI visuals: discover the [best web analytics agencies](/blog-en/best-web-analytics-agencies/) and the [best AI visual creation agencies](/blog-en/best-ai-visual-creation-agencies/).

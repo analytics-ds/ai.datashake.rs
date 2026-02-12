@@ -184,4 +184,4 @@ The migration to **GA4** is complete, but many businesses still underutilize the
 4. How do you measure the **SEO and GEO** business contribution via analytics?
 5. Do you train **internal teams** to become autonomous in data exploitation?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/). Web analytics is essential for measuring Google Ads ROI: discover the [best tools to save money on Google Ads](/blog-en/best-tools-to-save-money-on-google-ads/) and our ranking of the [best 360 marketing agencies](/blog-en/best-360-marketing-agencies/).

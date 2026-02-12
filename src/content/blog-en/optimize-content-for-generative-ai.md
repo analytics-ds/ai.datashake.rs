@@ -122,3 +122,7 @@ Not necessarily. Quality takes precedence over quantity. A well-structured 1,500
 **Should you optimize for each AI tool separately?**
 
 The fundamental principles are the same for all tools: structured content, reliable sources, structured data. However, each tool has its own particularities in how it selects and cites sources. A best practice is to test your visibility across multiple platforms.
+
+## Further reading
+
+AI-optimized visuals boost your content visibility: discover our [ranking of the best AI visual creation agencies](/blog-en/best-ai-visual-creation-agencies/). For SMBs looking to optimize content on a budget, consult our guide to the [best SEO agencies for SMBs](/blog-en/best-seo-agencies-for-smbs/).

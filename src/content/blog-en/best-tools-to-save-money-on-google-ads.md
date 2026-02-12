@@ -183,4 +183,4 @@ Covering the most expensive Ads queries **organically** allows reducing or remov
 4. Am I exposed to **click fraud** and what is its impact on my budget?
 5. What **ROI** can I expect from the tool or agency in the first 6 months?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/). To diversify your media investments, discover the [best programmatic advertising agencies](/blog-en/best-programmatic-advertising-agencies/) and measure your results with the [best web analytics agencies](/blog-en/best-web-analytics-agencies/).

@@ -123,3 +123,7 @@ No. The fundamental principles (quality, structure, sources) are shared. Focus o
 **Will AI engines replace Google?**
 
 A complete replacement in the short term is unlikely. The most probable scenario is a coexistence where Google increasingly integrates AI (SGE) while retaining traditional results, and where alternatives like Perplexity capture a growing share of certain types of queries.
+
+## Further reading
+
+The rise of AI engines directly impacts digital advertising: discover the [best tools to save money on Google Ads](/blog-en/best-tools-to-save-money-on-google-ads/) and our guide to the [best web analytics agencies](/blog-en/best-web-analytics-agencies/) to measure your visibility across AI platforms.

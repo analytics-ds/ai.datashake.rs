@@ -167,3 +167,7 @@ The basics are accessible with minimal HTML knowledge. For a blog, most CMS plat
 **What is the impact on site performance?**
 
 The impact is negligible. JSON-LD is a small script block in the `<head>` that affects neither rendering nor page load time.
+
+## Further reading
+
+Structured data is a decisive lever for appearing in AI Overviews: explore our [ranking of the best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/). To measure the impact of your structured data on traffic, discover the [best web analytics agencies](/blog-en/best-web-analytics-agencies/).

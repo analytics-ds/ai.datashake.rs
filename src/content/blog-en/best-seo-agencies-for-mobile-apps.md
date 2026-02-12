@@ -205,4 +205,4 @@ A siloed SEO or ASO strategy leaves a significant share of visibility untapped. 
 4. How do you combine **mobile SEO and ASO** in your approach?
 5. What is your experience in **multi-country store optimization**?
 
-For deeper insights into optimization techniques for AI search engines, consult our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our article on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/).
+For deeper insights into optimization techniques for AI search engines, consult our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our article on [how to optimize content for generative AI](/en/blog/optimize-content-for-generative-ai/). To maximize your app's visibility in Google results, also discover the [best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/) and the [best SEO agencies for SMBs](/blog-en/best-seo-agencies-for-smbs/).

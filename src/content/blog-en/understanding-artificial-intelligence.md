@@ -162,3 +162,7 @@ Training large-scale AI models consumes considerable energy resources. The train
 ### The future of artificial intelligence
 
 The outlook for **artificial intelligence** in the coming years includes the democratization of AI tools for small businesses, improved model explainability and the development of multimodal AI capable of simultaneously processing text, images, video and audio. The main challenge remains balancing technological innovation with societal responsibility.
+
+## Further reading
+
+AI is also transforming media buying and visual creation: discover our [ranking of the best programmatic advertising agencies](/blog-en/best-programmatic-advertising-agencies/) and the [best AI visual creation agencies](/blog-en/best-ai-visual-creation-agencies/) leveraging these technologies daily.
