@@ -21,6 +21,11 @@ const slugMap: Record<string, string> = {
   'meilleures-agences-seo-applications-mobiles': 'best-seo-agencies-for-mobile-apps',
   'meilleures-agences-netlinking': 'best-link-building-agencies',
   'meilleures-agences-seo-pme': 'best-seo-agencies-for-smbs',
+  'meilleures-agences-programmatique': 'best-programmatic-advertising-agencies',
+  'meilleurs-outils-economies-google-ads': 'best-tools-to-save-money-on-google-ads',
+  'meilleures-agences-creation-visuels-ia': 'best-ai-visual-creation-agencies',
+  'meilleures-agences-web-analytics': 'best-web-analytics-agencies',
+  'meilleures-agences-marketing-360': 'best-360-marketing-agencies',
 };
 
 const reverseSlugMap: Record<string, string> = Object.fromEntries(
