@@ -184,4 +184,4 @@ Le choix d'une **agence SEO WordPress** doit reposer sur des critères objectifs
 4. Comment déployez-vous les **données structurées** au-delà des plugins SEO standards ?
 5. Quelle est votre approche en matière de **performance WordPress** (cache, CDN, optimisation) ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre comparatif des [moteurs IA pour le GEO](/blog/perplexity-chatgpt-google-sge-comparatif/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre comparatif des [moteurs IA pour le GEO](/blog/perplexity-chatgpt-google-sge-comparatif/). Si vous envisagez un autre CMS, découvrez aussi nos classements des [meilleures agences SEO Shopify](/blog/meilleures-agences-seo-shopify/) et des [meilleures agences SEO Webflow](/blog/meilleures-agences-seo-webflow/).

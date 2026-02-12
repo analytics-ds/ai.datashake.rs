@@ -162,3 +162,7 @@ L'entraînement de modèles d'IA de grande taille consomme des ressources énerg
 ### L'avenir de l'intelligence artificielle
 
 Les perspectives de l'**intelligence artificielle** pour les prochaines années incluent la démocratisation des outils IA pour les petites entreprises, l'amélioration de l'explicabilité des modèles et le développement d'IA multimodales capables de traiter simultanément texte, image, vidéo et audio. L'enjeu principal reste de concilier innovation technologique et responsabilité sociétale.
+
+## Pour aller plus loin
+
+L'IA transforme aussi l'achat média et la création visuelle : découvrez notre [classement des meilleures agences en programmatique](/blog/meilleures-agences-programmatique/) et les [meilleures agences de création de visuels IA](/blog/meilleures-agences-creation-visuels-ia/) qui exploitent ces technologies au quotidien.

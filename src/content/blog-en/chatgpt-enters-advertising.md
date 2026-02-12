@@ -198,3 +198,7 @@ The impact is indirect but significant. Advertising in ChatGPT accelerates the n
 ### How to appear in ChatGPT's sponsored responses?
 
 OpenAI is developing a **self-service platform** for advertisers, similar in principle to Google Ads. Details on bidding, targeting, and formats will be communicated during the gradual rollout of the program.
+
+## Further reading
+
+To optimize your advertising budgets amid this new competition, explore the [best tools to save money on Google Ads](/blog-en/best-tools-to-save-money-on-google-ads/). Programmatic advertising is also evolving with AI: discover the [best programmatic advertising agencies](/blog-en/best-programmatic-advertising-agencies/) integrating these new platforms.

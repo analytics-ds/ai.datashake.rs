@@ -93,3 +93,7 @@ The main engines concerned are Google SGE, Bing Copilot (powered by GPT-4), Perp
 **How long does it take to see results with GEO?**
 
 As with SEO, GEO is a medium- to long-term strategy. Initial effects can be observed within a few weeks after implementing structured data and optimizing content, but a comprehensive strategy requires several months.
+
+## Further reading
+
+For more on AI optimization agencies, explore our [ranking of the best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/) and our guide to the [best 360 marketing agencies](/blog-en/best-360-marketing-agencies/).

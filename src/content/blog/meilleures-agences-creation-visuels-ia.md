@@ -180,4 +180,4 @@ Le principal défi de l'IA générative est le **maintien de la cohérence visue
 4. Quel est votre **volume de production** mensuel et votre délai de livraison ?
 5. Comment gérez-vous les **droits d'utilisation** des visuels générés par IA ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre article sur [les données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre article sur [les données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/). Les visuels IA sont un atout clé pour vos campagnes programmatiques : découvrez les [meilleures agences en programmatique](/blog/meilleures-agences-programmatique/) et notre classement des [meilleures agences de marketing 360](/blog/meilleures-agences-marketing-360/).

@@ -222,7 +222,7 @@ Not investing in specialized SEO support during a migration can cost significant
 - Organic traffic tracking by segment (brand, non-brand, categories)
 - Visibility check in AI search engines ([Perplexity, ChatGPT, Google SGE](/en/blog/perplexity-chatgpt-google-sge-comparison/))
 
-Choosing an SEO agency for a migration is a strategic investment whose impact is measured over several years. In a context where AI search engines are redefining content discovery, selecting a partner who masters both **technical SEO** and **[GEO](/en/blog/what-is-geo/)** ensures visibility across all search channels — classic and generative. To deepen your understanding of [content optimization strategies for generative AI](/en/blog/optimize-content-for-generative-ai/), it is essential to structure your approach around the trust criteria that determine source selection by language models.
+Choosing an SEO agency for a migration is a strategic investment whose impact is measured over several years. In a context where AI search engines are redefining content discovery, selecting a partner who masters both **technical SEO** and **[GEO](/en/blog/what-is-geo/)** ensures visibility across all search channels — classic and generative. To deepen your understanding of [content optimization strategies for generative AI](/en/blog/optimize-content-for-generative-ai/), it is essential to structure your approach around the trust criteria that determine source selection by language models. After a successful migration, work on your AI visibility with the [best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/) and strengthen your link profile with the [best link building agencies](/blog-en/best-link-building-agencies/).
 
 ---
 

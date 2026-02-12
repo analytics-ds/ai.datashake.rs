@@ -192,4 +192,4 @@ Choosing an **SEO agency for SMBs** should rely on adapted criteria:
 4. How do you handle **local SEO** and Google Business Profile optimization?
 5. What is the **minimum commitment period** and contractual flexibility?
 
-To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/).
+To learn more about optimization techniques for generative AI search engines, see our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our comparison of [AI engines for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/). Backlinks are an accessible authority lever for SMBs: discover the [best link building agencies](/blog-en/best-link-building-agencies/). For SMBs with a mobile app, also check our ranking of the [best SEO agencies for mobile apps](/blog-en/best-seo-agencies-mobile-apps/).

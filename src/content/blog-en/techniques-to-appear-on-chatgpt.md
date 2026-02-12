@@ -170,3 +170,7 @@ Certain practices are counterproductive and risk harming visibility:
 - **Blocking GPTBot** in robots.txt
 - **Absence of structured markup** and author metadata
 - **Unsourced** or outdated information
+
+## Further reading
+
+To maximize your AI visibility beyond ChatGPT, explore our [ranking of the best SEO agencies for AI Overviews](/blog-en/best-seo-agencies-ai-overviews/). Backlinks remain a key authority signal: discover the [best link building agencies](/blog-en/best-link-building-agencies/) to strengthen your link profile.

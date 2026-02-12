@@ -184,4 +184,4 @@ Choosing a **WordPress SEO agency** should be based on objective criteria:
 4. How do you deploy **structured data** beyond standard SEO plugins?
 5. What is your approach to **WordPress performance** (cache, CDN, optimization)?
 
-For deeper insights into optimization techniques for AI search engines, consult our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our [AI search engine comparison for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/).
+For deeper insights into optimization techniques for AI search engines, consult our guide on [techniques to appear on ChatGPT](/en/blog/techniques-to-appear-on-chatgpt/) and our [AI search engine comparison for GEO](/en/blog/perplexity-chatgpt-google-sge-comparison/). If you're considering another CMS, also check our rankings of the [best SEO agencies for Shopify](/blog-en/best-seo-agencies-shopify/) and the [best SEO agencies for Webflow](/blog-en/best-seo-agencies-webflow/).

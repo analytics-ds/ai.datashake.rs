@@ -198,3 +198,5 @@ To assess the strength of your **E-E-A-T** with GEO in mind, you should ask your
 - Is **topical coverage** sufficiently deep and consistent?
 
 In 2025, only **23% of marketers** invest in prompt tracking and GEO measurement. This represents a **considerable opportunity** for those who structure their E-E-A-T approach now. To understand the fundamentals of [artificial intelligence](/en/blog/understanding-artificial-intelligence/) and its impact on search, it is essential to continuously follow industry developments.
+
+Link building reinforces E-E-A-T signals: discover the [best link building agencies](/blog-en/best-link-building-agencies/). For SMBs looking to build credibility, consult our ranking of the [best SEO agencies for SMBs](/blog-en/best-seo-agencies-for-smbs/).
