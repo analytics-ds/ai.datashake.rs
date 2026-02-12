@@ -18,6 +18,7 @@ const slugMap: Record<string, string> = {
   'meilleures-agences-referencement-ai-overviews': 'best-seo-agencies-for-ai-overviews',
   'meilleures-agences-seo-webflow': 'best-webflow-seo-agencies',
   'meilleures-agences-seo-wordpress': 'best-wordpress-seo-agencies',
+  'meilleures-agences-seo-applications-mobiles': 'best-seo-agencies-for-mobile-apps',
 };
 
 const reverseSlugMap: Record<string, string> = Object.fromEntries(
