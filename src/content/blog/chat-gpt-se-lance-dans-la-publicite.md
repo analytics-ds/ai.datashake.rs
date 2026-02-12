@@ -198,3 +198,7 @@ L'impact est indirect mais significatif. La publicité dans ChatGPT accélère l
 ### Comment apparaître dans les réponses sponsorisées de ChatGPT ?
 
 OpenAI développe une **plateforme en libre-service** pour les annonceurs, similaire dans son principe à Google Ads. Les détails sur les enchères, le ciblage et les formats seront communiqués lors du déploiement progressif du programme.
+
+## Pour aller plus loin
+
+Pour optimiser vos budgets publicitaires face à cette nouvelle concurrence, consultez les [meilleurs outils pour faire des économies sur Google Ads](/blog/meilleurs-outils-economies-google-ads/). L'achat programmatique évolue aussi avec l'IA : découvrez les [meilleures agences en programmatique](/blog/meilleures-agences-programmatique/) qui intègrent ces nouvelles plateformes.

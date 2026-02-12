@@ -179,4 +179,4 @@ La programmatique et le **[GEO](/blog/qu-est-ce-que-le-geo/)** sont complémenta
 4. Comment mesurez-vous **l'incrémentalité** de vos campagnes programmatiques ?
 5. Comment assurez-vous la **brand safety** et la qualité des emplacements ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre analyse sur [l'impact de ChatGPT sur la publicité et le SEO](/blog/chat-gpt-se-lance-dans-la-publicite/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre analyse sur [l'impact de ChatGPT sur la publicité et le SEO](/blog/chat-gpt-se-lance-dans-la-publicite/). Pour compléter votre stratégie d'acquisition, découvrez les [meilleurs outils pour faire des économies sur Google Ads](/blog/meilleurs-outils-economies-google-ads/) et les [meilleures agences de création de visuels IA](/blog/meilleures-agences-creation-visuels-ia/) pour vos créas programmatiques.

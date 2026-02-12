@@ -184,4 +184,4 @@ La valeur d'une approche 360 réside dans les **synergies entre canaux** :
 4. Comment gérez-vous l'**allocation budgétaire** entre les leviers en fonction des performances ?
 5. Proposez-vous un **reporting consolidé** qui donne une vision unifiée de tous les canaux ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre analyse sur [l'impact de ChatGPT sur la publicité et le SEO](/blog/chat-gpt-se-lance-dans-la-publicite/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/) et notre analyse sur [l'impact de ChatGPT sur la publicité et le SEO](/blog/chat-gpt-se-lance-dans-la-publicite/). Une approche 360 intègre aussi le web analytics et les visuels IA : découvrez les [meilleures agences de web analytics](/blog/meilleures-agences-web-analytics/) et les [meilleures agences de création de visuels IA](/blog/meilleures-agences-creation-visuels-ia/).

@@ -188,4 +188,4 @@ Le choix d'une **agence SEO Webflow** doit reposer sur des critères objectifs :
 4. Comment déployez-vous les **données structurées** sur Webflow ?
 5. Quel est votre **reporting** et à quelle fréquence ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre comparatif des [moteurs IA pour le GEO](/blog/perplexity-chatgpt-google-sge-comparatif/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre comparatif des [moteurs IA pour le GEO](/blog/perplexity-chatgpt-google-sge-comparatif/). Si vous envisagez un autre CMS, découvrez aussi nos classements des [meilleures agences SEO Shopify](/blog/meilleures-agences-seo-shopify/) et des [meilleures agences SEO WordPress](/blog/meilleures-agences-seo-wordpress/).

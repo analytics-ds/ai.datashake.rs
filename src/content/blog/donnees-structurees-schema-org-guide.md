@@ -166,3 +166,7 @@ Les bases sont accessibles avec des connaissances HTML minimales. Pour un blog, 
 **Quel est l'impact sur les performances du site ?**
 
 L'impact est négligeable. Le JSON-LD est un petit bloc de script dans le `<head>` qui n'affecte ni le rendu ni le temps de chargement de la page.
+
+## Pour aller plus loin
+
+Les données structurées sont un levier décisif pour apparaître dans les AI Overviews : consultez notre [classement des meilleures agences de référencement pour les AI Overviews](/blog/meilleures-agences-referencement-ai-overviews/). Pour mesurer l'impact de vos données structurées sur votre trafic, découvrez les [meilleures agences de web analytics](/blog/meilleures-agences-web-analytics/).
