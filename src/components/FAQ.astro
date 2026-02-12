@@ -1,0 +1,130 @@
+---
+import { getLang, t } from '@/utils/i18n';
+
+export interface Props {
+  faq: Array<{ question: string; answer: string }>;
+}
+
+const { faq } = Astro.props;
+const lang = getLang(Astro.url);
+---
+
+<section class="faq">
+  <h2 class="faq__title">{t(lang, 'faqTitle')}</h2>
+  <div class="faq__list">
+    {faq.map((item) => (
+      <details class="faq__item">
+        <summary class="faq__question">{item.question}</summary>
+        <div class="faq__answer">
+          <p>{item.answer}</p>
+        </div>
+      </details>
+    ))}
+  </div>
+</section>
+
+<style>
+  .faq {
+    max-width: var(--max-width-content);
+    margin: var(--spacing-3xl) auto 0;
+  }
+
+  .faq__title {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--spacing-xl);
+    color: var(--color-gray-900);
+  }
+
+  .faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+
+  .faq__item {
+    border: 1px solid var(--color-gray-200);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    transition: border-color var(--transition-fast);
+  }
+
+  .faq__item:hover {
+    border-color: var(--color-gray-300);
+  }
+
+  .faq__item[open] {
+    border-color: var(--color-primary);
+  }
+
+  .faq__question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--spacing-lg) var(--spacing-xl);
+    font-weight: 600;
+    font-size: var(--font-size-base);
+    color: var(--color-gray-800);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    background: var(--color-white);
+    transition: background var(--transition-fast), color var(--transition-fast);
+  }
+
+  .faq__question::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq__question::after {
+    content: '';
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: var(--spacing-md);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform var(--transition-base);
+  }
+
+  .faq__item[open] .faq__question::after {
+    transform: rotate(180deg);
+  }
+
+  .faq__item[open] .faq__question {
+    color: var(--color-primary);
+    background: var(--color-gray-50);
+  }
+
+  .faq__question:hover {
+    background: var(--color-gray-50);
+  }
+
+  .faq__answer {
+    padding: 0 var(--spacing-xl) var(--spacing-lg);
+    background: var(--color-gray-50);
+  }
+
+  .faq__answer p {
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+    color: var(--color-gray-600);
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .faq__question {
+      padding: var(--spacing-md) var(--spacing-lg);
+      font-size: var(--font-size-sm);
+    }
+
+    .faq__answer {
+      padding: 0 var(--spacing-lg) var(--spacing-md);
+    }
+
+    .faq__answer p {
+      font-size: var(--font-size-sm);
+    }
+  }
+</style>
