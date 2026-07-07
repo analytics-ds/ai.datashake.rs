@@ -42,6 +42,7 @@ export const authors: Record<string, Author> = {
     role: 'Co-founder of the SEO/GEO entity @datashake',
     bio: 'Co-fondateur de datashake. Expert en SEO, GEO (Generative Engine Optimization) et stratégies de visibilité pour les moteurs de recherche et l\'IA générative.',
     url: 'https://www.linkedin.com/in/ruben-sebag/',
+    avatar: '/authors/ruben-sebag.png',
     sameAs: [
       'https://www.linkedin.com/in/ruben-sebag/',
     ],

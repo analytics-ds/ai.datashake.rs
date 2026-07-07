@@ -125,6 +125,29 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
 
           <footer class="article__footer">
             <div class="article__author">
+              {author.avatar && (
+                author.url ? (
+                  <a href={author.url} target="_blank" rel="noopener" class="article__author-avatar-link">
+                    <img
+                      class="article__author-avatar"
+                      src={author.avatar}
+                      alt={author.name}
+                      width="72"
+                      height="72"
+                      loading="lazy"
+                    />
+                  </a>
+                ) : (
+                  <img
+                    class="article__author-avatar"
+                    src={author.avatar}
+                    alt={author.name}
+                    width="72"
+                    height="72"
+                    loading="lazy"
+                  />
+                )
+              )}
               <div class="article__author-info">
                 <span class="article__author-label">{t(lang, 'publishedBy')}</span>
                 <strong class="article__author-name">
@@ -135,6 +158,15 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
                   )}
                 </strong>
                 <span class="article__author-role">{author.role}</span>
+                {author.sameAs && author.sameAs.length > 0 && (
+                  <span class="article__author-socials">
+                    {author.sameAs.map((link) => (
+                      <a href={link} target="_blank" rel="noopener me" class="article__author-social">
+                        {link.includes('linkedin') ? 'LinkedIn' : link.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}
+                      </a>
+                    ))}
+                  </span>
+                )}
               </div>
             </div>
 
@@ -211,9 +243,40 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     margin-bottom: var(--spacing-xl);
   }
 
+  .article__author-avatar-link {
+    flex-shrink: 0;
+    display: block;
+  }
+
+  .article__author-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+
   .article__author-info {
     display: flex;
     flex-direction: column;
+  }
+
+  .article__author-socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-xs);
+  }
+
+  .article__author-social {
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .article__author-social:hover {
+    text-decoration: underline;
   }
 
   .article__author-label {

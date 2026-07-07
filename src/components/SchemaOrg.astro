@@ -102,6 +102,11 @@ function buildAuthorSchema() {
     description: author.bio,
     sameAs: author.sameAs,
   };
+  if (author.avatar) {
+    authorObj.image = author.avatar.startsWith('http')
+      ? author.avatar
+      : `${siteUrl}${author.avatar.replace(/^\//, '')}`;
+  }
   if (author.type === 'Person') {
     if (author.jobTitle) authorObj.jobTitle = author.jobTitle;
     if (author.knowsAbout) authorObj.knowsAbout = author.knowsAbout;
