@@ -81,18 +81,20 @@ const translations = {
     blogDescription: "Retrouvez tous nos articles sur le GEO, le SEO et l'IA générative.",
     blogMetaDescription:
       "Tous les articles sur le GEO (Generative Engine Optimization), l'optimisation pour l'IA générative, les données structurées et le SEO nouvelle génération.",
-    footerTagline: 'Le blog francophone de référence sur le GEO — Generative Engine Optimization.',
+    footerTagline: 'Le blog francophone de référence sur le GEO (Generative Engine Optimization).',
     navigation: 'Navigation',
     allRightsReserved: 'Tous droits réservés.',
     categoryPrefix: 'categorie',
     categoryArticlesTitle: 'Articles',
     categoryMetaDesc: (cat: string) =>
       `Tous les articles de la catégorie ${cat} sur AI datashake. Guides, analyses et stratégies.`,
-    homeTitle: 'AI datashake — Le blog GEO : Generative Engine Optimization',
+    homeTitle: 'AI datashake, le blog GEO : Generative Engine Optimization',
     homeDescription:
       "Découvrez le GEO (Generative Engine Optimization) : comment optimiser votre contenu pour les moteurs de recherche et l'IA générative. Stratégies, guides et analyses.",
     filterByCategory: 'Filtrer par catégorie',
     faqTitle: 'Questions fréquentes',
+    tableOfContents: 'Sommaire',
+    readingTime: 'min de lecture',
   },
   en: {
     home: 'Home',
@@ -117,18 +119,20 @@ const translations = {
     blogDescription: 'All our articles on GEO, SEO, and generative AI.',
     blogMetaDescription:
       'All articles on GEO (Generative Engine Optimization), generative AI optimization, structured data and next-generation SEO.',
-    footerTagline: 'The reference blog on GEO — Generative Engine Optimization.',
+    footerTagline: 'The reference blog on GEO (Generative Engine Optimization).',
     navigation: 'Navigation',
     allRightsReserved: 'All rights reserved.',
     categoryPrefix: 'category',
     categoryArticlesTitle: 'Articles',
     categoryMetaDesc: (cat: string) =>
       `All articles in the ${cat} category on AI datashake. Guides, analysis and strategies.`,
-    homeTitle: 'AI datashake — The GEO Blog: Generative Engine Optimization',
+    homeTitle: 'AI datashake, the GEO Blog: Generative Engine Optimization',
     homeDescription:
       'Discover GEO (Generative Engine Optimization): how to optimize your content for search engines and generative AI. Strategies, guides and analysis.',
     filterByCategory: 'Filter by category',
     faqTitle: 'Frequently asked questions',
+    tableOfContents: 'Contents',
+    readingTime: 'min read',
   },
 } as const;
 
