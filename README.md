@@ -8,6 +8,24 @@ Blog GEO (Generative Engine Optimization) propulsé par [Astro](https://astro.bu
 - **Schema.org / JSON-LD** — Données structurées (Article, Author, BreadcrumbList)
 - **GitHub Pages** — Hébergement et déploiement automatique via GitHub Actions
 
+## Direction artistique
+
+Le site suit la **DA datashake 2026** (référence : `datashake - design system.md` de la
+charte). Les règles appliquées dans `src/styles/global.css` :
+
+- **Fonds** : blanc `#FFFFFF`, beige `#F3EDE8`, noir `#101010`. Rien d'autre.
+- **Accents** bleu `#77B0ED`, jaune `#FFFF7D`, kaki `#ADAC2F` : petites touches
+  (tags, icônes, data-viz sur fond noir), **jamais un fond**.
+- **Typo** : Inter Regular pour les paragraphes, Inter Medium pour les titres, en une
+  seule graisse (Season Sans reste la cible de la DA, en standby licence).
+- **Textes** en noir ou blanc uniquement, atténués par transparence (70 % / 55 %).
+- **Logo** noir ou blanc exclusivement (`logo-datashake-full.svg` /
+  `logo-datashake-white.svg`), jamais coloré ni déformé.
+- **Tokens de forme** : rayon carte 16, rayon moyen 12, tag pilule, bordure de carte
+  `#E0E0E0`, filets noir 30 % (blanc 30 % sur fond noir).
+- **Interdits** : dégradés, ombres marquées, plus d'une graisse de titre, jaune vif
+  `#FFFF00`.
+
 ## Commandes
 
 ```bash

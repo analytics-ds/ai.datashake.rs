@@ -157,17 +157,42 @@ Génère le JSON-LD `<script type="application/ld+json">` avec :
 - Logo + tagline + navigation + lien site parent
 - Copyright dynamique (année courante)
 
-### Design System (global.css)
-Variables CSS à adapter selon la marque :
+### Design System (global.css) — DA datashake 2026
+Palette sobre : blanc, beige, noir. Les accents (bleu, jaune, kaki) sont de petites
+touches sur des tags, des icônes ou de la data-viz, **jamais un fond**. Textes en noir
+ou blanc uniquement, atténués par transparence. Titres en une seule graisse (Medium).
+
 ```css
 :root {
-  /* Couleurs — À PERSONNALISER */
-  --color-primary: #0036CC;
-  --color-cyan: #2DB8DA;
-  --color-pink: #FF215B;
+  /* Fonds — les 3 seules couleurs autorisées en fond */
+  --ds-white: #FFFFFF;
+  --ds-beige: #F3EDE8;   /* couleur signature datashake */
+  --ds-black: #101010;   /* ce n'est PAS du #000 */
 
-  /* Typographie */
-  --font-family: 'Montserrat', sans-serif;
+  /* Accents — tags, icônes, data-viz sur fond noir. Jamais un fond */
+  --ds-blue: #77B0ED;
+  --ds-yellow: #FFFF7D;
+  --ds-kaki: #ADAC2F;
+
+  /* Textes */
+  --text-strong: #101010;              /* titres */
+  --text-body: rgba(16,16,16,0.7);     /* paragraphes */
+  --text-on-dark: #FFFFFF;
+
+  /* Bordures et filets (tokens de forme) */
+  --border-card: #E0E0E0;              /* bordure/carte */
+  --rule: rgba(16,16,16,0.3);          /* bordure/filet */
+  --rule-dark: rgba(255,255,255,0.3);  /* bordure/filet-sombre */
+
+  /* Rayons */
+  --radius-card: 16px;                 /* rayon/carte */
+  --radius-medium: 12px;               /* rayon/moyen */
+  --radius-pill: 999px;                /* rayon/tag */
+
+  /* Typographie : Inter Regular pour les paragraphes,
+     Inter Medium pour les titres (cible DA : Season Sans, en standby licence) */
+  --font-family: 'Inter', sans-serif;
+  --font-weight-title: 500;
   --font-size-xs à --font-size-5xl (8 niveaux)
 
   /* Spacing */
@@ -176,12 +201,14 @@ Variables CSS à adapter selon la marque :
   /* Layout */
   --max-width: 1200px;
   --max-width-content: 800px;
-
-  /* Ombres, arrondis, transitions */
 }
 ```
 
-Classes utilitaires incluses : `.container`, `.gradient-text`, `.sr-only`, `.section`, `.btn`, `.tag`, `.prose`
+Classes utilitaires incluses : `.container`, `.eyebrow`, `.sr-only`, `.section`,
+`.section--beige`, `.section--black`, `.rule`, `.btn`, `.tag`, `.card-surface`, `.prose`
+
+Interdits : dégradés, couleur en fond hors blanc / beige / noir, logo coloré,
+plus d'une graisse de titre, jaune vif `#FFFF00` (repère interne du template deck).
 
 ---
 

@@ -31,9 +31,7 @@ const lang = getLang(Astro.url);
 
   .faq__title {
     font-size: var(--font-size-2xl);
-    font-weight: 700;
     margin-bottom: var(--spacing-xl);
-    color: var(--color-gray-900);
   }
 
   .faq__list {
@@ -42,19 +40,17 @@ const lang = getLang(Astro.url);
     gap: var(--spacing-sm);
   }
 
+  /* Cartes DA : bordure fine #E0E0E0, rayon 12 */
   .faq__item {
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--border-radius);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-medium);
     overflow: hidden;
     transition: border-color var(--transition-fast);
   }
 
-  .faq__item:hover {
-    border-color: var(--color-gray-300);
-  }
-
+  .faq__item:hover,
   .faq__item[open] {
-    border-color: var(--color-primary);
+    border-color: var(--ds-black);
   }
 
   .faq__question {
@@ -62,14 +58,16 @@ const lang = getLang(Astro.url);
     align-items: center;
     justify-content: space-between;
     padding: var(--spacing-lg) var(--spacing-xl);
-    font-weight: 600;
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-title);
+    letter-spacing: var(--tracking-title);
     font-size: var(--font-size-base);
-    color: var(--color-gray-800);
+    color: var(--text-strong);
     cursor: pointer;
     list-style: none;
     user-select: none;
-    background: var(--color-white);
-    transition: background var(--transition-fast), color var(--transition-fast);
+    background: var(--ds-white);
+    transition: background var(--transition-fast);
   }
 
   .faq__question::-webkit-details-marker {
@@ -82,9 +80,11 @@ const lang = getLang(Astro.url);
     width: 1.25rem;
     height: 1.25rem;
     margin-left: var(--spacing-md);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-color: var(--ds-black);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 15.4L6 9.4 7.4 8l4.6 4.6L16.6 8 18 9.4z'/%3E%3C/svg%3E")
+      no-repeat center / contain;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 15.4L6 9.4 7.4 8l4.6 4.6L16.6 8 18 9.4z'/%3E%3C/svg%3E")
+      no-repeat center / contain;
     transition: transform var(--transition-base);
   }
 
@@ -92,25 +92,24 @@ const lang = getLang(Astro.url);
     transform: rotate(180deg);
   }
 
+  .faq__question:hover,
   .faq__item[open] .faq__question {
-    color: var(--color-primary);
-    background: var(--color-gray-50);
-  }
-
-  .faq__question:hover {
-    background: var(--color-gray-50);
+    background: var(--ds-beige);
   }
 
   .faq__answer {
     padding: 0 var(--spacing-xl) var(--spacing-lg);
-    background: var(--color-gray-50);
+    background: var(--ds-beige);
   }
 
   .faq__answer p {
     font-size: var(--font-size-base);
     line-height: 1.7;
-    color: var(--color-gray-600);
+    color: var(--text-body);
     margin: 0;
+    padding-top: var(--spacing-md);
+    /* token bordure/filet */
+    border-top: 1px solid var(--rule);
   }
 
   @media (max-width: 768px) {

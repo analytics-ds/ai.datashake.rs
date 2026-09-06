@@ -1,41 +1,62 @@
-/* ===========================
-   Design System — ai.datashake.rs
-   Inspired by datashake.fr
-   =========================== */
+/* ===========================================================
+   Design System — ai.datashake.fr
+   DA datashake 2026 (source : "datashake - design system.md")
 
-/* --- CSS Custom Properties --- */
+   Regles non negociables appliquees ici :
+   - Fonds : blanc #FFFFFF, beige #F3EDE8, noir #101010 uniquement
+   - Accents (bleu, jaune, kaki) : petites touches, jamais un fond
+   - Titres : une seule graisse (Medium). Season Sans en standby licence,
+     rendu en Inter Medium comme dans la bibliotheque Figma
+   - Paragraphes : Inter Regular
+   - Textes en noir ou blanc uniquement (via transparence pour l'attenuation)
+   - Tokens de forme : rayon carte 16, rayon moyen 12, tag pilule,
+     bordure carte #E0E0E0, filets noir 30 % / blanc 30 %
+   =========================================================== */
+
 :root {
-  /* Primary palette */
-  --color-primary: #0036CC;
-  --color-primary-dark: #002299;
-  --color-primary-light: #1a4fd8;
+  /* --- Couleurs principales (les seules autorisees en fond) --- */
+  --ds-white: #ffffff;
+  --ds-beige: #f3ede8;
+  --ds-black: #101010;
 
-  /* Accent palette */
-  --color-cyan: #2DB8DA;
-  --color-cyan-light: #5fcce6;
-  --color-pink: #FF215B;
+  /* --- Accents : tags, icones, data-viz. Jamais un fond --- */
+  --ds-blue: #77b0ed;
+  --ds-yellow: #ffff7d;
+  --ds-kaki: #adac2f;
 
-  /* Gradients */
-  --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-cyan) 100%);
-  --gradient-accent: linear-gradient(135deg, var(--color-cyan) 0%, var(--color-pink) 100%);
-  --gradient-text: linear-gradient(135deg, var(--color-primary) 0%, var(--color-cyan) 50%, var(--color-pink) 100%);
+  /* --- Gris de support --- */
+  --ds-gray-light: #f5f5f5;
+  --ds-gray-medium: #e8e8e8;
 
-  /* Neutrals */
-  --color-white: #FFFFFF;
-  --color-gray-50: #F8F9FB;
-  --color-gray-100: #F1F3F7;
-  --color-gray-200: #E2E5EB;
-  --color-gray-300: #C8CDD6;
-  --color-gray-400: #9BA3B0;
-  --color-gray-500: #6B7280;
-  --color-gray-600: #4B5563;
-  --color-gray-700: #374151;
-  --color-gray-800: #1F2937;
-  --color-gray-900: #111827;
-  --color-black: #0A0D14;
+  /* --- Textes (noir ou blanc, attenues par transparence) --- */
+  --text-strong: #101010;
+  --text-body: rgba(16, 16, 16, 0.7);
+  --text-muted: rgba(16, 16, 16, 0.55);
+  --text-faint: rgba(16, 16, 16, 0.4);
+  --text-on-dark: #ffffff;
+  --text-on-dark-body: rgba(255, 255, 255, 0.7);
+  --text-on-dark-muted: rgba(255, 255, 255, 0.5);
 
-  /* Typography */
-  --font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* --- Bordures, filets, separateurs (tokens de forme DA) --- */
+  --border-card: #e0e0e0;
+  --border-card-dark: rgba(255, 255, 255, 0.25);
+  --rule: rgba(16, 16, 16, 0.3);
+  --rule-dark: rgba(255, 255, 255, 0.3);
+  --separator: rgba(16, 16, 16, 0.3);
+  --separator-dark: rgba(255, 255, 255, 0.3);
+
+  /* --- Rayons (tokens de forme DA) --- */
+  --radius-card: 16px;
+  --radius-medium: 12px;
+  --radius-pill: 999px;
+
+  /* --- Typographie --- */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* Titres : meme famille, graisse Medium unique (cible DA : Season Sans) */
+  --font-family-title: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-weight-title: 500;
+  --tracking-title: -0.02em;
+
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-base: 1rem;
@@ -46,7 +67,7 @@
   --font-size-4xl: 2.25rem;
   --font-size-5xl: 3rem;
 
-  /* Spacing */
+  /* --- Espacements --- */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
   --spacing-md: 1rem;
@@ -56,26 +77,45 @@
   --spacing-3xl: 4rem;
   --spacing-4xl: 6rem;
 
-  /* Layout */
+  /* --- Layout --- */
   --max-width: 1200px;
   --max-width-content: 800px;
-  --border-radius: 0.5rem;
-  --border-radius-lg: 1rem;
-  --border-radius-xl: 1.5rem;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  /* --- Ombres : la DA est plate, on garde un lift discret au survol --- */
+  --shadow-sm: 0 1px 2px rgba(16, 16, 16, 0.04);
+  --shadow-md: 0 2px 8px rgba(16, 16, 16, 0.06);
+  --shadow-lg: 0 8px 24px rgba(16, 16, 16, 0.08);
 
-  /* Transitions */
+  /* --- Transitions --- */
   --transition-fast: 150ms ease;
   --transition-base: 250ms ease;
   --transition-slow: 350ms ease;
+
+  /* --- Alias de compatibilite (anciens noms de variables) ---
+     Conserves pour qu'aucun style residuel ne casse : ils pointent
+     tous vers des valeurs conformes a la DA 2026. */
+  --color-primary: var(--ds-black);
+  --color-primary-dark: var(--ds-black);
+  --color-primary-light: var(--text-body);
+  --color-cyan: var(--ds-blue);
+  --color-white: var(--ds-white);
+  --color-black: var(--ds-black);
+  --color-gray-50: var(--ds-gray-light);
+  --color-gray-100: var(--ds-gray-light);
+  --color-gray-200: var(--ds-gray-medium);
+  --color-gray-300: var(--border-card);
+  --color-gray-400: var(--text-faint);
+  --color-gray-500: var(--text-muted);
+  --color-gray-600: var(--text-body);
+  --color-gray-700: var(--text-body);
+  --color-gray-800: var(--text-strong);
+  --color-gray-900: var(--text-strong);
+  --border-radius: var(--radius-medium);
+  --border-radius-lg: var(--radius-card);
+  --border-radius-xl: var(--radius-card);
 }
 
-/* --- Reset & Base --- */
+/* --- Reset & base --- */
 *,
 *::before,
 *::after {
@@ -95,8 +135,8 @@ body {
   font-size: var(--font-size-base);
   font-weight: 400;
   line-height: 1.7;
-  color: var(--color-gray-800);
-  background-color: var(--color-white);
+  color: var(--text-body);
+  background-color: var(--ds-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -108,45 +148,60 @@ img {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--text-strong);
   text-decoration: none;
-  transition: color var(--transition-fast);
+  transition: color var(--transition-fast), opacity var(--transition-fast);
 }
 
 a:hover {
-  color: var(--color-primary-light);
+  color: var(--text-strong);
+  opacity: 0.7;
 }
 
-/* --- Typography --- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  line-height: 1.25;
-  color: var(--color-gray-900);
+/* --- Typographie : titres en une seule graisse, noir 100 % --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-title);
+  letter-spacing: var(--tracking-title);
+  line-height: 1.2;
+  color: var(--text-strong);
   margin-bottom: var(--spacing-md);
 }
 
-h1 { font-size: var(--font-size-4xl); }
-h2 { font-size: var(--font-size-3xl); }
-h3 { font-size: var(--font-size-2xl); }
-h4 { font-size: var(--font-size-xl); }
+h1 {
+  font-size: var(--font-size-4xl);
+}
+h2 {
+  font-size: var(--font-size-3xl);
+}
+h3 {
+  font-size: var(--font-size-2xl);
+}
+h4 {
+  font-size: var(--font-size-xl);
+}
 
 p {
   margin-bottom: var(--spacing-md);
 }
 
-/* --- Utility Classes --- */
+strong,
+b {
+  font-weight: 600;
+  color: var(--text-strong);
+}
+
+/* --- Utilitaires --- */
 .container {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--spacing-lg);
-}
-
-.gradient-text {
-  background: var(--gradient-text);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .sr-only {
@@ -161,87 +216,174 @@ p {
   border-width: 0;
 }
 
-/* --- Section Spacing --- */
+/* Surtitre : capitales, noir attenue, tracking ouvert */
+.eyebrow {
+  display: inline-block;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-body);
+}
+
+/* --- Sections --- */
 .section {
   padding: var(--spacing-4xl) 0;
 }
 
-.section--gray {
-  background-color: var(--color-gray-50);
+/* Fond beige : couleur signature datashake */
+.section--beige {
+  background-color: var(--ds-beige);
 }
 
-/* --- Buttons --- */
+/* Fond noir : seul contexte ou les accents colores sont autorises */
+.section--black {
+  background-color: var(--ds-black);
+  color: var(--text-on-dark-body);
+}
+
+.section--black h1,
+.section--black h2,
+.section--black h3,
+.section--black h4 {
+  color: var(--text-on-dark);
+}
+
+/* Alias de l'ancienne classe : le gris devient le beige de la DA */
+.section--gray {
+  background-color: var(--ds-beige);
+}
+
+/* Filet fin de separation (token bordure/filet) */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* --- Boutons --- */
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: var(--spacing-sm);
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   font-family: var(--font-family);
   font-size: var(--font-size-sm);
-  font-weight: 600;
-  border: none;
-  border-radius: var(--border-radius);
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
   cursor: pointer;
   transition: all var(--transition-base);
   text-decoration: none;
 }
 
+/* Bouton principal : noir plein, texte blanc */
 .btn--primary {
-  background: var(--gradient-primary);
-  color: var(--color-white);
+  background: var(--ds-black);
+  color: var(--ds-white);
 }
 
 .btn--primary:hover {
-  opacity: 0.9;
-  color: var(--color-white);
+  background: var(--ds-black);
+  color: var(--ds-white);
+  opacity: 1;
   transform: translateY(-1px);
   box-shadow: var(--shadow-lg);
 }
 
 .btn--outline {
   background: transparent;
-  color: var(--color-primary);
-  border: 2px solid var(--color-primary);
+  color: var(--text-strong);
+  border-color: var(--ds-black);
 }
 
 .btn--outline:hover {
-  background: var(--color-primary);
-  color: var(--color-white);
+  background: var(--ds-black);
+  color: var(--ds-white);
+  opacity: 1;
 }
 
-/* --- Tag / Badge --- */
+/* Sur fond noir, le bouton s'inverse */
+.section--black .btn--primary {
+  background: var(--ds-white);
+  color: var(--ds-black);
+}
+
+/* Fleche datashake dans les CTA */
+.btn svg {
+  flex-shrink: 0;
+  transition: transform var(--transition-base);
+}
+
+.btn:hover svg {
+  transform: translateX(3px);
+}
+
+/* --- Tags / labels : rectangle arrondi pilule --- */
 .tag {
   display: inline-block;
-  padding: 0.25rem 0.75rem;
+  padding: 0.3rem 0.85rem;
+  font-family: var(--font-family);
   font-size: var(--font-size-xs);
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border-radius: 9999px;
-  background-color: var(--color-gray-100);
-  color: var(--color-primary);
+  letter-spacing: 0.06em;
+  border-radius: var(--radius-pill);
+  background-color: var(--ds-beige);
+  color: var(--text-strong);
   transition: all var(--transition-fast);
 }
 
-.tag:hover {
-  background-color: var(--color-primary);
-  color: var(--color-white);
+a.tag:hover {
+  background-color: var(--ds-black);
+  color: var(--ds-white);
+  opacity: 1;
 }
 
-/* --- Article content prose --- */
+.tag--black {
+  background-color: var(--ds-black);
+  color: var(--ds-white);
+}
+
+/* Sur fond noir : tag bleu, texte noir */
+.section--black .tag {
+  background-color: var(--ds-blue);
+  color: var(--ds-black);
+}
+
+/* --- Cartes : trois declinaisons DA --- */
+.card-surface {
+  background: var(--ds-white);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-card);
+}
+
+.card-surface--beige {
+  background: var(--ds-beige);
+  border-color: transparent;
+}
+
+.card-surface--black {
+  background: var(--ds-black);
+  border-color: var(--border-card-dark);
+  color: var(--text-on-dark-body);
+}
+
+/* --- Contenu d'article --- */
 .prose {
   max-width: var(--max-width-content);
   margin: 0 auto;
   font-size: var(--font-size-lg);
   line-height: 1.8;
+  color: var(--text-body);
 }
 
 .prose h2 {
   margin-top: var(--spacing-3xl);
   margin-bottom: var(--spacing-lg);
   padding-bottom: var(--spacing-sm);
-  border-bottom: 2px solid var(--color-gray-100);
+  border-bottom: 1px solid var(--rule);
 }
 
 .prose h3 {
@@ -251,7 +393,7 @@ p {
 
 .prose p {
   margin-bottom: var(--spacing-lg);
-  color: var(--color-gray-700);
+  color: var(--text-body);
 }
 
 .prose ul,
@@ -264,52 +406,88 @@ p {
   margin-bottom: var(--spacing-sm);
 }
 
-.prose blockquote {
-  border-left: 4px solid var(--color-cyan);
-  padding: var(--spacing-md) var(--spacing-xl);
-  margin: var(--spacing-xl) 0;
-  background-color: var(--color-gray-50);
-  border-radius: 0 var(--border-radius) var(--border-radius) 0;
-  font-style: italic;
-  color: var(--color-gray-600);
+/* Puces : la fleche datashake, en noir sur fond clair */
+.prose ul {
+  list-style: none;
+  padding-left: 1.6rem;
 }
 
-/* --- "En bref" callout --- */
+.prose ul > li {
+  position: relative;
+}
+
+.prose ul > li::before {
+  content: '';
+  position: absolute;
+  left: -1.6rem;
+  top: 0.62em;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--ds-black);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z'/%3E%3C/svg%3E")
+    no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z'/%3E%3C/svg%3E")
+    no-repeat center / contain;
+}
+
+.prose ol {
+  padding-left: 1.6rem;
+}
+
+.prose ol > li::marker {
+  color: var(--text-strong);
+  font-weight: 500;
+}
+
+/* Citation : fond beige, filet noir a gauche */
+.prose blockquote {
+  border-left: 2px solid var(--ds-black);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+  background-color: var(--ds-beige);
+  border-radius: 0 var(--radius-card) var(--radius-card) 0;
+  color: var(--text-body);
+}
+
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Encart "En bref" : carte beige --- */
 .prose .tldr {
   margin: 0 0 var(--spacing-2xl);
   padding: var(--spacing-lg) var(--spacing-xl);
-  background: linear-gradient(135deg, rgba(0, 54, 204, 0.04) 0%, rgba(45, 184, 218, 0.09) 100%);
-  border: 1px solid var(--color-gray-200);
-  border-left: 4px solid var(--color-cyan);
-  border-radius: 0 var(--border-radius-lg) var(--border-radius-lg) 0;
+  background: var(--ds-beige);
+  border: 0;
+  border-radius: var(--radius-card);
 }
 
 .prose .tldr__label {
   display: inline-flex;
   align-items: center;
-  gap: 0.4em;
+  gap: 0.5em;
   margin: 0 0 var(--spacing-sm);
   font-size: var(--font-size-xs);
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--color-primary);
+  letter-spacing: 0.1em;
+  color: var(--text-strong);
 }
 
 .prose .tldr__label::before {
-  content: "";
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 50%;
-  background: var(--color-cyan);
+  content: '';
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 2px;
+  background: var(--ds-black);
 }
 
 .prose .tldr p {
   margin: 0;
-  color: var(--color-gray-700);
+  color: var(--text-body);
 }
 
-/* --- Tables --- */
+/* --- Tableaux : en-tete noir, filets fins --- */
 .prose table {
   display: block;
   width: 100%;
@@ -318,42 +496,43 @@ p {
   border-collapse: collapse;
   margin: var(--spacing-xl) 0;
   font-size: var(--font-size-sm);
-  border: 1px solid var(--color-gray-200);
-  border-radius: var(--border-radius-lg);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-card);
 }
 
 .prose thead {
-  background: var(--gradient-primary);
+  background: var(--ds-black);
 }
 
 .prose thead th {
   padding: var(--spacing-md) var(--spacing-lg);
   text-align: left;
-  font-weight: 700;
-  color: var(--color-white);
+  font-family: var(--font-family-title);
+  font-weight: 500;
+  color: var(--ds-white);
   white-space: nowrap;
   vertical-align: middle;
 }
 
 .prose tbody td {
   padding: var(--spacing-md) var(--spacing-lg);
-  border-top: 1px solid var(--color-gray-200);
-  color: var(--color-gray-700);
+  border-top: 1px solid var(--ds-gray-medium);
+  color: var(--text-body);
   vertical-align: top;
 }
 
 .prose tbody td:first-child {
-  color: var(--color-gray-900);
-  font-weight: 600;
+  color: var(--text-strong);
+  font-weight: 500;
   white-space: nowrap;
 }
 
 .prose tbody tr:nth-child(even) {
-  background-color: var(--color-gray-50);
+  background-color: var(--ds-gray-light);
 }
 
 .prose tbody tr:hover {
-  background-color: rgba(45, 184, 218, 0.07);
+  background-color: var(--ds-beige);
 }
 
 .prose table strong {
@@ -361,15 +540,15 @@ p {
 }
 
 .prose code {
-  background-color: var(--color-gray-100);
+  background-color: var(--ds-gray-light);
   padding: 0.15rem 0.4rem;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   font-size: 0.9em;
 }
 
 .prose pre {
   margin: var(--spacing-xl) 0;
-  border-radius: var(--border-radius);
+  border-radius: var(--radius-medium);
   overflow-x: auto;
 }
 
@@ -379,33 +558,40 @@ p {
 }
 
 .prose a {
-  color: var(--color-primary);
+  color: var(--text-strong);
   font-weight: 500;
   text-decoration: underline;
-  text-decoration-color: var(--color-cyan);
-  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
 }
 
 .prose a:hover {
-  color: var(--color-cyan);
+  opacity: 1;
+  text-decoration-color: var(--ds-black);
 }
 
 .prose img {
-  border-radius: var(--border-radius-lg);
+  border-radius: var(--radius-card);
   margin: var(--spacing-xl) auto;
-  box-shadow: var(--shadow-md);
 }
 
 .prose strong {
-  color: var(--color-gray-900);
-  font-weight: 700;
+  color: var(--text-strong);
+  font-weight: 600;
 }
 
 /* --- Responsive --- */
 @media (max-width: 768px) {
-  h1 { font-size: var(--font-size-3xl); }
-  h2 { font-size: var(--font-size-2xl); }
-  h3 { font-size: var(--font-size-xl); }
+  h1 {
+    font-size: var(--font-size-3xl);
+  }
+  h2 {
+    font-size: var(--font-size-2xl);
+  }
+  h3 {
+    font-size: var(--font-size-xl);
+  }
 
   .container {
     padding: 0 var(--spacing-md);
