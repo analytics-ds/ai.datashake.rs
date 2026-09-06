@@ -35,7 +35,7 @@ const { title } = Astro.props;
 
     /* Hide scrollbar but keep functionality */
     scrollbar-width: thin;
-    scrollbar-color: var(--color-gray-200) transparent;
+    scrollbar-color: var(--ds-gray-medium) transparent;
   }
 
   .carousel__track::-webkit-scrollbar {
@@ -47,8 +47,8 @@ const { title } = Astro.props;
   }
 
   .carousel__track::-webkit-scrollbar-thumb {
-    background-color: var(--color-gray-200);
-    border-radius: 3px;
+    background-color: var(--ds-gray-medium);
+    border-radius: var(--radius-pill);
   }
 
   .carousel__track > :global(*) {

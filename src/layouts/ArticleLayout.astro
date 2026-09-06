@@ -247,16 +247,18 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     margin-bottom: var(--spacing-lg);
   }
 
+  /* Titre : une seule graisse, noir 100 % */
   .article__title {
     font-size: var(--font-size-4xl);
-    font-weight: 800;
-    line-height: 1.15;
+    font-weight: var(--font-weight-title);
+    letter-spacing: -0.025em;
+    line-height: 1.12;
     margin-bottom: var(--spacing-lg);
   }
 
   .article__description {
     font-size: var(--font-size-xl);
-    color: var(--color-gray-600);
+    color: var(--text-body);
     line-height: 1.6;
     max-width: 700px;
     margin: 0 auto;
@@ -268,9 +270,12 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     justify-content: center;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
-    margin-top: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+    /* token bordure/filet */
+    border-top: 1px solid var(--rule);
     font-size: var(--font-size-sm);
-    color: var(--color-gray-500);
+    color: var(--text-muted);
   }
 
   .article__byline-avatar {
@@ -282,29 +287,29 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
   }
 
   .article__byline-author {
-    font-weight: 600;
-    color: var(--color-gray-800);
+    font-weight: 500;
+    color: var(--text-strong);
   }
 
   .article__byline-dot {
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    background-color: var(--color-gray-300);
+    background-color: var(--text-faint);
   }
 
   .article__updated {
     font-style: italic;
-    color: var(--color-gray-400);
+    color: var(--text-faint);
   }
 
-  /* --- Table of contents (collapsible) --- */
+  /* --- Sommaire deroulant : carte beige, rayon 16 --- */
   .toc {
     max-width: var(--max-width-content);
     margin: var(--spacing-2xl) auto 0;
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--border-radius-lg);
-    background-color: var(--color-gray-50);
+    border: 0;
+    border-radius: var(--radius-card);
+    background-color: var(--ds-beige);
     overflow: hidden;
   }
 
@@ -316,8 +321,7 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     padding: var(--spacing-md) var(--spacing-lg);
     cursor: pointer;
     list-style: none;
-    font-weight: 700;
-    color: var(--color-gray-900);
+    color: var(--text-strong);
     user-select: none;
   }
 
@@ -326,11 +330,14 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
   }
 
   .toc__title {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-title);
     font-size: var(--font-size-base);
+    letter-spacing: var(--tracking-title);
   }
 
   .toc__chevron {
-    color: var(--color-gray-500);
+    color: var(--text-body);
     transition: transform var(--transition-base);
     flex-shrink: 0;
   }
@@ -339,13 +346,10 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     transform: rotate(180deg);
   }
 
-  .toc__summary:hover .toc__title {
-    color: var(--color-primary);
-  }
-
   .toc__nav {
     padding: 0 var(--spacing-lg) var(--spacing-md);
-    border-top: 1px solid var(--color-gray-200);
+    /* token bordure/filet */
+    border-top: 1px solid var(--rule);
   }
 
   .toc__list {
@@ -365,28 +369,32 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     display: flex;
     gap: var(--spacing-sm);
     padding: var(--spacing-xs) 0;
-    color: var(--color-gray-700);
+    color: var(--text-body);
     text-decoration: none;
     font-size: var(--font-size-sm);
     line-height: 1.5;
   }
 
+  /* Numerotation 01-06 en noir, chiffres tabulaires */
   .toc__list a::before {
     content: counter(toc, decimal-leading-zero);
-    color: var(--color-cyan);
-    font-weight: 700;
+    color: var(--text-strong);
+    font-weight: 500;
     font-variant-numeric: tabular-nums;
   }
 
   .toc__list a:hover {
-    color: var(--color-primary);
+    color: var(--text-strong);
+    opacity: 1;
   }
 
+  /* --- Pied d'article --- */
   .article__footer {
     max-width: var(--max-width-content);
     margin: var(--spacing-3xl) auto 0;
     padding-top: var(--spacing-2xl);
-    border-top: 1px solid var(--color-gray-200);
+    /* token bordure/separateur */
+    border-top: 1px solid var(--separator);
   }
 
   .article__author {
@@ -394,6 +402,9 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
     align-items: center;
     gap: var(--spacing-lg);
     margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: var(--ds-beige);
+    border-radius: var(--radius-card);
   }
 
   .article__author-avatar-link {
@@ -423,39 +434,42 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
 
   .article__author-social {
     font-size: var(--font-size-sm);
-    color: var(--color-primary);
-    text-decoration: none;
+    color: var(--text-strong);
+    text-decoration: underline;
+    text-decoration-color: var(--rule);
+    text-underline-offset: 3px;
     font-weight: 500;
   }
 
   .article__author-social:hover {
-    text-decoration: underline;
+    text-decoration-color: var(--ds-black);
+    opacity: 1;
   }
 
   .article__author-label {
     font-size: var(--font-size-xs);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-gray-400);
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
     margin-bottom: var(--spacing-xs);
   }
 
   .article__author-name {
+    font-family: var(--font-family-title);
     font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-title);
+    letter-spacing: var(--tracking-title);
+    color: var(--text-strong);
   }
 
   .article__author-name a {
-    color: var(--color-gray-900);
+    color: var(--text-strong);
     text-decoration: none;
-  }
-
-  .article__author-name a:hover {
-    color: var(--color-primary);
   }
 
   .article__author-role {
     font-size: var(--font-size-sm);
-    color: var(--color-gray-500);
+    color: var(--text-body);
   }
 
   .article__tags {
@@ -466,9 +480,10 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
   }
 
   .article__tags-label {
-    font-size: var(--font-size-sm);
-    color: var(--color-gray-500);
-    font-weight: 500;
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
   }
 
   .article__tags-list {
@@ -484,6 +499,11 @@ const formattedUpdatedDate = safeUpdatedDate?.toLocaleDateString(dateLocale, {
 
     .article__description {
       font-size: var(--font-size-lg);
+    }
+
+    .article__author {
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
 </style>

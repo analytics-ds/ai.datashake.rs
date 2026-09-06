@@ -60,11 +60,15 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD'
 <style>
   .category-header {
     padding: var(--spacing-xl) 0;
+    margin-bottom: var(--spacing-lg);
+    /* token bordure/filet */
+    border-bottom: 1px solid var(--rule);
   }
 
   .category-header__count {
-    color: var(--color-gray-400);
+    color: var(--text-muted);
     font-size: var(--font-size-lg);
+    margin: 0;
   }
 
   .articles-grid {

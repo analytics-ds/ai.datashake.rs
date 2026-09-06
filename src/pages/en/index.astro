@@ -17,20 +17,24 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
   title={t(lang, 'homeTitle')}
   description={t(lang, 'homeDescription')}
 >
-  <!-- Hero -->
+  <!-- Hero : fond beige, couleur signature datashake -->
   <section class="hero">
     <div class="container">
       <div class="hero__content">
-        <p class="hero__label">{t(lang, 'heroLabel')}</p>
+        <p class="eyebrow hero__label">{t(lang, 'heroLabel')}</p>
         <h1 class="hero__title">
-          {t(lang, 'heroTitle1')}
-          <span class="gradient-text">{t(lang, 'heroTitle2')}</span>
+          {t(lang, 'heroTitle1')} {t(lang, 'heroTitle2')}
         </h1>
         <p class="hero__description">
           {t(lang, 'heroDescription')}
         </p>
         <div class="hero__actions">
-          <a href={localizedUrl('/blog/', lang)} class="btn btn--primary">{t(lang, 'exploreBlog')}</a>
+          <a href={localizedUrl('/blog/', lang)} class="btn btn--primary">
+            {t(lang, 'exploreBlog')}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z" />
+            </svg>
+          </a>
         </div>
       </div>
     </div>
@@ -51,12 +55,10 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
 
   <!-- Categories -->
   {categories.length > 0 && (
-    <section class="section section--gray">
+    <section class="section section--beige">
       <div class="container">
         <h2>{t(lang, 'categories')}</h2>
-        <p style="color: var(--color-gray-500); margin-bottom: var(--spacing-xl);">
-          {t(lang, 'exploreByTopic')}
-        </p>
+        <p class="section__intro">{t(lang, 'exploreByTopic')}</p>
         <div class="categories-grid">
           {categories.map((category) => {
             const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -77,48 +79,49 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
 </BaseLayout>
 
 <style>
-  /* Hero */
+  /* --- Hero --- */
   .hero {
+    background-color: var(--ds-beige);
     padding: var(--spacing-4xl) 0;
-    text-align: center;
   }
 
   .hero__content {
-    max-width: 750px;
-    margin: 0 auto;
+    max-width: 860px;
   }
 
   .hero__label {
-    display: inline-block;
-    font-size: var(--font-size-sm);
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--color-cyan);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
   }
 
+  /* Titre : une seule graisse, noir 100 % */
   .hero__title {
     font-size: var(--font-size-5xl);
-    font-weight: 800;
-    line-height: 1.1;
+    font-weight: var(--font-weight-title);
+    letter-spacing: -0.03em;
+    line-height: 1.08;
+    max-width: 20ch;
     margin-bottom: var(--spacing-lg);
   }
 
   .hero__description {
     font-size: var(--font-size-lg);
-    color: var(--color-gray-500);
+    color: var(--text-body);
     line-height: 1.7;
-    margin-bottom: var(--spacing-2xl);
+    max-width: 62ch;
+    margin-bottom: var(--spacing-xl);
   }
 
   .hero__actions {
     display: flex;
-    justify-content: center;
     gap: var(--spacing-md);
   }
 
-  /* Categories grid */
+  .section__intro {
+    color: var(--text-body);
+    margin-bottom: var(--spacing-xl);
+  }
+
+  /* --- Grille de categories : cartes blanches bordees --- */
   .categories-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -128,43 +131,39 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
   .category-card {
     display: block;
     padding: var(--spacing-xl);
-    background: var(--color-white);
-    border: 1px solid var(--color-gray-200);
-    border-radius: var(--border-radius-lg);
+    background: var(--ds-white);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-card);
     text-decoration: none;
-    transition: all var(--transition-base);
+    transition: border-color var(--transition-base), transform var(--transition-base);
   }
 
   .category-card:hover {
-    border-color: var(--color-primary);
-    box-shadow: var(--shadow-md);
+    border-color: var(--ds-black);
     transform: translateY(-2px);
+    opacity: 1;
   }
 
   .category-card__title {
     font-size: var(--font-size-xl);
-    font-weight: 700;
-    color: var(--color-gray-900);
+    color: var(--text-strong);
     margin-bottom: var(--spacing-xs);
-  }
-
-  .category-card:hover .category-card__title {
-    color: var(--color-primary);
   }
 
   .category-card__count {
     font-size: var(--font-size-sm);
-    color: var(--color-gray-400);
+    color: var(--text-muted);
     margin: 0;
   }
 
   @media (max-width: 768px) {
-    .hero__title {
-      font-size: var(--font-size-3xl);
-    }
-
     .hero {
       padding: var(--spacing-2xl) 0;
+    }
+
+    .hero__title {
+      font-size: var(--font-size-3xl);
+      max-width: none;
     }
   }
 </style>

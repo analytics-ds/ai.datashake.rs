@@ -52,24 +52,30 @@ const categories = [...new Set(allPosts.map((post) => post.data.category))];
 
 <style>
   .blog-header {
-    padding: var(--spacing-xl) 0;
+    padding: var(--spacing-xl) 0 var(--spacing-lg);
   }
 
   .blog-header__description {
-    color: var(--color-gray-500);
+    color: var(--text-body);
     font-size: var(--font-size-lg);
+    max-width: 62ch;
+    margin: 0;
   }
 
+  /* Filtres : tags pilule beige, actif en noir */
   .category-filter {
     display: flex;
     flex-wrap: wrap;
     gap: var(--spacing-sm);
-    margin-bottom: var(--spacing-2xl);
+    margin: var(--spacing-xl) 0 var(--spacing-2xl);
+    padding-top: var(--spacing-lg);
+    /* token bordure/filet */
+    border-top: 1px solid var(--rule);
   }
 
   .category-filter .active {
-    background-color: var(--color-primary);
-    color: var(--color-white);
+    background-color: var(--ds-black);
+    color: var(--ds-white);
   }
 
   .articles-grid {

@@ -39,7 +39,7 @@ const allItems: BreadcrumbItem[] = [
 <style>
   .breadcrumb {
     padding: var(--spacing-md) 0;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
   }
 
   .breadcrumb ol {
@@ -55,26 +55,26 @@ const allItems: BreadcrumbItem[] = [
     display: flex;
     align-items: center;
     gap: var(--spacing-xs);
-    color: var(--color-gray-400);
+    color: var(--text-muted);
   }
 
   .breadcrumb li:not(:last-child)::after {
     content: '/';
-    color: var(--color-gray-300);
+    color: var(--text-faint);
   }
 
   .breadcrumb a {
-    color: var(--color-gray-500);
+    color: var(--text-muted);
     text-decoration: none;
     transition: color var(--transition-fast);
   }
 
   .breadcrumb a:hover {
-    color: var(--color-primary);
+    color: var(--text-strong);
+    opacity: 1;
   }
 
   .breadcrumb span[aria-current] {
-    color: var(--color-gray-700);
-    font-weight: 500;
+    color: var(--text-body);
   }
 </style>

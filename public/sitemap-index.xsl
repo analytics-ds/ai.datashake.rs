@@ -10,18 +10,18 @@
   <title>XML Sitemap Index</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <style type="text/css">
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; color: #444; }
+    body { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: rgba(16,16,16,0.7); }
     #sitemap { max-width: 980px; margin: 0 auto; }
-    #sitemap__header { background: #1e3a5f; color: #fff; padding: 30px 40px; }
+    #sitemap__header { background: #101010; color: #fff; padding: 30px 40px; }
     #sitemap__header h1 { font-size: 24px; font-weight: 600; margin: 0; }
     #sitemap__header p { font-size: 14px; margin: 8px 0 0; opacity: .8; }
     #sitemap__content { padding: 20px 40px; }
     table { border-collapse: collapse; width: 100%; }
     th { text-align: left; padding: 12px 8px; font-size: 12px; text-transform: uppercase; color: #777; border-bottom: 2px solid #eee; }
     td { padding: 10px 8px; border-bottom: 1px solid #eee; font-size: 14px; }
-    td a { color: #1e3a5f; text-decoration: none; }
+    td a { color: #101010; text-decoration: none; }
     td a:hover { text-decoration: underline; }
-    tr:hover td { background: #f9f9f9; }
+    tr:hover td { background: #F3EDE8; }
     #sitemap__footer { padding: 20px 40px; font-size: 12px; color: #999; }
   </style>
 </head>

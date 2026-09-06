@@ -20,7 +20,6 @@ const {
 } = Astro.props;
 
 const lang = getLang(Astro.url);
-const categorySlug = category.toLowerCase().replace(/\s+/g, '-').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
 function parseDate(val: Date | string): Date {
   if (val instanceof Date && !isNaN(val.getTime())) return val;
@@ -38,91 +37,51 @@ const formattedDate = safeDate.toLocaleDateString(getDateLocale(lang), {
 
 <article class:list={['card', { 'card--featured': featured }]}>
   <a href={localizedUrl(`/blog/${slug}/`, lang)} class="card__link">
-    <div class="card__header">
-      <span class="card__category">{category}</span>
-      <div class="card__header-decoration"></div>
+    <div class="card__meta">
+      <span class="tag">{category}</span>
+      <time datetime={safeDate.toISOString()}>{formattedDate}</time>
     </div>
 
-    <div class="card__content">
-      <div class="card__meta">
-        <span class="tag">{category}</span>
-        <time datetime={safeDate.toISOString()}>{formattedDate}</time>
-      </div>
+    <h3 class="card__title">{title}</h3>
+    <p class="card__description">{description}</p>
 
-      <h3 class="card__title">{title}</h3>
-      <p class="card__description">{description}</p>
-
-      <span class="card__read-more">
-        {t(lang, 'readArticle')}
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </span>
-    </div>
+    <span class="card__read-more">
+      {t(lang, 'readArticle')}
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M4 11h11.2l-4.6-4.6L12 5l7 7-7 7-1.4-1.4 4.6-4.6H4z" />
+      </svg>
+    </span>
   </a>
 </article>
 
 <style>
+  /* Carte DA : fond blanc, bordure fine #E0E0E0, rayon 16 */
   .card {
-    border-radius: var(--border-radius-lg);
-    overflow: hidden;
-    background: var(--color-white);
-    border: 1px solid var(--color-gray-100);
-    transition: all var(--transition-base);
+    display: flex;
+    background: var(--ds-white);
+    border: 1px solid var(--border-card);
+    border-radius: var(--radius-card);
+    transition: border-color var(--transition-base), transform var(--transition-base),
+      box-shadow var(--transition-base);
   }
 
   .card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-xl);
-    border-color: transparent;
+    transform: translateY(-3px);
+    border-color: var(--ds-black);
+    box-shadow: var(--shadow-md);
   }
 
   .card__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--spacing-lg);
     text-decoration: none;
     color: inherit;
   }
 
-  .card__header {
-    position: relative;
-    padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
-    background: var(--gradient-primary);
-    overflow: hidden;
-  }
-
-  .card__header-decoration {
-    position: absolute;
-    top: -30%;
-    right: -10%;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-  }
-
-  .card__header-decoration::after {
-    content: '';
-    position: absolute;
-    bottom: -60%;
-    left: -40%;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.08);
-  }
-
-  .card__category {
-    position: relative;
-    z-index: 1;
-    font-size: var(--font-size-sm);
-    font-weight: 700;
-    color: var(--color-white);
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-  }
-
-  .card__content {
-    padding: var(--spacing-lg);
+  .card__link:hover {
+    opacity: 1;
   }
 
   .card__meta {
@@ -131,95 +90,86 @@ const formattedDate = safeDate.toLocaleDateString(getDateLocale(lang), {
     gap: var(--spacing-md);
     margin-bottom: var(--spacing-md);
     font-size: var(--font-size-xs);
-    color: var(--color-gray-400);
+    color: var(--text-muted);
   }
 
   .card__title {
+    font-family: var(--font-family-title);
     font-size: var(--font-size-xl);
-    font-weight: 700;
-    line-height: 1.3;
+    font-weight: var(--font-weight-title);
+    letter-spacing: var(--tracking-title);
+    line-height: 1.25;
     margin-bottom: var(--spacing-sm);
-    color: var(--color-gray-900);
+    color: var(--text-strong);
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
 
   .card__description {
     font-size: var(--font-size-sm);
-    color: var(--color-gray-500);
-    line-height: 1.6;
+    color: var(--text-body);
+    line-height: 1.65;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
   }
 
+  /* Le lien de lecture est pousse en bas de carte */
   .card__read-more {
     display: inline-flex;
     align-items: center;
-    gap: var(--spacing-xs);
-    font-size: var(--font-size-sm);
-    font-weight: 600;
-    color: var(--color-primary);
-    transition: gap var(--transition-base);
-  }
-
-  .card:hover .card__read-more {
     gap: var(--spacing-sm);
+    margin-top: auto;
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--text-strong);
   }
 
-  /* Featured variant */
+  /* Fleche datashake du CTA */
+  .card__read-more svg {
+    transition: transform var(--transition-base);
+  }
+
+  .card:hover .card__read-more svg {
+    transform: translateX(4px);
+  }
+
+  /* Variante mise en avant : carte beige pleine (couleur signature) */
   .card--featured {
     grid-column: 1 / -1;
+    background: var(--ds-beige);
+    border-color: transparent;
   }
 
-  .card--featured .card__header {
-    padding: var(--spacing-3xl) var(--spacing-2xl);
-    min-height: 160px;
-    display: flex;
-    align-items: flex-end;
+  .card--featured:hover {
+    border-color: var(--ds-black);
   }
 
-  .card--featured .card__category {
-    font-size: var(--font-size-lg);
+  .card--featured .card__link {
+    padding: var(--spacing-2xl);
   }
 
-  .card--featured .card__header-decoration {
-    width: 200px;
-    height: 200px;
-    top: -40%;
-    right: -5%;
-  }
-
-  .card--featured .card__header-decoration::after {
-    width: 120px;
-    height: 120px;
-  }
-
-  .card--featured .card__content {
-    padding: var(--spacing-xl) var(--spacing-2xl) var(--spacing-2xl);
+  .card--featured .tag {
+    background: var(--ds-white);
   }
 
   .card--featured .card__title {
-    font-size: var(--font-size-2xl);
+    font-size: var(--font-size-3xl);
     -webkit-line-clamp: 3;
   }
 
   .card--featured .card__description {
     font-size: var(--font-size-base);
     -webkit-line-clamp: 4;
+    max-width: 70ch;
   }
 
   @media (max-width: 768px) {
-    .card--featured .card__header {
-      min-height: 120px;
-      padding: var(--spacing-2xl) var(--spacing-lg);
-    }
-
-    .card--featured .card__content {
+    .card--featured .card__link {
       padding: var(--spacing-lg);
     }
 

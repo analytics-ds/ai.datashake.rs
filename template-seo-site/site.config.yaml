@@ -67,13 +67,20 @@ authors:
     linkedin_url: ""                # URL LinkedIn personnelle
     expertise: []                   # Domaines d'expertise
 
-# Design
+# Design — DA datashake 2026
+# Fonds autorisés : blanc, beige, noir. Les accents restent de petites touches.
 design:
-  primary_color: "#0036CC"          # Couleur principale
-  secondary_color: "#2DB8DA"        # Couleur secondaire
-  accent_color: "#FF215B"           # Couleur d'accent
-  font_family: "Montserrat"        # Police Google Fonts
-  font_weights: "300;400;500;600;700;800;900"  # Graisses à charger
+  background_white: "#FFFFFF"       # Fond principal
+  background_beige: "#F3EDE8"       # Fond secondaire (couleur signature datashake)
+  background_black: "#101010"       # Fond foncé (ce n'est PAS du #000)
+  accent_blue: "#77B0ED"            # Accent principal, jamais en fond
+  accent_yellow: "#FFFF7D"          # Accent d'énergie, jamais en fond
+  accent_kaki: "#ADAC2F"            # Accent tertiaire, le moins utilisé
+  font_family: "Inter"              # Paragraphes (et titres, Season Sans étant en standby licence)
+  font_weights: "400;500;600"       # Regular, Medium (titres), SemiBold ponctuel
+  radius_card: 16                   # rayon/carte
+  radius_medium: 12                 # rayon/moyen
+  border_card: "#E0E0E0"            # bordure/carte
 
 # Langues
 languages:
