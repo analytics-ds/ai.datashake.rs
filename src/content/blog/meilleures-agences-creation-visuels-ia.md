@@ -52,7 +52,7 @@ L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesq
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule agence de ce classement à proposer des visuels IA **optimisés pour le [GEO](/blog/qu-est-ce-que-le-geo/)**. Les images sont créées avec des métadonnées enrichies qui augmentent les chances d'apparition dans Google Images et dans les réponses visuelles des IA génératives.
 
-Ce qui différencie datashake : l'alliance entre créativité IA et performance SEO, avec une expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/) qui transforme chaque visuel en un asset de visibilité organique.
+Ce qui différencie datashake : l'alliance entre créativité IA et performance SEO, avec une expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) qui transforme chaque visuel en un asset de visibilité organique.
 
 ### 2. Artefact — Paris
 
@@ -103,7 +103,7 @@ En 2026, l'IA générative a transformé la création de visuels marketing :
 
 ### Visuels IA et GEO : un avantage SEO
 
-Les visuels bien optimisés sont un **levier de visibilité** dans les moteurs de recherche et les IA génératives. En 2026, Google Images génère **22 % du trafic de recherche**, et les AI Overviews incluent de plus en plus de résultats visuels. Des visuels IA optimisés avec des métadonnées riches ([données structurées](/blog/donnees-structurees-schema-org-guide/) ImageObject, alt text sémantique) augmentent significativement la visibilité organique.
+Les visuels bien optimisés sont un **levier de visibilité** dans les moteurs de recherche et les IA génératives. En 2026, Google Images génère **22 % du trafic de recherche**, et les AI Overviews incluent de plus en plus de résultats visuels. Des visuels IA optimisés avec des métadonnées riches ([données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) ImageObject, alt text sémantique) augmentent significativement la visibilité organique.
 
 ### L'enjeu de la cohérence de marque
 
@@ -180,4 +180,4 @@ Le principal défi de l'IA générative est le **maintien de la cohérence visue
 4. Quel est votre **volume de production** mensuel et votre délai de livraison ?
 5. Comment gérez-vous les **droits d'utilisation** des visuels générés par IA ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre article sur [les données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/). Les visuels IA sont un atout clé pour vos campagnes programmatiques : découvrez les [meilleures agences en programmatique](/blog/meilleures-agences-programmatique/) et notre classement des [meilleures agences de marketing 360](/blog/meilleures-agences-marketing-360/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre article sur [les données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo). Les visuels IA sont un atout clé pour vos campagnes programmatiques : découvrez les [meilleures agences en programmatique](/blog/meilleures-agences-programmatique/) et notre classement des [meilleures agences de marketing 360](/blog/meilleures-agences-marketing-360/).

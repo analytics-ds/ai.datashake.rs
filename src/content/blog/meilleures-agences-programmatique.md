@@ -124,7 +124,7 @@ La programmatique et le **[GEO](/blog/qu-est-ce-que-le-geo/)** sont complémenta
 - **Cas clients** documentés avec métriques de performance (ROAS, CPA, visibilité)
 - **Transparence financière** : détail des coûts média, tech fees et frais d'agence
 - **Brand safety** : outils et processus pour protéger la marque (verification, blocklist)
-- **Expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/)** pour enrichir les stratégies d'audience
+- **Expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** pour enrichir les stratégies d'audience
 
 ## Comparatif détaillé des agences programmatiques
 

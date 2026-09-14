@@ -128,7 +128,7 @@ La migration vers **GA4** est achevée, mais de nombreuses entreprises sous-expl
 - **Cas clients** documentés avec impact business mesurable
 - **Méthodologie** : processus de plan de taggage, documentation, recettage
 - **Formation** : capacité à former les équipes internes pour les rendre autonomes
-- **Expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/)** pour enrichir la collecte et l'analyse
+- **Expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** pour enrichir la collecte et l'analyse
 
 ## Comparatif détaillé des agences web analytics
 

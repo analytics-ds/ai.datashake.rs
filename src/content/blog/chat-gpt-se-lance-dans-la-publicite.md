@@ -149,7 +149,7 @@ Certains secteurs seront plus touchés que d'autres par l'arrivée des **ads sur
 
 ### L'importance des données structurées
 
-Pour maximiser sa visibilité, qu'elle soit organique ou payante, il convient de s'appuyer sur les **données structurées Schema.org**. Ces balises permettent aux IA de mieux comprendre et extraire les informations. Un guide détaillé sur l'implémentation des [données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/) est disponible sur ce blog.
+Pour maximiser sa visibilité, qu'elle soit organique ou payante, il convient de s'appuyer sur les **données structurées Schema.org**. Ces balises permettent aux IA de mieux comprendre et extraire les informations. Un guide détaillé sur l'implémentation des [données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) est disponible sur ce blog.
 
 ## Les défis et limites du modèle publicitaire de ChatGPT
 

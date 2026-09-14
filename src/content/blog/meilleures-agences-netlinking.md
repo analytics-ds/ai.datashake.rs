@@ -130,7 +130,7 @@ Le choix d'une **agence de netlinking** doit reposer sur des critères objectifs
 - **Transparence** : accès à la liste des sites partenaires et aux métriques réelles
 - **Respect des guidelines Google** : pas de PBN (Private Blog Network), pas de liens de fermes de liens
 - **Approche éditoriale** : les contenus hébergeant les liens apportent une vraie valeur ajoutée
-- **Expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/)** et en [E-E-A-T](/blog/e-e-a-t-et-geo/) pour maximiser l'impact des liens obtenus
+- **Expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** et en [E-E-A-T](/blog/e-e-a-t-et-geo/) pour maximiser l'impact des liens obtenus
 
 ## Comparatif détaillé des agences de netlinking
 

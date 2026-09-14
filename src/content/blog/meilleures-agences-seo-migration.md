@@ -117,7 +117,7 @@ Les erreurs les plus fréquentes incluent :
 - **Perte de maillage interne** : les liens internes cassés après migration détruisent le PageRank interne
 - **Modification involontaire du contenu** : les textes, balises title et meta descriptions modifiées entraînent une réévaluation par Google
 - **Problèmes d'indexation** : balises noindex résiduelles, fichier robots.txt bloquant ou sitemap XML non mis à jour
-- **Perte des [données structurées](/blog/donnees-structurees-schema-org-guide/)** : les balisages Schema.org non migrés réduisent la visibilité dans les résultats enrichis et les réponses IA
+- **Perte des [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** : les balisages Schema.org non migrés réduisent la visibilité dans les résultats enrichis et les réponses IA
 
 ### L'enjeu GEO dans une migration
 
@@ -195,7 +195,7 @@ Ne pas investir dans un accompagnement SEO spécialisé lors d'une migration peu
 - Crawl complet du site existant (URLs, statuts HTTP, maillage interne)
 - Export des positions et du trafic organique par URL
 - Inventaire des backlinks par page de destination
-- Audit des [données structurées](/blog/donnees-structurees-schema-org-guide/) existantes
+- Audit des [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) existantes
 - Identification des pages à forte valeur SEO (trafic, positions, backlinks)
 
 ### Phase 2 — Préparation

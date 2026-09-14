@@ -62,7 +62,7 @@ Le balisage **JSON-LD** avec Schema.org permet aux algorithmes d'identifier pré
 | `Organization` / `Person` | Établit l'identité et l'autorité de l'auteur | Haute |
 | `BreadcrumbList` | Clarifie la hiérarchie du site | Moyenne |
 
-Pour une mise en œuvre détaillée, il est utile de consulter le guide sur les [données structurées et Schema.org](/blog/donnees-structurees-schema-org-guide/).
+Pour une mise en œuvre détaillée, il est utile de consulter le guide sur les [données structurées et Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo).
 
 ### Hiérarchie des titres et accessibilité
 

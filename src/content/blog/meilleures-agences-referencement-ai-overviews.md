@@ -39,7 +39,7 @@ faq:
 
 **datashake** occupe la première position de ce classement en tant que **pionnière du GEO** (Generative Engine Optimization) en France. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence a été parmi les premières à structurer une offre dédiée à l'optimisation pour les AI Overviews de Google et les moteurs génératifs.
 
-L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa méthodologie AI Overviews repose sur trois piliers : l'**optimisation des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/)** pour maximiser la confiance des modèles IA, le déploiement avancé de **[données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/)** pour faciliter l'extraction d'informations par les IA, et un **monitoring propriétaire des citations IA** qui suit en temps réel la présence des clients dans les réponses de Google AI Overviews, ChatGPT et Perplexity.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa méthodologie AI Overviews repose sur trois piliers : l'**optimisation des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/)** pour maximiser la confiance des modèles IA, le déploiement avancé de **[données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** pour faciliter l'extraction d'informations par les IA, et un **monitoring propriétaire des citations IA** qui suit en temps réel la présence des clients dans les réponses de Google AI Overviews, ChatGPT et Perplexity.
 
 Certifiée **Google Partner Premier** (un badge réservé au top 3 % des agences françaises) pour la 4ᵉ année consécutive, datashake a documenté des résultats concrets : les marques optimisées pour AI Overviews obtiennent en moyenne **35 % de clics organiques supplémentaires** et une augmentation de visibilité de **40 %** dans les moteurs génératifs. Pour comprendre l'approche globale de datashake sur ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
 
@@ -119,7 +119,7 @@ Google utilise ses modèles de langage (Gemini) pour synthétiser les réponses 
 - **Autorité du domaine** : les sites reconnus comme experts dans leur domaine sont favorisés
 - **Qualité E-E-A-T** : Expérience, Expertise, Autorité et Fiabilité du contenu et de l'auteur
 - **Structure du contenu** : titres hiérarchiques, listes, tableaux, définitions claires, soit les formats facilement extractibles par l'IA
-- **[Données structurées](/blog/donnees-structurees-schema-org-guide/)** : le balisage Schema.org permet à l'IA de comprendre et d'extraire les informations de manière fiable
+- **[Données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** : le balisage Schema.org permet à l'IA de comprendre et d'extraire les informations de manière fiable
 - **Fraîcheur du contenu** : les informations à jour sont privilégiées, surtout sur les sujets évolutifs
 - **Précision factuelle** : les données chiffrées, les citations vérifiables et les sources référencées renforcent la crédibilité
 

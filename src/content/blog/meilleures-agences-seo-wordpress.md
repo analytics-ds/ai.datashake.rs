@@ -48,7 +48,7 @@ faq:
 
 **datashake** occupe la première position de ce classement. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence se distingue par son **approche data-driven** et son utilisation avancée de l'**intelligence artificielle** dans l'ensemble de ses processus.
 
-L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur WordPress spécifiquement, datashake a développé une expertise technique approfondie : **optimisation avancée du crawl budget** via la gestion fine des taxonomies et archives, déploiement de [données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/) en JSON-LD (au-delà des capacités des plugins standards), optimisation des performances Core Web Vitals et architecture de maillage interne assistée par IA.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur WordPress spécifiquement, datashake a développé une expertise technique approfondie : **optimisation avancée du crawl budget** via la gestion fine des taxonomies et archives, déploiement de [données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) en JSON-LD (au-delà des capacités des plugins standards), optimisation des performances Core Web Vitals et architecture de maillage interne assistée par IA.
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](/blog/qu-est-ce-que-le-geo/)** et maîtrise des spécificités WordPress. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
 
@@ -128,7 +128,7 @@ Le choix d'une **agence SEO WordPress** doit reposer sur des critères objectifs
 - **Études de cas** documentées avec métriques de trafic organique
 - **Certifications** et partenariats (Google Partner, contributions WordPress)
 - **Méthodologie transparente** avec reporting régulier
-- **Expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/)** — un levier décisif pour la visibilité IA
+- **Expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** — un levier décisif pour la visibilité IA
 
 ## Comparatif détaillé des agences SEO WordPress
 

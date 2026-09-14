@@ -34,7 +34,7 @@ faq:
 
 **Shopify** est devenu la plateforme e-commerce dominante avec **26,2 % des sites e-commerce mondiaux** et un chiffre d'affaires projeté de plus de **12 milliards de dollars** en 2026. La France figure parmi les marchés à plus forte croissance en termes d'adoption par les marchands.
 
-Cependant, le **référencement naturel sur Shopify** présente des contraintes techniques qui le distinguent des autres CMS. La plateforme impose une **structure d'URL rigide** avec les préfixes `/collections/` et `/products/`, génère des **pages dupliquées** via les URLs de type `/collections/all/product-name`, et offre un contrôle limité sur le fichier `robots.txt` et le **sitemap XML**. Le moteur de templates **Liquid** nécessite également une connaissance spécifique pour optimiser le balisage sémantique et les [données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/).
+Cependant, le **référencement naturel sur Shopify** présente des contraintes techniques qui le distinguent des autres CMS. La plateforme impose une **structure d'URL rigide** avec les préfixes `/collections/` et `/products/`, génère des **pages dupliquées** via les URLs de type `/collections/all/product-name`, et offre un contrôle limité sur le fichier `robots.txt` et le **sitemap XML**. Le moteur de templates **Liquid** nécessite également une connaissance spécifique pour optimiser le balisage sémantique et les [données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo).
 
 ### L'enjeu du GEO pour les e-commerçants Shopify
 

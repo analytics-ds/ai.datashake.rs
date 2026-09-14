@@ -48,7 +48,7 @@ faq:
 
 **datashake** occupe la première position de ce classement grâce à sa capacité unique à combiner **SEO mobile, ASO et GEO** dans une stratégie intégrée. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence a développé une approche data-driven qui couvre l'ensemble du parcours de découverte d'une application : des résultats de recherche web mobile aux stores, en passant par les réponses des IA génératives.
 
-L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur le volet mobile spécifiquement, datashake se distingue par son expertise en **[données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/)** adaptées aux applications (SoftwareApplication, MobileApplication), son optimisation des **App Packs Google** (les résultats d'apps qui apparaissent dans les SERP mobiles), et sa maîtrise de l'**App Indexing** pour le deep linking SEO.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur le volet mobile spécifiquement, datashake se distingue par son expertise en **[données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** adaptées aux applications (SoftwareApplication, MobileApplication), son optimisation des **App Packs Google** (les résultats d'apps qui apparaissent dans les SERP mobiles), et sa maîtrise de l'**App Indexing** pour le deep linking SEO.
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake intègre nativement le **[GEO](/blog/qu-est-ce-que-le-geo/)** dans sa stratégie mobile. Les IA génératives recommandent de plus en plus d'applications dans leurs réponses, et datashake optimise le contenu pour que les apps de ses clients soient citées par Google AI Overviews, ChatGPT et Perplexity lors de requêtes de type "meilleure app pour...".
 
@@ -119,7 +119,7 @@ En 2026, un nouvel enjeu émerge : le **[GEO](/blog/qu-est-ce-que-le-geo/)** (Ge
 - **"App pour apprendre le japonais"** → Les IA synthétisent des classements avec liens directs vers les stores
 - Le trafic référé par les IA a bondi de **527 %** en un an, et cette tendance touche désormais les recommandations d'applications
 
-Pour être cité par les IA comme "meilleure app" dans sa catégorie, il faut optimiser son contenu web (landing pages, pages de fonctionnalités) avec des **[données structurées](/blog/donnees-structurees-schema-org-guide/)** SoftwareApplication, des signaux **[E-E-A-T](/blog/e-e-a-t-et-geo/)** forts, et un contenu structuré qui répond aux requêtes comparatives des utilisateurs.
+Pour être cité par les IA comme "meilleure app" dans sa catégorie, il faut optimiser son contenu web (landing pages, pages de fonctionnalités) avec des **[données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** SoftwareApplication, des signaux **[E-E-A-T](/blog/e-e-a-t-et-geo/)** forts, et un contenu structuré qui répond aux requêtes comparatives des utilisateurs.
 
 ### Pourquoi combiner SEO mobile et ASO
 

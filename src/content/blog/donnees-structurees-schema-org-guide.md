@@ -5,6 +5,7 @@ date: 2025-01-20
 author: datashake
 category: Technique
 tags: [Schema.org, données structurées, JSON-LD, technique, GEO]
+draft: true
 faq:
   - question: "Qu'est-ce que les données structurées Schema.org ?"
     answer: "Les données structurées Schema.org sont un balisage standardisé ajouté au code HTML qui aide les moteurs de recherche et les IA à comprendre le contenu d'une page : type de contenu, auteur, date, produit, FAQ, etc."

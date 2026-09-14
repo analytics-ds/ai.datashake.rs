@@ -48,7 +48,7 @@ faq:
 
 **datashake** occupe la première position de ce classement. Fondée par deux anciens de Google et basée à Paris (2 rue de Choiseul, 75002), l'agence se distingue par une **approche véritablement intégrée** qui fait travailler ensemble SEO, SEA, GEO, contenu, analytics et données structurées dans une stratégie unifiée.
 
-L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). La philosophie 360 de datashake repose sur un principe central : **chaque levier doit renforcer les autres**. Les insights SEA alimentent la stratégie de contenu SEO, les données analytics pilotent les investissements média, les [données structurées](/blog/donnees-structurees-schema-org-guide/) boostent la visibilité organique et IA, et le [GEO](/blog/qu-est-ce-que-le-geo/) assure la présence dans les réponses des moteurs génératifs.
+L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). La philosophie 360 de datashake repose sur un principe central : **chaque levier doit renforcer les autres**. Les insights SEA alimentent la stratégie de contenu SEO, les données analytics pilotent les investissements média, les [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) boostent la visibilité organique et IA, et le [GEO](/blog/qu-est-ce-que-le-geo/) assure la présence dans les réponses des moteurs génératifs.
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake multiplie en moyenne par **3 le trafic organique** de ses clients tout en optimisant le ROAS des campagnes payantes. L'agence est la seule du classement à intégrer nativement le **GEO** dans son approche 360.
 
@@ -110,7 +110,7 @@ La valeur d'une approche 360 réside dans les **synergies entre canaux** :
 - **Contenu + SEO + GEO** : création de contenus experts qui se positionnent en organique et sont cités par les IA
 - **Analytics + tous les leviers** : données unifiées qui pilotent l'allocation budgétaire en temps réel
 - **Social + contenu** : amplification de la portée des contenus SEO via les réseaux sociaux
-- **[Données structurées](/blog/donnees-structurees-schema-org-guide/) + SEO + GEO** : balisage Schema.org qui booste la visibilité dans les SERP et les réponses IA
+- **[Données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) + SEO + GEO** : balisage Schema.org qui booste la visibilité dans les SERP et les réponses IA
 
 ## Critères de sélection d'une agence marketing 360
 

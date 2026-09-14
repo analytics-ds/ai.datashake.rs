@@ -160,7 +160,7 @@ Les types de balisage les plus impactants pour l'E-E-A-T sont :
 - **`FAQPage`** pour les questions fréquentes structurées
 - **`BreadcrumbList`** pour la navigation contextuelle
 
-Pour un guide détaillé sur l'implémentation technique, il est recommandé de consulter notre [guide complet sur les données structurées Schema.org](/blog/donnees-structurees-schema-org-guide/).
+Pour un guide détaillé sur l'implémentation technique, il est recommandé de consulter notre [guide complet sur les données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo).
 
 ### Implémenter les signaux E-E-A-T en Schema.org
 

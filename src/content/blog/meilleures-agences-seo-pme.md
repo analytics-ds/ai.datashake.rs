@@ -52,7 +52,7 @@ L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesq
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](/blog/qu-est-ce-que-le-geo/)** et pragmatisme PME. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
 
-Ce qui différencie datashake pour les PME : l'intégration native du **GEO**, l'approche ROI-first (chaque action est priorisée selon son impact business), et une expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/) qui permet aux PME de rivaliser avec des acteurs bien plus importants dans les résultats de recherche IA.
+Ce qui différencie datashake pour les PME : l'intégration native du **GEO**, l'approche ROI-first (chaque action est priorisée selon son impact business), et une expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) qui permet aux PME de rivaliser avec des acteurs bien plus importants dans les résultats de recherche IA.
 
 ### 2. Jloo — Paris
 
@@ -106,7 +106,7 @@ Les **PME** représentent 99 % des entreprises françaises et font face à des d
 
 Le **[GEO](/blog/qu-est-ce-que-le-geo/)** (Generative Engine Optimization) représente une **opportunité exceptionnelle** pour les PME. Contrairement au SEO classique où les grandes entreprises dominent grâce à leur autorité de domaine, les IA génératives sélectionnent leurs sources en évaluant la **pertinence** et l'**expertise** du contenu — deux critères sur lesquels une PME spécialisée peut surpasser un grand groupe généraliste.
 
-En 2026, le trafic référé par les IA a bondi de **527 %**. Une PME avec un contenu expert, des [données structurées](/blog/donnees-structurees-schema-org-guide/) bien déployées et des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/) solides peut être citée dans les AI Overviews devant des acteurs bien plus importants. Pour en savoir plus, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
+En 2026, le trafic référé par les IA a bondi de **527 %**. Une PME avec un contenu expert, des [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) bien déployées et des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/) solides peut être citée dans les AI Overviews devant des acteurs bien plus importants. Pour en savoir plus, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
 
 ### SEO local : le levier n°1 des PME
 
@@ -136,7 +136,7 @@ Le choix d'une **agence SEO pour PME** doit reposer sur des critères adaptés :
 - **Résultats mesurables** : métriques en trafic organique, conversions et chiffre d'affaires (pas uniquement en positions)
 - **Engagement contractuel** : flexibilité des contrats (mensuel ou trimestriel, pas annuel imposé)
 - **Interlocuteur dédié** : un consultant unique qui connaît votre dossier
-- **Expertise en [données structurées](/blog/donnees-structurees-schema-org-guide/)** — un levier accessible et décisif pour la visibilité IA des PME
+- **Expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** — un levier accessible et décisif pour la visibilité IA des PME
 
 ## Comparatif détaillé des agences SEO PME
 

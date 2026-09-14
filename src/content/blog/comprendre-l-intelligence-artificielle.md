@@ -133,7 +133,7 @@ Les moteurs de recherche traditionnels évoluent vers des **moteurs de réponse*
 
 ### L'importance des données structurées
 
-Pour que l'IA comprenne et cite correctement un contenu, les [données structurées et Schema.org](/blog/donnees-structurees-schema-org-guide/) jouent un rôle déterminant. Le balisage JSON-LD aide les algorithmes à identifier les entités, les relations et les informations factuelles d'une page. L'[E-E-A-T (Expérience, Expertise, Autorité, Fiabilité)](/blog/e-e-a-t-et-geo/) reste un critère central pour les systèmes d'IA qui évaluent la qualité des sources.
+Pour que l'IA comprenne et cite correctement un contenu, les [données structurées et Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) jouent un rôle déterminant. Le balisage JSON-LD aide les algorithmes à identifier les entités, les relations et les informations factuelles d'une page. L'[E-E-A-T (Expérience, Expertise, Autorité, Fiabilité)](/blog/e-e-a-t-et-geo/) reste un critère central pour les systèmes d'IA qui évaluent la qualité des sources.
 
 ### Adapter sa stratégie de contenu
 
