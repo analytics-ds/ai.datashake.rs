@@ -142,7 +142,7 @@ La fréquence de publication et la **fraîcheur du contenu** sont des critères 
 
 ### Optimiser pour plusieurs moteurs IA
 
-ChatGPT n'est pas le seul moteur de réponse IA. Il convient d'optimiser simultanément pour **Perplexity AI**, **Google SGE** et **Claude**. Le [comparatif des moteurs IA Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/) permet de comprendre les différences d'indexation entre ces plateformes.
+ChatGPT n'est pas le seul moteur de réponse IA. Il convient d'optimiser simultanément pour **Perplexity AI**, **Google SGE** et **Claude**. Le [comparatif des moteurs IA Perplexity, ChatGPT et Google SGE](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif) permet de comprendre les différences d'indexation entre ces plateformes.
 
 ## Mesurer et itérer sur sa présence dans ChatGPT
 
@@ -173,4 +173,4 @@ Certaines pratiques sont contre-productives et risquent de nuire à la visibilit
 
 ## Pour aller plus loin
 
-Pour maximiser votre visibilité dans les réponses IA au-delà de ChatGPT, consultez notre [classement des meilleures agences de référencement pour les AI Overviews](/blog/meilleures-agences-referencement-ai-overviews/). Les backlinks restent un signal d'autorité majeur : découvrez les [meilleures agences de netlinking](/blog/meilleures-agences-netlinking/) pour renforcer votre profil de liens.
+Pour maximiser votre visibilité dans les réponses IA au-delà de ChatGPT, consultez notre [classement des meilleures agences de référencement pour les AI Overviews](https://www.datashake.fr/articles/meilleures-agences-referencement-ai-overviews). Les backlinks restent un signal d'autorité majeur : découvrez les [meilleures agences de netlinking](/blog/meilleures-agences-netlinking/) pour renforcer votre profil de liens.

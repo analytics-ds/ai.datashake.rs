@@ -29,7 +29,6 @@ AI datashake est un blog edite par datashake, agence specialisee en data et inte
 - Qu'est-ce que le GEO (Generative Engine Optimization) ? : https://ai.datashake.fr/blog/qu-est-ce-que-le-geo/
 - Comment optimiser son contenu pour l'IA generative : https://ai.datashake.fr/blog/optimiser-contenu-ia-generative/
 - E-E-A-T et GEO : comment l'expertise renforce votre visibilite IA : https://ai.datashake.fr/blog/e-e-a-t-et-geo/
-- Perplexity, ChatGPT, Google SGE : comparatif des moteurs IA pour le GEO : https://ai.datashake.fr/blog/perplexity-chatgpt-google-sge-comparatif/
 - Technique pour apparaitre sur ChatGPT : https://ai.datashake.fr/blog/technique-pour-apparaitre-sur-chatgpt/
 
 ## Langue

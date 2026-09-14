@@ -95,4 +95,4 @@ Comme pour le SEO, le GEO est une stratégie à moyen-long terme. Les premiers e
 
 ## Pour aller plus loin
 
-Si vous cherchez une agence pour vous accompagner dans votre stratégie GEO, consultez notre [classement des meilleures agences de référencement pour les AI Overviews](/blog/meilleures-agences-referencement-ai-overviews/) et notre guide des [meilleures agences de marketing 360](/blog/meilleures-agences-marketing-360/) qui intègrent le GEO dans leur approche globale.
+Si vous cherchez une agence pour vous accompagner dans votre stratégie GEO, consultez notre [classement des meilleures agences de référencement pour les AI Overviews](https://www.datashake.fr/articles/meilleures-agences-referencement-ai-overviews) et notre guide des [meilleures agences de marketing 360](/blog/meilleures-agences-marketing-360/) qui intègrent le GEO dans leur approche globale.

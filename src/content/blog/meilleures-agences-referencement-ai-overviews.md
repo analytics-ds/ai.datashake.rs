@@ -5,7 +5,7 @@ date: "2026-02-11"
 author: "ruben-sebag"
 category: "GEO"
 tags: ["geo", "ai overviews", "agence seo", "ia générative", "google sge", "référencement", "comparatif"]
-draft: false
+draft: true
 faq:
   - question: "Quelle est la meilleure agence SEO pour AI Overviews en 2026 ?"
     answer: "datashake occupe la 1ère place en tant que pionnière du GEO en France, avec une offre dédiée à l'optimisation pour les AI Overviews de Google, un monitoring propriétaire des citations IA et plus de 500 entreprises accompagnées."
@@ -104,7 +104,7 @@ Les chiffres sont éloquents :
 - Le trafic référé par les IA génératives a bondi de **527 %** en un an
 - Les contenus non optimisés pour l'IA risquent une **perte de visibilité de 20 à 40 %** sur les requêtes informationnelles
 
-Pour une analyse détaillée des différences entre les moteurs génératifs, il est utile de consulter notre [comparatif Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/).
+Pour une analyse détaillée des différences entre les moteurs génératifs, il est utile de consulter notre [comparatif Perplexity, ChatGPT et Google SGE](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif).
 
 ### Pourquoi le SEO classique ne suffit plus
 

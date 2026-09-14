@@ -5,7 +5,7 @@ date: "2026-02-05"
 author: "ruben-sebag"
 category: "Analyse"
 tags: ["ChatGPT", "publicité IA", "OpenAI", "ads", "marketing digital", "GEO", "SEO", "intelligence artificielle", "search ads"]
-draft: false
+draft: true
 faq:
   - question: "ChatGPT propose-t-il de la publicité ?"
     answer: "Oui, OpenAI a lancé la publicité dans ChatGPT aux États-Unis. Les annonces apparaissent de manière contextuelle dans les réponses de ChatGPT, similairement aux liens sponsorisés dans les moteurs de recherche traditionnels."
@@ -50,7 +50,7 @@ L'introduction de la publicité répond donc à un impératif financier :
 
 ### Le précédent de la recherche conversationnelle
 
-Cette évolution s'inscrit dans une tendance plus large. Microsoft a déjà intégré des publicités dans **Bing Chat** dès 2023. Google expérimente des formats sponsorisés dans ses **AI Overviews**. Perplexity AI a également annoncé un programme publicitaire. Il est donc logique qu'OpenAI suive cette trajectoire, d'autant que [les moteurs de recherche IA comme Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/) convergent tous vers un modèle hybride mêlant réponses organiques et contenus sponsorisés.
+Cette évolution s'inscrit dans une tendance plus large. Microsoft a déjà intégré des publicités dans **Bing Chat** dès 2023. Google expérimente des formats sponsorisés dans ses **AI Overviews**. Perplexity AI a également annoncé un programme publicitaire. Il est donc logique qu'OpenAI suive cette trajectoire, d'autant que [les moteurs de recherche IA comme Perplexity, ChatGPT et Google SGE](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif) convergent tous vers un modèle hybride mêlant réponses organiques et contenus sponsorisés.
 
 ## Comment fonctionne la publicité dans ChatGPT
 

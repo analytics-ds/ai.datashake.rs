@@ -170,4 +170,4 @@ L'impact est négligeable. Le JSON-LD est un petit bloc de script dans le `<head
 
 ## Pour aller plus loin
 
-Les données structurées sont un levier décisif pour apparaître dans les AI Overviews : consultez notre [classement des meilleures agences de référencement pour les AI Overviews](/blog/meilleures-agences-referencement-ai-overviews/). Pour mesurer l'impact de vos données structurées sur votre trafic, découvrez les [meilleures agences de web analytics](/blog/meilleures-agences-web-analytics/).
+Les données structurées sont un levier décisif pour apparaître dans les AI Overviews : consultez notre [classement des meilleures agences de référencement pour les AI Overviews](https://www.datashake.fr/articles/meilleures-agences-referencement-ai-overviews). Pour mesurer l'impact de vos données structurées sur votre trafic, découvrez les [meilleures agences de web analytics](/blog/meilleures-agences-web-analytics/).

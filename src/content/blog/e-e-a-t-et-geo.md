@@ -100,7 +100,7 @@ La fiabilité est considérée comme le **pilier central** de l'E-E-A-T, celui q
 
 L'importance de l'E-E-A-T dans le **GEO** est confirmée par des données récentes. En 2025, **plus de 50 % des recherches Google** affichent un AI Overview, et **1,5 milliard d'utilisateurs mensuels** interagissent avec ces résultats enrichis. Parallèlement, les sessions référées par l'IA ont bondi de **527 %** entre janvier et mai 2025.
 
-Cette transformation crée une nouvelle réalité : **60 % des recherches** se terminent désormais sans clic (zero-click), et le taux de clic en position 1 avec un AI Overview n'est que de **2,6 %**. Pour approfondir l'impact de ces changements sur les différentes plateformes IA, il est pertinent de consulter le [comparatif entre Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/).
+Cette transformation crée une nouvelle réalité : **60 % des recherches** se terminent désormais sans clic (zero-click), et le taux de clic en position 1 avec un AI Overview n'est que de **2,6 %**. Pour approfondir l'impact de ces changements sur les différentes plateformes IA, il est pertinent de consulter le [comparatif entre Perplexity, ChatGPT et Google SGE](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif).
 
 ### Le filtre E-E-A-T des modèles de langage
 

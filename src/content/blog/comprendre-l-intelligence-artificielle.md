@@ -72,7 +72,7 @@ Le **deep learning** constitue un sous-ensemble du machine learning. Il utilise 
 
 ### Traitement du langage naturel (NLP)
 
-Le **NLP** (Natural Language Processing) permet aux machines de comprendre, interpréter et générer du langage humain. C'est cette branche qui alimente les chatbots, les assistants vocaux et les moteurs de réponse IA. Pour approfondir l'impact du NLP sur la recherche, il est utile de consulter le [comparatif des moteurs IA comme Perplexity, ChatGPT et Google SGE](/blog/perplexity-chatgpt-google-sge-comparatif/).
+Le **NLP** (Natural Language Processing) permet aux machines de comprendre, interpréter et générer du langage humain. C'est cette branche qui alimente les chatbots, les assistants vocaux et les moteurs de réponse IA. Pour approfondir l'impact du NLP sur la recherche, il est utile de consulter le [comparatif des moteurs IA comme Perplexity, ChatGPT et Google SGE](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif).
 
 ## Comment fonctionne l'intelligence artificielle
 

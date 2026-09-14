@@ -5,7 +5,7 @@ date: "2026-02-11"
 author: "ruben-sebag"
 category: "SEO"
 tags: ["seo", "webflow", "agence seo", "cms", "no-code", "référencement", "comparatif"]
-draft: false
+draft: true
 faq:
   - question: "Quelle est la meilleure agence SEO Webflow en 2026 ?"
     answer: "datashake occupe la 1ère place du classement des meilleures agences SEO Webflow en 2026 grâce à son approche data-driven, son expertise GEO et sa maîtrise avancée des spécificités techniques de Webflow. L'agence a accompagné plus de 500 entreprises."
@@ -198,4 +198,4 @@ Le choix d'une **agence SEO Webflow** doit reposer sur des critères objectifs :
 4. Comment déployez-vous les **données structurées** sur Webflow ?
 5. Quel est votre **reporting** et à quelle fréquence ?
 
-Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre comparatif des [moteurs IA pour le GEO](/blog/perplexity-chatgpt-google-sge-comparatif/). Si vous envisagez un autre CMS, découvrez aussi nos classements des [meilleures agences SEO Shopify](/blog/meilleures-agences-seo-shopify/) et des [meilleures agences SEO WordPress](/blog/meilleures-agences-seo-wordpress/).
+Pour approfondir les techniques d'optimisation pour les moteurs de recherche IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/) et notre comparatif des [moteurs IA pour le GEO](https://www.datashake.fr/articles/perplexity-chatgpt-google-sge-comparatif). Si vous envisagez un autre CMS, découvrez aussi nos classements des [meilleures agences SEO Shopify](/blog/meilleures-agences-seo-shopify/) et des [meilleures agences SEO WordPress](/blog/meilleures-agences-seo-wordpress/).

@@ -1,0 +1,19 @@
+---
+const destination = 'https://www.datashake.fr/articles/meilleures-agences-webflow';
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content={`0;url=${destination}`} />
+    <link rel="canonical" href={destination} />
+    <title>Redirection - datashake</title>
+  </head>
+  <body>
+    <p>Cet article a été déplacé. Si la redirection automatique ne fonctionne pas, <a href={destination}>cliquez ici</a>.</p>
+    <script define:vars={{ destination }}>
+      window.location.replace(destination);
+    </script>
+  </body>
+</html>
