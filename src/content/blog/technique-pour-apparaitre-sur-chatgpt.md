@@ -159,7 +159,7 @@ Il n'existe pas encore d'outil officiel pour mesurer la visibilité dans ChatGPT
 
 ### Itérer et améliorer
 
-Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir sa stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données chiffrées récentes, renforcer le balisage structuré et publier de nouveaux contenus sur les sujets émergents. Comprendre les fondamentaux de [l'intelligence artificielle](/blog/comprendre-l-intelligence-artificielle/) aide à anticiper les évolutions techniques des modèles.
+Les algorithmes des IA évoluent rapidement. Il est recommandé de revoir sa stratégie **tous les trimestres** : mettre à jour les articles les plus performants, ajouter des données chiffrées récentes, renforcer le balisage structuré et publier de nouveaux contenus sur les sujets émergents. Comprendre les fondamentaux de [l'intelligence artificielle](https://www.datashake.fr/articles/comprendre-lintelligence-artificielle) aide à anticiper les évolutions techniques des modèles.
 
 ### Les erreurs à éviter
 

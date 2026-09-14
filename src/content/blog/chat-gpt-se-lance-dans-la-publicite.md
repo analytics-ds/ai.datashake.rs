@@ -193,7 +193,7 @@ Non. OpenAI a confirmé que les abonnés **ChatGPT Plus** (20 $/mois), **Team** 
 
 ### Quel impact pour les stratégies SEO existantes ?
 
-L'impact est indirect mais significatif. La publicité dans ChatGPT accélère la nécessité d'adopter une stratégie **GEO** complémentaire au SEO. Il ne s'agit pas de remplacer le référencement naturel classique, mais de l'enrichir avec une optimisation spécifique pour les moteurs de réponse IA. Pour [comprendre les bases de l'intelligence artificielle](/blog/comprendre-l-intelligence-artificielle/) et ses implications pour le marketing, un article dédié est disponible sur ce blog.
+L'impact est indirect mais significatif. La publicité dans ChatGPT accélère la nécessité d'adopter une stratégie **GEO** complémentaire au SEO. Il ne s'agit pas de remplacer le référencement naturel classique, mais de l'enrichir avec une optimisation spécifique pour les moteurs de réponse IA. Pour [comprendre les bases de l'intelligence artificielle](https://www.datashake.fr/articles/comprendre-lintelligence-artificielle) et ses implications pour le marketing, un article dédié est disponible sur ce blog.
 
 ### Comment apparaître dans les réponses sponsorisées de ChatGPT ?
 

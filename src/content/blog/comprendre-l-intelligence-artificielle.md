@@ -5,7 +5,7 @@ date: "2026-02-04"
 author: "datashake"
 category: "Technique"
 tags: ["intelligence artificielle", "IA", "machine learning", "deep learning", "IA générative", "technologie"]
-draft: false
+draft: true
 faq:
   - question: "Qu'est-ce que l'intelligence artificielle ?"
     answer: "L'intelligence artificielle (IA) est un domaine de l'informatique qui vise à créer des systèmes capables de réaliser des tâches qui nécessitent normalement l'intelligence humaine : compréhension du langage, reconnaissance d'images, prise de décision et apprentissage."
