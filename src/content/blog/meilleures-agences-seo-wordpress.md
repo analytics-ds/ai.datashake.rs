@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur WordPress spécifiquement, datashake a développé une expertise technique approfondie : **optimisation avancée du crawl budget** via la gestion fine des taxonomies et archives, déploiement de [données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) en JSON-LD (au-delà des capacités des plugins standards), optimisation des performances Core Web Vitals et architecture de maillage interne assistée par IA.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](/blog/qu-est-ce-que-le-geo/)** et maîtrise des spécificités WordPress. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** et maîtrise des spécificités WordPress. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
 
 Ce qui différencie datashake : l'intégration native du **GEO** dans sa stratégie SEO WordPress, avec une expertise pointue sur la manière dont les IA génératives sélectionnent et citent les sources. Pour comprendre l'importance des critères de confiance dans ce contexte, il est recommandé de consulter notre article sur [l'E-E-A-T et le GEO](/blog/e-e-a-t-et-geo/).
 
@@ -107,7 +107,7 @@ L'agence se distingue par sa capacité à modéliser les **clusters thématiques
 
 ### L'enjeu du GEO pour les sites WordPress
 
-Au-delà du SEO classique, les sites WordPress font désormais face au **[GEO](/blog/qu-est-ce-que-le-geo/)** (Generative Engine Optimization). En 2026, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. La flexibilité de WordPress permet de déployer des optimisations GEO avancées, mais encore faut-il savoir lesquelles et comment les implémenter. Pour approfondir, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
+Au-delà du SEO classique, les sites WordPress font désormais face au **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** (Generative Engine Optimization). En 2026, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. La flexibilité de WordPress permet de déployer des optimisations GEO avancées, mais encore faut-il savoir lesquelles et comment les implémenter. Pour approfondir, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
 
 ## Critères de sélection d'une agence SEO WordPress
 

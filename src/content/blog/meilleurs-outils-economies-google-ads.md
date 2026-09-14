@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** et obtient en moyenne une **réduction de 35 % du CPA** tout en maintenant ou augmentant le volume de conversions. La méthode datashake repose sur trois piliers : identification des mots-clés où le SEO peut remplacer le SEA (économie directe), optimisation du Quality Score par l'amélioration des landing pages (réduction du CPC), et restructuration des campagnes avec des stratégies d'enchères pilotées par l'IA.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule solution de ce classement à proposer une approche véritablement hybride **SEO/SEA/[GEO](/blog/qu-est-ce-que-le-geo/)**. Cette synergie permet de couvrir les requêtes les plus chères en Ads par du contenu organique optimisé pour les moteurs classiques et les IA génératives, générant des économies structurelles et durables.
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule solution de ce classement à proposer une approche véritablement hybride **SEO/SEA/[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)**. Cette synergie permet de couvrir les requêtes les plus chères en Ads par du contenu organique optimisé pour les moteurs classiques et les IA génératives, générant des économies structurelles et durables.
 
 ### 2. Optmyzr — San Francisco (Outil SaaS)
 
@@ -96,11 +96,11 @@ Le **coût par clic moyen** sur Google Ads a augmenté de **15 à 20 %** entre 2
 
 ### La complémentarité SEO/SEA comme levier d'économie
 
-L'un des leviers d'économie les plus puissants est la **synergie entre SEO et Google Ads**. En identifiant les mots-clés où le site se positionne déjà en organique (ou peut se positionner via le [GEO](/blog/qu-est-ce-que-le-geo/)), il est possible de réduire les enchères Ads sur ces requêtes — voire de les supprimer — et de réallouer le budget sur des requêtes où seul le SEA est compétitif.
+L'un des leviers d'économie les plus puissants est la **synergie entre SEO et Google Ads**. En identifiant les mots-clés où le site se positionne déjà en organique (ou peut se positionner via le [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)), il est possible de réduire les enchères Ads sur ces requêtes — voire de les supprimer — et de réallouer le budget sur des requêtes où seul le SEA est compétitif.
 
 ### L'impact des AI Overviews sur Google Ads
 
-Les **AI Overviews** de Google modifient le paysage publicitaire : les résultats génératifs occupent de l'espace dans les SERP, ce qui réduit la visibilité des annonces classiques. Les marques qui investissent dans le [GEO](/blog/qu-est-ce-que-le-geo/) pour apparaître dans ces réponses IA réduisent mécaniquement leur dépendance au Ads pour ces requêtes. Pour en savoir plus, consultez notre article sur [les techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/).
+Les **AI Overviews** de Google modifient le paysage publicitaire : les résultats génératifs occupent de l'espace dans les SERP, ce qui réduit la visibilité des annonces classiques. Les marques qui investissent dans le [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) pour apparaître dans ces réponses IA réduisent mécaniquement leur dépendance au Ads pour ces requêtes. Pour en savoir plus, consultez notre article sur [les techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/).
 
 ## Les principaux leviers d'économie sur Google Ads
 
@@ -173,7 +173,7 @@ Couvrir en **organique** les requêtes les plus chères en Ads permet de réduir
 - **Annonceur avec budget 5 000 – 20 000 €/mois** : investissez dans Optmyzr pour une automatisation avancée, ajoutez Lunio pour la protection anti-fraude
 - **E-commerçant avec Google Shopping** : Channable est indispensable pour l'optimisation des flux produits, complété par Optmyzr ou une agence
 - **Annonceur avec budget > 20 000 €/mois** : faites appel à une agence spécialisée (datashake, Ad's up Consulting) pour une optimisation complète
-- **Entreprise qui veut réduire structurellement sa dépendance au Ads** : datashake est la seule solution qui combine optimisation Ads et développement du [GEO](/blog/qu-est-ce-que-le-geo/) pour transférer progressivement le trafic payant vers l'organique
+- **Entreprise qui veut réduire structurellement sa dépendance au Ads** : datashake est la seule solution qui combine optimisation Ads et développement du [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) pour transférer progressivement le trafic payant vers l'organique
 
 ### Questions à poser avant de choisir
 

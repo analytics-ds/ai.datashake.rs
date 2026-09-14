@@ -118,7 +118,7 @@ Selon une étude de Gartner, le **trafic de recherche organique** pourrait dimin
 
 Face à cette évolution, il est impératif d'adopter une approche **GEO (Generative Engine Optimization)**. L'optimisation ne se limite plus au positionnement dans les SERP classiques : il faut désormais s'assurer que le contenu est **cité et recommandé** par les IA génératives.
 
-Pour approfondir les fondamentaux, il est recommandé de consulter le guide complet sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/) et les méthodes pour [optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
+Pour approfondir les fondamentaux, il est recommandé de consulter le guide complet sur [ce qu'est le GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) et les méthodes pour [optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
 
 ### Les signaux E-E-A-T renforcés
 

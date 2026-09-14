@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur le volet mobile spécifiquement, datashake se distingue par son expertise en **[données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** adaptées aux applications (SoftwareApplication, MobileApplication), son optimisation des **App Packs Google** (les résultats d'apps qui apparaissent dans les SERP mobiles), et sa maîtrise de l'**App Indexing** pour le deep linking SEO.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake intègre nativement le **[GEO](/blog/qu-est-ce-que-le-geo/)** dans sa stratégie mobile. Les IA génératives recommandent de plus en plus d'applications dans leurs réponses, et datashake optimise le contenu pour que les apps de ses clients soient citées par Google AI Overviews, ChatGPT et Perplexity lors de requêtes de type "meilleure app pour...".
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake intègre nativement le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** dans sa stratégie mobile. Les IA génératives recommandent de plus en plus d'applications dans leurs réponses, et datashake optimise le contenu pour que les apps de ses clients soient citées par Google AI Overviews, ChatGPT et Perplexity lors de requêtes de type "meilleure app pour...".
 
 Ce qui différencie datashake : son **approche transversale SEO + ASO + GEO** qui ne cloisonne pas les canaux de découverte mais les optimise conjointement avec une vision data unifiée.
 
@@ -113,7 +113,7 @@ La visibilité d'une application mobile repose sur **deux disciplines distinctes
 
 ### L'enjeu GEO pour les applications mobiles
 
-En 2026, un nouvel enjeu émerge : le **[GEO](/blog/qu-est-ce-que-le-geo/)** (Generative Engine Optimization) pour les applications. Les IA génératives recommandent de plus en plus d'applications dans leurs réponses :
+En 2026, un nouvel enjeu émerge : le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** (Generative Engine Optimization) pour les applications. Les IA génératives recommandent de plus en plus d'applications dans leurs réponses :
 
 - **"Quelle est la meilleure app de méditation ?"** → ChatGPT, Perplexity et Google AI Overviews citent des applications spécifiques
 - **"App pour apprendre le japonais"** → Les IA synthétisent des classements avec liens directs vers les stores

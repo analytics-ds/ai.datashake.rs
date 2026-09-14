@@ -3,6 +3,7 @@ title: "Qu'est-ce que le GEO (Generative Engine Optimization) ?"
 description: "Le GEO est la nouvelle discipline d'optimisation du contenu pour les moteurs de recherche alimentés par l'IA générative. Découvrez ses principes, ses différences avec le SEO et comment l'intégrer à votre stratégie digitale."
 date: 2025-01-15
 author: datashake
+draft: true
 category: GEO
 tags: [GEO, IA générative, SEO, stratégie digitale]
 faq:

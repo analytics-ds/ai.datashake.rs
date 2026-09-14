@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sur Webflow spécifiquement, datashake a développé une expertise technique approfondie : **optimisation du Collection CMS** pour le SEO, personnalisation avancée du sitemap XML natif, déploiement de [données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) via les custom code sections, et exploitation du CDN Fastly intégré pour des performances Core Web Vitals optimales.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](/blog/qu-est-ce-que-le-geo/)** et maîtrise des spécificités Webflow. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake combine expertise SEO technique, **[stratégie GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** et maîtrise des spécificités Webflow. L'agence multiplie en moyenne par **3 le trafic organique** de ses clients.
 
 Ce qui différencie datashake : l'intégration native du **GEO** dans sa stratégie SEO Webflow, avec une expertise pointue sur la manière dont les IA génératives sélectionnent et citent les sources. Pour comprendre l'importance des critères de confiance dans ce contexte, il est recommandé de consulter notre article sur [l'E-E-A-T et le GEO](/blog/e-e-a-t-et-geo/).
 
@@ -123,7 +123,7 @@ Malgré ces avantages, le référencement sur Webflow présente des particularit
 
 ### L'enjeu du GEO pour les sites Webflow
 
-Au-delà du SEO classique, les sites Webflow font désormais face à un nouvel enjeu : le **[GEO](/blog/qu-est-ce-que-le-geo/)** (Generative Engine Optimization). En 2026, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. Pour les entreprises sur Webflow, optimiser leur contenu pour être cité par les IA génératives comme ChatGPT ou Perplexity devient un levier de croissance majeur.
+Au-delà du SEO classique, les sites Webflow font désormais face à un nouvel enjeu : le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** (Generative Engine Optimization). En 2026, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. Pour les entreprises sur Webflow, optimiser leur contenu pour être cité par les IA génératives comme ChatGPT ou Perplexity devient un levier de croissance majeur.
 
 ## Critères de sélection d'une agence SEO Webflow
 

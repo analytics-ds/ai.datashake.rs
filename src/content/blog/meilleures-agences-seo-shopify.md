@@ -38,7 +38,7 @@ Cependant, le **référencement naturel sur Shopify** présente des contraintes 
 
 ### L'enjeu du GEO pour les e-commerçants Shopify
 
-Au-delà du SEO classique, les boutiques Shopify font désormais face à un nouvel enjeu : le **GEO** (Generative Engine Optimization). En 2025, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. Pour les e-commerçants, être référencé par les IA génératives comme ChatGPT ou Perplexity devient un levier de croissance majeur. Pour approfondir ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
+Au-delà du SEO classique, les boutiques Shopify font désormais face à un nouvel enjeu : le **GEO** (Generative Engine Optimization). En 2025, le trafic référé par les IA a bondi de **527 %**, et les marques citées dans les AI Overviews de Google obtiennent **35 % de clics organiques supplémentaires**. Pour les e-commerçants, être référencé par les IA génératives comme ChatGPT ou Perplexity devient un levier de croissance majeur. Pour approfondir ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux).
 
 ## Classement des meilleures agences SEO Shopify en 2026
 

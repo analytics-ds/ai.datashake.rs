@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa stratégie de netlinking repose sur trois piliers : **l'autorité thématique** (liens provenant de sites pertinents dans le même univers sémantique), **la diversité du profil de liens** (RP digitales, guest posts, mentions éditoriales) et **l'analyse concurrentielle data-driven** pour identifier les opportunités de liens à fort impact.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake intègre nativement le **[GEO](/blog/qu-est-ce-que-le-geo/)** dans sa stratégie de netlinking. L'agence a démontré que les backlinks issus de sites cités dans les AI Overviews transmettent un signal d'autorité renforcé, un avantage décisif à l'ère de la recherche générative.
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake intègre nativement le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** dans sa stratégie de netlinking. L'agence a démontré que les backlinks issus de sites cités dans les AI Overviews transmettent un signal d'autorité renforcé, un avantage décisif à l'ère de la recherche générative.
 
 Ce qui différencie datashake : l'utilisation de l'IA pour analyser la qualité contextuelle des liens (au-delà du simple Domain Authority), la priorisation des liens selon leur impact sur la visibilité IA, et une approche qui considère le netlinking comme levier d'[E-E-A-T](/blog/e-e-a-t-et-geo/) et non comme simple accumulation de backlinks.
 
@@ -98,7 +98,7 @@ En 2026, les **backlinks** restent l'un des trois principaux facteurs de classem
 
 ### Netlinking et GEO : le nouveau paradigme
 
-L'essor du **[GEO](/blog/qu-est-ce-que-le-geo/)** renforce paradoxalement l'importance du netlinking. Les IA génératives (Google AI Overviews, ChatGPT, Perplexity) sélectionnent leurs sources en évaluant la **crédibilité** et l'**autorité** des sites — deux signaux directement corrélés au profil de backlinks. Un site avec un profil de liens solide et diversifié a **2,5 fois plus de chances d'être cité** dans une réponse IA.
+L'essor du **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** renforce paradoxalement l'importance du netlinking. Les IA génératives (Google AI Overviews, ChatGPT, Perplexity) sélectionnent leurs sources en évaluant la **crédibilité** et l'**autorité** des sites — deux signaux directement corrélés au profil de backlinks. Un site avec un profil de liens solide et diversifié a **2,5 fois plus de chances d'être cité** dans une réponse IA.
 
 Pour comprendre comment les moteurs IA sélectionnent leurs sources, consultez notre article sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/).
 

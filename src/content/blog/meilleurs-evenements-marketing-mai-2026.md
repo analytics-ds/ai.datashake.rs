@@ -100,4 +100,4 @@ Le plus grand festival du numérique de l'Ouest, mêlant tech, marketing et inno
 
 ## Pour aller plus loin
 
-Avant de participer à ces événements, préparez-vous en consultant nos guides : [Qu'est-ce que le GEO ?](/blog/qu-est-ce-que-le-geo/), [Techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/), [E-E-A-T et GEO](/blog/e-e-a-t-et-geo/) et [Optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
+Avant de participer à ces événements, préparez-vous en consultant nos guides : [Qu'est-ce que le GEO ?](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux), [Techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/), [E-E-A-T et GEO](/blog/e-e-a-t-et-geo/) et [Optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).

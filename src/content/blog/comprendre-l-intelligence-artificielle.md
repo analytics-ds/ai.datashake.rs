@@ -113,7 +113,7 @@ En médecine, l'IA permet de détecter des cancers sur des images médicales ave
 
 ### Marketing digital et SEO
 
-L'**IA générative** révolutionne le marketing de contenu. Les moteurs de recherche intègrent désormais des réponses générées par IA dans leurs résultats. Ce phénomène, connu sous le nom de **Generative Engine Optimization** (GEO), transforme la manière dont il faut [optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/). Pour bien saisir ce nouveau paradigme, il est recommandé de comprendre [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/) et son impact sur la visibilité en ligne.
+L'**IA générative** révolutionne le marketing de contenu. Les moteurs de recherche intègrent désormais des réponses générées par IA dans leurs résultats. Ce phénomène, connu sous le nom de **Generative Engine Optimization** (GEO), transforme la manière dont il faut [optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/). Pour bien saisir ce nouveau paradigme, il est recommandé de comprendre [ce qu'est le GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) et son impact sur la visibilité en ligne.
 
 ### Finance et assurance
 

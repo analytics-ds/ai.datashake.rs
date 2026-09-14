@@ -39,7 +39,7 @@ faq:
 
 L'**E-E-A-T** est l'acronyme de **Experience, Expertise, Authoritativeness, Trustworthiness** — soit Expérience, Expertise, Autorité et Fiabilité en français. Ce cadre d'évaluation, défini par Google dans ses *Search Quality Rater Guidelines*, sert de référence pour juger la qualité d'un contenu et la crédibilité de sa source.
 
-Initialement conçu pour le **SEO traditionnel**, l'E-E-A-T prend une dimension nouvelle avec l'essor du **GEO** (Generative Engine Optimization). Pour bien comprendre les fondamentaux du GEO, il est utile de consulter notre guide complet sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
+Initialement conçu pour le **SEO traditionnel**, l'E-E-A-T prend une dimension nouvelle avec l'essor du **GEO** (Generative Engine Optimization). Pour bien comprendre les fondamentaux du GEO, il est utile de consulter notre guide complet sur [ce qu'est le GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux).
 
 ### Du SEO au GEO : un changement de paradigme
 

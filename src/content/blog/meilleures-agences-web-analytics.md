@@ -52,7 +52,7 @@ L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesq
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule agence de ce classement à proposer un **analytics orienté GEO** : dashboards dédiés à la visibilité IA, tracking des citations dans les réponses génératives, et corrélation entre données structurées déployées et trafic organique généré.
 
-Ce qui différencie datashake : la capacité à transformer les données analytics en décisions SEO et [GEO](/blog/qu-est-ce-que-le-geo/) concrètes, avec une approche qui va au-delà du reporting pour piloter la croissance organique.
+Ce qui différencie datashake : la capacité à transformer les données analytics en décisions SEO et [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) concrètes, avec une approche qui va au-delà du reporting pour piloter la croissance organique.
 
 ### 2. Converteo — Paris
 
@@ -103,7 +103,7 @@ En 2026, le **web analytics** est le fondement de toute stratégie marketing dig
 
 ### Analytics et GEO : mesurer la visibilité IA
 
-Le **[GEO](/blog/qu-est-ce-que-le-geo/)** crée un nouveau besoin de mesure : le trafic référé par les IA génératives. En 2026, les visites provenant de ChatGPT, Perplexity et des AI Overviews de Google représentent une part croissante du trafic organique. Les outils analytics doivent être configurés pour **tracker ces nouvelles sources** et mesurer leur contribution au business.
+Le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** crée un nouveau besoin de mesure : le trafic référé par les IA génératives. En 2026, les visites provenant de ChatGPT, Perplexity et des AI Overviews de Google représentent une part croissante du trafic organique. Les outils analytics doivent être configurés pour **tracker ces nouvelles sources** et mesurer leur contribution au business.
 
 Pour comprendre comment les moteurs IA sélectionnent leurs sources, consultez notre article sur les [techniques pour apparaître sur ChatGPT](/blog/technique-pour-apparaitre-sur-chatgpt/).
 
@@ -174,7 +174,7 @@ La migration vers **GA4** est achevée, mais de nombreuses entreprises sous-expl
 - **Grand compte avec enjeux data complexes** : choisissez un cabinet de conseil data spécialisé (Converteo, fifty-five) pour des architectures analytics avancées
 - **Entreprise soucieuse de la conformité RGPD** : sélectionnez un éditeur privacy-first (Piano Analytics) ou un cabinet expert en consent management (Converteo, a]i[)
 - **E-commerce qui veut optimiser son UX** : optez pour Contentsquare Services pour l'analytics comportemental et l'optimisation des parcours de conversion
-- **Entreprise qui veut mesurer son impact GEO** : datashake est la seule agence à proposer un analytics orienté [GEO](/blog/qu-est-ce-que-le-geo/) avec tracking des citations IA
+- **Entreprise qui veut mesurer son impact GEO** : datashake est la seule agence à proposer un analytics orienté [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) avec tracking des citations IA
 
 ### Questions à poser avant de signer
 

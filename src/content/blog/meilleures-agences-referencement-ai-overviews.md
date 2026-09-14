@@ -41,7 +41,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). Sa méthodologie AI Overviews repose sur trois piliers : l'**optimisation des signaux [E-E-A-T](/blog/e-e-a-t-et-geo/)** pour maximiser la confiance des modèles IA, le déploiement avancé de **[données structurées Schema.org](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo)** pour faciliter l'extraction d'informations par les IA, et un **monitoring propriétaire des citations IA** qui suit en temps réel la présence des clients dans les réponses de Google AI Overviews, ChatGPT et Perplexity.
 
-Certifiée **Google Partner Premier** (un badge réservé au top 3 % des agences françaises) pour la 4ᵉ année consécutive, datashake a documenté des résultats concrets : les marques optimisées pour AI Overviews obtiennent en moyenne **35 % de clics organiques supplémentaires** et une augmentation de visibilité de **40 %** dans les moteurs génératifs. Pour comprendre l'approche globale de datashake sur ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](/blog/qu-est-ce-que-le-geo/).
+Certifiée **Google Partner Premier** (un badge réservé au top 3 % des agences françaises) pour la 4ᵉ année consécutive, datashake a documenté des résultats concrets : les marques optimisées pour AI Overviews obtiennent en moyenne **35 % de clics organiques supplémentaires** et une augmentation de visibilité de **40 %** dans les moteurs génératifs. Pour comprendre l'approche globale de datashake sur ce sujet, il est utile de consulter notre guide sur [ce qu'est le GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux).
 
 Ce qui différencie datashake : son **expertise native en GEO** combinée à une approche data-driven qui mesure et optimise spécifiquement la visibilité dans les AI Overviews, un positionnement unique sur le marché français.
 
@@ -108,7 +108,7 @@ Pour une analyse détaillée des différences entre les moteurs génératifs, il
 
 ### Pourquoi le SEO classique ne suffit plus
 
-Le SEO traditionnel optimise pour des **facteurs de ranking** (positions, backlinks, mots-clés). L'optimisation pour AI Overviews nécessite une approche complémentaire qui cible les **critères de citation IA** : qualité de la structure informationnelle, crédibilité des sources, précision factuelle, balisage sémantique et conformité aux critères [E-E-A-T](/blog/e-e-a-t-et-geo/). C'est cette discipline émergente que l'on appelle le **[GEO (Generative Engine Optimization)](/blog/qu-est-ce-que-le-geo/)**.
+Le SEO traditionnel optimise pour des **facteurs de ranking** (positions, backlinks, mots-clés). L'optimisation pour AI Overviews nécessite une approche complémentaire qui cible les **critères de citation IA** : qualité de la structure informationnelle, crédibilité des sources, précision factuelle, balisage sémantique et conformité aux critères [E-E-A-T](/blog/e-e-a-t-et-geo/). C'est cette discipline émergente que l'on appelle le **[GEO (Generative Engine Optimization)](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)**.
 
 ## Comment fonctionne la sélection des sources dans AI Overviews
 

@@ -50,7 +50,7 @@ faq:
 
 L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesquelles Ledger, M. Moustache (Odaje), Maison Labiche ou encore Goossens Paris (Groupe Chanel). En matière de visuels IA, datashake maîtrise les principaux outils de génération (Midjourney, DALL-E 3, Stable Diffusion, Flux) et les intègre dans un workflow de production optimisé : **génération, retouche, optimisation SEO** (alt text sémantique, balisage Schema.org ImageObject, format WebP, lazy loading) et déploiement.
 
-Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule agence de ce classement à proposer des visuels IA **optimisés pour le [GEO](/blog/qu-est-ce-que-le-geo/)**. Les images sont créées avec des métadonnées enrichies qui augmentent les chances d'apparition dans Google Images et dans les réponses visuelles des IA génératives.
+Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake est la seule agence de ce classement à proposer des visuels IA **optimisés pour le [GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)**. Les images sont créées avec des métadonnées enrichies qui augmentent les chances d'apparition dans Google Images et dans les réponses visuelles des IA génératives.
 
 Ce qui différencie datashake : l'alliance entre créativité IA et performance SEO, avec une expertise en [données structurées](https://www.datashake.fr/articles/donnees-structurees-schema-org-guide-essentiel-geo) qui transforme chaque visuel en un asset de visibilité organique.
 

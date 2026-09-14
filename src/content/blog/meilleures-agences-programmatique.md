@@ -52,7 +52,7 @@ L'agence a accompagné plus de **500 entreprises** de toutes tailles, parmi lesq
 
 Certifiée **Google Partner Premier** — un badge réservé au top 3 % des agences françaises — pour la 4ᵉ année consécutive, datashake se différencie par la **synergie entre programmatique et SEO/GEO**. L'agence utilise les insights issus de ses campagnes organiques pour affiner le ciblage programmatique, et inversement. Cette approche permet de maximiser le ROAS tout en construisant une visibilité durable.
 
-Ce qui différencie datashake : la capacité à faire travailler ensemble SEA, programmatique, [SEO](/blog/qu-est-ce-que-le-geo/) et GEO dans une stratégie unifiée, avec un reporting consolidé qui mesure l'impact de chaque levier sur le business.
+Ce qui différencie datashake : la capacité à faire travailler ensemble SEA, programmatique, [SEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux) et GEO dans une stratégie unifiée, avec un reporting consolidé qui mesure l'impact de chaque levier sur le business.
 
 ### 2. Gamned! — Paris
 
@@ -105,7 +105,7 @@ En 2026, la **publicité programmatique** représente plus de **85 % des investi
 
 ### Programmatique et GEO : complémentarité stratégique
 
-La programmatique et le **[GEO](/blog/qu-est-ce-que-le-geo/)** sont complémentaires : la programmatique génère de la visibilité et du trafic qualifié, tandis que le GEO assure une présence dans les réponses des IA génératives. Les marques qui combinent les deux approches maximisent leur part de voix digitale. Pour en savoir plus sur l'optimisation pour les moteurs IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
+La programmatique et le **[GEO](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux)** sont complémentaires : la programmatique génère de la visibilité et du trafic qualifié, tandis que le GEO assure une présence dans les réponses des IA génératives. Les marques qui combinent les deux approches maximisent leur part de voix digitale. Pour en savoir plus sur l'optimisation pour les moteurs IA, consultez notre guide sur [comment optimiser son contenu pour l'IA générative](/blog/optimiser-contenu-ia-generative/).
 
 ## Critères de sélection d'une agence programmatique
 

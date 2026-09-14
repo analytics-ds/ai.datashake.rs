@@ -44,7 +44,7 @@ Depuis 2024, ChatGPT peut parcourir le web en temps réel pour compléter ses r�
 - **Accessible techniquement** (pas de blocage par robots.txt ou JavaScript lourd)
 - **Structuré de manière claire** pour faciliter l'extraction d'informations
 
-Pour bien saisir les fondamentaux de cette nouvelle approche, il est recommandé de consulter le guide complet sur [ce qu'est le GEO (Generative Engine Optimization)](/blog/qu-est-ce-que-le-geo/).
+Pour bien saisir les fondamentaux de cette nouvelle approche, il est recommandé de consulter le guide complet sur [ce qu'est le GEO (Generative Engine Optimization)](https://www.datashake.fr/articles/geo-definition-comprendre-les-fondamentaux-et-enjeux).
 
 ## Optimiser la structure et le balisage de son contenu
 
